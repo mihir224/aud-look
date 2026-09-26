@@ -10,7 +10,7 @@ The system uses hosted Gemini transcription because the challenge permits hosted
 
 ## Dataset
 
-The golden corpus contains 52 minutes and 29 seconds of audio across six clips. Every episode contains two intended speakers. Gemini's original diarization labels are preserved per episode as `spk:0` and `spk:1`; they identify distinct voices within a file rather than global speaker identities.
+The golden corpus contains 52 minutes and 29 seconds of audio across six clips. Every episode contains two intended speakers. Gemini's original diarization labels are preserved per episode as `spk:0` and `spk:1`; they identify distinct voices within a file rather than global speaker identities. A separate user-verified mapping resolves those labels to display names and host/guest roles without changing the canonical transcript.
 
 | Episode | Duration | Utterances | Semantic chunks | Main concepts |
 |---|---:|---:|---:|---|
@@ -19,7 +19,7 @@ The golden corpus contains 52 minutes and 29 seconds of audio across six clips. 
 | Manfredi Lefebvre d'Ovidio | 8:29 | 58 | 21 | money, freedom of choice, time, entrepreneurship |
 | Jordan Noone | 8:23 | 45 | 20 | rockets, Relativity Space, fear, applying skills |
 | Geoffrey Kent | 8:34 | 73 | 21 | instinct, luxury travel, Harrods, entrepreneurship |
-| Shaahin Cheyne | 9:16 | 66 | 24 | Amazon, persistence, apprenticeship, trend spotting |
+| Shaahin Cheyene | 9:16 | 66 | 24 | Amazon, persistence, apprenticeship, trend spotting |
 | **Total** | **52:29** | **395** | **130** | |
 
 Audio files and metadata are recorded in `dataset/manifest.yaml`. SHA-256 checksums make the corpus stable across transcription, ingestion, and evaluation runs.
@@ -37,7 +37,7 @@ MP3 files
      -> local BGE embeddings and pgvector candidates
   -> union and deduplicate utterance candidates
   -> local cross-encoder reranking
-  -> episode + file + speaker + timestamp + text + context
+  -> episode + file + verified display name + raw speaker label + timestamp + text + context
 ```
 
 ### Transcription and normalization
@@ -55,7 +55,9 @@ PostgreSQL is the single datastore. The schema contains:
 - `semantic_chunks` for contextual local embeddings; and
 - `chunk_utterances` for the ordered relationship between retrieval chunks and result utterances.
 
-A generated English `tsvector` and GIN index support lexical retrieval. Exact matching protects quoted phrases, single terms, names, acronyms, and numbers. `BAAI/bge-base-en-v1.5` creates normalized 768-dimensional embeddings locally. The query prefix recommended by BGE is applied to queries only.
+A generated English `tsvector` and GIN index support lexical retrieval. Exact matching protects quoted phrases, single terms, names, acronyms, and numbers. Reviewed entity-equivalence groups expand the lexical query for known ASR spelling variants such as Geoffrey/Jeffrey; neither the canonical transcript nor returned evidence is rewritten. `BAAI/bge-base-en-v1.5` creates normalized 768-dimensional embeddings locally. The query prefix recommended by BGE is applied to queries only.
+
+PostgreSQL's native ranking is not BM25. For a 395-utterance hackathon corpus, keeping lexical and vector retrieval in one transactional datastore is a deliberate simplicity and reproducibility tradeoff. At production scale, PostgreSQL BM25 extensions or OpenSearch can be benchmarked behind the same candidate contract if lexical ranking quality justifies the additional infrastructure.
 
 Chunks contain complete consecutive utterances, generally 100-160 words or 30-50 seconds, with one-utterance overlap. Exact cosine scans are used for the small evaluation corpus, avoiding approximate-nearest-neighbor recall loss. An HNSW cosine index is included as the documented scale-out path.
 
@@ -80,13 +82,15 @@ The public strategies are:
 
 `hybrid` is the default. Earlier contextual reranking included previous and next utterances around a target. Testing showed that a host question could incorrectly inherit relevance from a guest answer in the next utterance. Target-only reranking produced better attribution and better holdout retrieval.
 
+The shipped `ms-marco-MiniLM-L-6-v2` cross-encoder was trained for general passage ranking, not specifically for podcast dialogue. Its inclusion is therefore supported by measured ablations rather than an assumption of domain fit: holdout Recall@5 improved from 0.500 for semantic retrieval and 0.583 for RRF to 0.833 for target-only hybrid. A dialogue-tuned reranker remains a production experiment, not a hackathon dependency.
+
 `hybrid_alt` tests a narrower use of context. A response receives an additional question-answer pair score only when its preceding utterance is a detected question from the other speaker and begins no more than seven seconds earlier. The question never receives the answer as future context. This alternative achieved the same relevance metrics as the default but required more reranking work, so it remains experimental.
 
 Quoted phrases and single-token searches receive strict literal priority. Natural-language questions use model relevance rather than absolute phrase priority, preventing a verbatim host question from automatically outranking its answer.
 
 ### API and demonstration UI
 
-FastAPI exposes health, episode-listing, and search endpoints. Search responses include result rank, episode ID and title, filename, diarized speaker, start and end milliseconds, matching text, neighboring context, retrieval provenance, and literal-match status. Streamlit provides query, strategy, and result-count controls plus readable result cards.
+FastAPI exposes health, episode-listing, and search endpoints. Search responses include result rank, episode ID and title, filename, user-verified speaker name and role, original diarization label, start and end milliseconds, matching text, neighboring context, retrieval provenance, and literal-match status. Streamlit provides query, strategy, and result-count controls plus readable result cards.
 
 ## Definition of success
 
@@ -97,27 +101,27 @@ FastAPI exposes health, episode-listing, and search endpoints. Search responses 
 | Holdout hybrid Recall@5 | At least 0.80 | **0.833** | Achieved |
 | Baseline comparison | Hybrid no worse than strongest lexical/semantic baseline | 0.833 vs semantic 0.500 | Achieved |
 | Exact/entity HitRate@3 | At least 0.90 | **1.00** on reviewed holdout exact/entity queries | Achieved |
-| Warm p95 hybrid latency | At most 2 seconds on the reference machine | **565 ms** | Achieved |
-| Deterministic automated checks | All normal tests pass | **16 passed** | Achieved |
+| Warm p95 hybrid latency | At most 2 seconds on the reference machine | **607 ms** | Achieved |
+| Deterministic automated checks | All normal tests pass | **22 passed** | Achieved |
 | Secret handling | No key or remote file identifier in artifacts/logs | Key supplied only through `.env`; cached artifacts scanned | Achieved |
 
 ## Evaluation methodology
 
 The reviewed golden set contains 36 queries, six per episode. Each episode contributes an exact phrase, semantic paraphrase, entity, number or technical term, context-dependent question, and hard or mixed-intent query. Twenty-four queries form the development split and twelve form the holdout split. The holdout contains two queries from every category.
 
-Labels use stable `audio_slug`, `start_ms`, and `end_ms` spans instead of database IDs. A result matches a gold span when it comes from the same episode and its temporal intersection covers at least 50% of the shorter interval. Recall@k measures the proportion of relevant spans retrieved; HitRate@k measures whether any relevant span was retrieved; MRR rewards the rank of the first relevant result. The current queries each have one primary gold span, so Recall@k and HitRate@k are numerically equal.
+Labels use stable `audio_slug`, `start_ms`, and `end_ms` spans instead of database IDs. A result matches a gold span when it comes from the same episode and its temporal intersection covers at least 50% of the shorter interval. Recall@k measures the proportion of relevant spans retrieved; HitRate@k measures whether any relevant span was retrieved; MRR rewards the rank of the first relevant result. The current queries each have one primary gold span, so Recall@k and HitRate@k are numerically equal. Latency samples are taken only after one untimed warm-up query per strategy.
 
 ### Holdout results
 
 | Strategy | Recall@1 | Recall@3 | Recall@5 | MRR | Warm p95 |
 |---|---:|---:|---:|---:|---:|
-| Lexical | 0.167 | 0.167 | 0.167 | 0.167 | 13 ms |
-| Semantic | 0.500 | 0.500 | 0.500 | 0.500 | 146 ms |
-| RRF | 0.583 | 0.583 | 0.583 | 0.583 | 77 ms |
-| **Hybrid** | **0.417** | **0.750** | **0.833** | **0.590** | **565 ms** |
-| Hybrid alternative | 0.417 | 0.750 | 0.833 | 0.590 | 1,004 ms |
+| Lexical | 0.167 | 0.167 | 0.167 | 0.167 | 23 ms |
+| Semantic | 0.500 | 0.500 | 0.500 | 0.500 | 137 ms |
+| RRF | 0.583 | 0.583 | 0.583 | 0.583 | 133 ms |
+| **Hybrid** | **0.417** | **0.750** | **0.833** | **0.590** | **607 ms** |
+| Hybrid alternative | 0.417 | 0.750 | 0.833 | 0.590 | 567 ms |
 
-The default hybrid retrieved 10 of 12 holdout answers within the top five. It improved Recall@5 by 0.333 absolute over semantic retrieval and by 0.250 over RRF. The pair-aware alternative changed raw scores for some queries but did not change any gold-answer rank in this evaluation, while its p95 latency was higher. The evidence therefore supports the simpler target-only hybrid as the shipped default.
+The default hybrid retrieved 10 of 12 holdout answers within the top five. It improved Recall@5 by 0.333 absolute over semantic retrieval and by 0.250 over RRF. The pair-aware alternative changed raw scores for some queries but did not change any gold-answer rank. Although its p95 was slightly lower in this run, it performs additional pair-scoring inference and showed no retrieval-quality benefit; the evidence therefore supports the simpler target-only hybrid as the shipped default.
 
 The results should be interpreted at hackathon scale: twelve holdout queries are useful for catching large regressions but produce wide uncertainty, and every query changes the aggregate by 0.083. A production evaluation should contain substantially more queries, graded relevance judgments, and independent assessors.
 
@@ -129,14 +133,13 @@ At larger scale, ingestion becomes an asynchronous job, embeddings and reranking
 
 ## Limitations
 
-- Speaker labels identify voices but do not automatically resolve real names. The current files consistently use `spk:0` and `spk:1`; a reviewed per-episode identity map would improve presentation.
-- Transcription errors remain searchable errors. Proper-name examples include phonetic variants such as Geoffrey/Jeffrey, Jordan Noone/Noon, and Shaahin/Shaheen. Entity aliases or corrected display metadata would improve exact name retrieval without rewriting the canonical transcript.
+- Speaker names are user-verified episode metadata, not biometric identifications. New episodes require the two raw diarization labels to be reviewed and mapped before friendly names and roles can be trusted.
+- Reviewed query aliases mitigate known proper-name transcription variants without changing evidence, but previously unseen transcription errors can still reduce lexical and semantic retrieval quality.
 - The golden set is small and comes from one podcast format. Host introductions and summaries duplicate guest topics, creating realistic but difficult attribution cases.
-- The temporal evaluator does not currently require a speaker match. Retrieval relevance and diarization accuracy should be reported as separate metrics.
-- PostgreSQL FTS is not BM25, and the cross-encoder was trained on general passage ranking rather than podcast dialogue.
+- The general-purpose cross-encoder improved held-out Recall@5 in the measured ablation, but a larger and more diverse dialogue evaluation is needed before assuming that gain will generalize to other podcast styles.
 - The Q/A alternative depends on punctuation, speaker changes, and a seven-second gap heuristic. It does not yet group long multi-utterance responses.
 - Latency was measured on one local reference machine with warm model caches. Cold model startup is substantially slower.
-- Audio redistribution remains subject to the source material's licensing and the submitter's rights.
+- Per-file audio redistribution rights are not yet documented. Before publishing the corpus, the clips should be replaced with explicitly licensed material or accompanied by recorded permission, provenance, license terms, and required attribution.
 
 ## AI usage and coding-agent disclosure
 

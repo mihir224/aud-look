@@ -1,0 +1,11 @@
+# Query-time equivalence groups for reviewed transcription variants.
+# These expand lexical queries but never rewrite transcript text or displayed evidence.
+aliases:
+  - canonical: "Geoffrey Kent"
+    variants: ["Jeffrey Kent"]
+  - canonical: "Jordan Noone"
+    variants: ["Jordan Noon"]
+  - canonical: "Manfredi Lefebvre d'Ovidio"
+    variants: ["Manfredi Lefebvre d Ovidio", "Manfredi"]
+  - canonical: "Shaahin Cheyene"
+    variants: ["Shaahin Cheyne", "Shaheen Cheyene", "Shaheen Shayan"]

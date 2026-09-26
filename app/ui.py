@@ -17,7 +17,9 @@ def render_result(result: dict) -> None:
     sources = " · ".join(result["match_sources"])
     st.markdown(
         f"### {result['rank']}. {html.escape(result['title'])}\n"
-        f"**{html.escape(result['speaker'])} · {timestamp(result['start_ms'])}–{timestamp(result['end_ms'])}**  \\n"
+        f"**{html.escape(result['speaker_name'])} ({html.escape(result['speaker_role'])}) · "
+        f"{timestamp(result['start_ms'])}–{timestamp(result['end_ms'])}**  \\n"
+        f"`{html.escape(result['speaker'])}` · "
         f"`{sources}`{' `literal match`' if result['literal_match'] else ''}"
     )
     st.write(result["text"])

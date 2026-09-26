@@ -107,6 +107,15 @@ def upsert_audio(connection, episode: dict) -> UUID:
         return cursor.fetchone()["id"]
 
 
+def clear_indexed_content(connection, audio_id: UUID) -> None:
+    """Remove derived episode rows before rebuilding them."""
+    with connection.cursor() as cursor:
+        # Chunks reference utterances through chunk_utterances, but are not
+        # themselves deleted when utterances are replaced.
+        cursor.execute("DELETE FROM semantic_chunks WHERE audio_id = %s", (audio_id,))
+        cursor.execute("DELETE FROM utterances WHERE audio_id = %s", (audio_id,))
+
+
 def ingest_episode(episode: dict, aliases: dict) -> None:
     words = load_cached_words(episode)
     if words is None:
@@ -119,8 +128,8 @@ def ingest_episode(episode: dict, aliases: dict) -> None:
 
     with get_connection() as connection:
         audio_id = upsert_audio(connection, episode)
+        clear_indexed_content(connection, audio_id)
         with connection.cursor(row_factory=dict_row) as cursor:
-            cursor.execute("DELETE FROM utterances WHERE audio_id = %s", (audio_id,))
             utterance_ids: dict[int, int] = {}
             for utterance in utterances:
                 cursor.execute(

@@ -28,7 +28,7 @@ This reasoning established the design principle that **retrieval granularity and
 
 The conversation explicitly considered and rejected extra infrastructure that did not improve the hackathon objective: OpenSearch solely for BM25, Ollama as an additional model-serving layer, LangChain/LangGraph, an LLM-based search agent, multiple databases, and duplicate utterance embeddings.
 
-One brainstorming decision changed after implementation. Neighboring turns were initially proposed as reranker context to resolve pronouns and question-answer relationships. Real searches showed that symmetric previous/target/next context could instead make a host's question inherit relevance from the guest's answer. The user identified this qualitative failure; Codex implemented target-only `hybrid` as the default and a narrower asymmetric question-answer experiment as `hybrid_alt`. The evaluation then showed equal Recall@5 but higher latency for `hybrid_alt`, supporting the simpler default.
+One brainstorming decision changed after implementation. Neighboring turns were initially proposed as reranker context to resolve pronouns and question-answer relationships. Real searches showed that symmetric previous/target/next context could instead make a host's question inherit relevance from the guest's answer. The user identified this qualitative failure; Codex implemented target-only `hybrid` as the default and a narrower asymmetric question-answer experiment as `hybrid_alt`. The evaluation then showed equal Recall@5 with no ranking benefit from the alternative despite its additional pair-scoring work, supporting the simpler default.
 
 ## Direction supplied by the user
 
@@ -57,13 +57,15 @@ The user supplied the Gemini key through a local uncommitted `.env` file. The va
 | Generate evaluation labels from the real transcripts. | Drafted 36 timestamp-grounded queries across six categories with a balanced 24/12 split. The user reviewed the golden spans before final submission use. |
 | Run retrieval-quality tests. | Ran unit/integration tests, live representative searches, strategy ablations, and holdout evaluation; generated JSON and Markdown reports. |
 | Host questions sometimes ranked above guest answers. | Diagnosed relevance leakage from symmetric previous/target/next reranking. Made target-only reranking the default `hybrid`, implemented an asymmetric Q/A-pair experiment as `hybrid_alt`, narrowed hard literal priority for natural-language questions, and exposed both strategies in the UI. |
+| Show real speaker names and make known transcription variants searchable without altering evidence. | Added user-verified, per-episode speaker presentation metadata and query-time lexical entity equivalence groups while preserving raw diarization labels and canonical transcripts. |
+| Re-run evaluation after the search metadata changes. | Found that repeat ingestion retained orphaned semantic chunks, which reduced effective semantic candidate diversity. Corrected episode-level chunk replacement and revalidated on a clean database before reporting metrics. |
 | Prepare submission documentation and disclose coding-agent use. | Consolidated design rationale, success criteria, measured achievement, limitations, production considerations, and this collaboration record into Markdown and PDF deliverables. |
 
 ## Division of responsibility
 
 ### User-owned decisions and review
 
-- Selected and supplied the audio corpus and asserted the right to use it for the deliverable.
+- Selected and supplied the audio corpus for the hackathon workspace; public redistribution status remains to be documented per clip.
 - Directed the ChatGPT architecture exploration, selected among the alternatives, and supplied the resulting requirements and acceptance criteria to Codex.
 - Kept the Gemini credential outside versioned artifacts.
 - Ran and reviewed the real transcription and ingestion workflow.
@@ -78,7 +80,7 @@ The user supplied the Gemini key through a local uncommitted `.env` file. The va
 - Gemini transcription adapter and canonical cache format.
 - Word validation, utterance formation, conversational chunking, local embeddings, and indexes.
 - Lexical, semantic, RRF, target-only hybrid, and Q/A-pair alternative retrieval.
-- FastAPI endpoints, Streamlit UI, tests, evaluation code, reports, and documentation.
+- FastAPI endpoints, Streamlit UI, reviewed speaker-name presentation mappings, query-time entity aliases, tests, evaluation code, reports, and documentation.
 - Debugging patches in response to observed SDK, filename, timestamp, and ranking failures.
 
 ## Verification record
@@ -89,9 +91,9 @@ Completed on 2026-09-26:
 - Validated every transcript cache against audio SHA-256 and transcription-configuration hash.
 - Confirmed exactly two diarization labels per episode, valid timestamp bounds, and complete utterance-to-chunk mapping.
 - Applied Alembic migration `0001_initial` and verified PostgreSQL FTS, pgvector cosine ordering, idempotent upserts, and chunk membership through integration tests.
-- Ran `make test`: **16 passed**, with the separately marked real-corpus evaluation deselected.
+- Ran the deterministic suite against a clean migrated PostgreSQL instance: **22 passed**, with the separately marked real-corpus evaluation deselected.
 - Ran `make evaluate`: **1 slow evaluation test passed**, producing the holdout ablation report.
-- Measured holdout `hybrid` Recall@5 at **0.833**, MRR at **0.590**, and warm p95 latency at **565 ms**.
+- Measured holdout `hybrid` Recall@5 at **0.833**, MRR at **0.590**, and warm p95 latency at **607 ms** after an explicit untimed warm-up query.
 - Confirmed the live Jordan Noone question ranks the guest's answer above the host's question.
 
 ## Boundaries and limitations of agent use
