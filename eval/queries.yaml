@@ -1,0 +1,327 @@
+# Drafted from the canonical Gemini transcripts and reviewed by the user.
+# Labels remain timestamp-based so they are stable across database re-ingestion.
+version: 1
+queries:
+  - id: janice_exact_phrase
+    query: '"discipline ain''t a dirty word"'
+    category: exact_phrase
+    split: holdout
+    relevant_spans:
+      - audio_slug: janice-bryant-howroyd
+        start_ms: 86200
+        end_ms: 108000
+
+  - id: janice_semantic_paraphrase
+    query: "how does Janice decide which ideas are worth pursuing?"
+    category: semantic_paraphrase
+    split: holdout
+    relevant_spans:
+      - audio_slug: janice-bryant-howroyd
+        start_ms: 128100
+        end_ms: 207300
+
+  - id: janice_entity
+    query: "who was the first Black woman to build a billion dollar company?"
+    category: entity
+    split: dev
+    relevant_spans:
+      - audio_slug: janice-bryant-howroyd
+        start_ms: 8600
+        end_ms: 17800
+
+  - id: janice_number_technical
+    query: "what time horizon does Janice use to judge whether an idea deserves action?"
+    category: number_technical
+    split: dev
+    relevant_spans:
+      - audio_slug: janice-bryant-howroyd
+        start_ms: 140200
+        end_ms: 182500
+
+  - id: janice_context_question
+    query: "what does Janice do with ideas she records on her iPad?"
+    category: context_question
+    split: dev
+    relevant_spans:
+      - audio_slug: janice-bryant-howroyd
+        start_ms: 230200
+        end_ms: 252200
+
+  - id: janice_hard_mixed
+    query: "does a recurring idea always mean she should act on that exact idea?"
+    category: hard_mixed
+    split: dev
+    relevant_spans:
+      - audio_slug: janice-bryant-howroyd
+        start_ms: 287800
+        end_ms: 299200
+
+  - id: jason_exact_phrase
+    query: '"I don''t like thin margins. I like thick margins"'
+    category: exact_phrase
+    split: dev
+    relevant_spans:
+      - audio_slug: jason-fried
+        start_ms: 199900
+        end_ms: 204100
+
+  - id: jason_semantic_paraphrase
+    query: "why does Jason keep the company small even when it can afford more employees?"
+    category: semantic_paraphrase
+    split: dev
+    relevant_spans:
+      - audio_slug: jason-fried
+        start_ms: 171000
+        end_ms: 193400
+
+  - id: jason_entity
+    query: "who is the co-founder of Basecamp discussed in this episode?"
+    category: entity
+    split: holdout
+    relevant_spans:
+      - audio_slug: jason-fried
+        start_ms: 14600
+        end_ms: 41300
+
+  - id: jason_number_technical
+    query: "for how many years had Jason's company been profitable?"
+    category: number_technical
+    split: holdout
+    relevant_spans:
+      - audio_slug: jason-fried
+        start_ms: 93400
+        end_ms: 105900
+
+  - id: jason_context_question
+    query: "why can tens of thousands of email customers work for HEY but not for Google?"
+    category: context_question
+    split: dev
+    relevant_spans:
+      - audio_slug: jason-fried
+        start_ms: 345400
+        end_ms: 366000
+
+  - id: jason_hard_mixed
+    query: "what does Jason mean when he says founders with VC do not work for themselves?"
+    category: hard_mixed
+    split: dev
+    relevant_spans:
+      - audio_slug: jason-fried
+        start_ms: 55000
+        end_ms: 87400
+
+  - id: manfredi_exact_phrase
+    query: '"money is an instrument of freedom"'
+    category: exact_phrase
+    split: dev
+    relevant_spans:
+      - audio_slug: manfredi-lefebvre-dovidio
+        start_ms: 248000
+        end_ms: 254200
+
+  - id: manfredi_semantic_paraphrase
+    query: "what does financial success allow Manfredi to control in his life?"
+    category: semantic_paraphrase
+    split: dev
+    relevant_spans:
+      - audio_slug: manfredi-lefebvre-dovidio
+        start_ms: 289100
+        end_ms: 341500
+
+  - id: manfredi_entity
+    query: "which Italian entrepreneur from Monaco owns cruise and shipping businesses?"
+    category: entity
+    split: dev
+    relevant_spans:
+      - audio_slug: manfredi-lefebvre-dovidio
+        start_ms: 57700
+        end_ms: 72100
+
+  - id: manfredi_number_technical
+    query: "approximately how long had Manfredi been an entrepreneur?"
+    category: number_technical
+    split: dev
+    relevant_spans:
+      - audio_slug: manfredi-lefebvre-dovidio
+        start_ms: 109400
+        end_ms: 118900
+
+  - id: manfredi_context_question
+    query: "what does Manfredi mean by being connected to the living world?"
+    category: context_question
+    split: holdout
+    relevant_spans:
+      - audio_slug: manfredi-lefebvre-dovidio
+        start_ms: 261600
+        end_ms: 278700
+
+  - id: manfredi_hard_mixed
+    query: "why is being an entrepreneur more important to him than being known as one?"
+    category: hard_mixed
+    split: holdout
+    relevant_spans:
+      - audio_slug: manfredi-lefebvre-dovidio
+        start_ms: 248000
+        end_ms: 271400
+
+  - id: jordan_exact_phrase
+    query: '"my skill set not being utilized well"'
+    category: exact_phrase
+    split: holdout
+    relevant_spans:
+      - audio_slug: jordan-noone
+        start_ms: 39100
+        end_ms: 71400
+
+  - id: jordan_semantic_paraphrase
+    query: "what made Jordan feel unfulfilled during Relativity's middle years?"
+    category: semantic_paraphrase
+    split: holdout
+    relevant_spans:
+      - audio_slug: jordan-noone
+        start_ms: 97000
+        end_ms: 188700
+
+  - id: jordan_entity
+    query: "which Relativity founder built 3D-printed rockets?"
+    category: entity
+    split: dev
+    relevant_spans:
+      - audio_slug: jordan-noone
+        start_ms: 3000
+        end_ms: 14400
+
+  - id: jordan_number_technical
+    query: "how old was Jordan when he launched a rocket at university?"
+    category: number_technical
+    split: dev
+    relevant_spans:
+      - audio_slug: jordan-noone
+        start_ms: 337200
+        end_ms: 355900
+
+  - id: jordan_context_question
+    query: "what kind of work did Jordan dislike as a middle manager?"
+    category: context_question
+    split: dev
+    relevant_spans:
+      - audio_slug: jordan-noone
+        start_ms: 130200
+        end_ms: 188700
+
+  - id: jordan_hard_mixed
+    query: "how did Jordan resolve his fear about wasting his abilities?"
+    category: hard_mixed
+    split: dev
+    relevant_spans:
+      - audio_slug: jordan-noone
+        start_ms: 189400
+        end_ms: 247000
+
+  - id: geoffrey_exact_phrase
+    query: '"they all went to Harrods"'
+    category: exact_phrase
+    split: dev
+    relevant_spans:
+      - audio_slug: geoffrey-kent
+        start_ms: 340600
+        end_ms: 347800
+
+  - id: geoffrey_semantic_paraphrase
+    query: "how did following wealthy shoppers lead Geoffrey to a business location?"
+    category: semantic_paraphrase
+    split: dev
+    relevant_spans:
+      - audio_slug: geoffrey-kent
+        start_ms: 241200
+        end_ms: 374600
+
+  - id: geoffrey_entity
+    query: "who founded Abercrombie & Kent?"
+    category: entity
+    split: holdout
+    relevant_spans:
+      - audio_slug: geoffrey-kent
+        start_ms: 200
+        end_ms: 15600
+
+  - id: geoffrey_number_technical
+    query: "what minimum car value did Geoffrey tell his driver to follow?"
+    category: number_technical
+    split: holdout
+    relevant_spans:
+      - audio_slug: geoffrey-kent
+        start_ms: 264200
+        end_ms: 280000
+
+  - id: geoffrey_context_question
+    query: "why did Geoffrey think travel needed a brick-and-mortar shop?"
+    category: context_question
+    split: dev
+    relevant_spans:
+      - audio_slug: geoffrey-kent
+        start_ms: 199100
+        end_ms: 241200
+
+  - id: geoffrey_hard_mixed
+    query: "why does Geoffrey prefer instinct over presentations and plans?"
+    category: hard_mixed
+    split: dev
+    relevant_spans:
+      - audio_slug: geoffrey-kent
+        start_ms: 145500
+        end_ms: 184600
+
+  - id: shaahin_exact_phrase
+    query: '"money''s best made quietly"'
+    category: exact_phrase
+    split: dev
+    relevant_spans:
+      - audio_slug: shaahin-cheyne
+        start_ms: 188200
+        end_ms: 202100
+
+  - id: shaahin_semantic_paraphrase
+    query: "why does Shaahin recommend working for a great person for free?"
+    category: semantic_paraphrase
+    split: dev
+    relevant_spans:
+      - audio_slug: shaahin-cheyne
+        start_ms: 258600
+        end_ms: 286600
+
+  - id: shaahin_entity
+    query: "which Amazon founder did Shaahin study when he spotted the trend?"
+    category: entity
+    split: dev
+    relevant_spans:
+      - audio_slug: shaahin-cheyne
+        start_ms: 229000
+        end_ms: 258000
+
+  - id: shaahin_number_technical
+    query: "how long did the host sell on Amazon before quitting?"
+    category: number_technical
+    split: dev
+    relevant_spans:
+      - audio_slug: shaahin-cheyne
+        start_ms: 111400
+        end_ms: 120800
+
+  - id: shaahin_context_question
+    query: "what did Earl mean when he said these will be my floors?"
+    category: context_question
+    split: holdout
+    relevant_spans:
+      - audio_slug: shaahin-cheyne
+        start_ms: 328300
+        end_ms: 352600
+
+  - id: shaahin_hard_mixed
+    query: "why might apprenticeship beat a university degree?"
+    category: hard_mixed
+    split: holdout
+    relevant_spans:
+      - audio_slug: shaahin-cheyne
+        start_ms: 355100
+        end_ms: 411600

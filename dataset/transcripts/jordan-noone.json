@@ -1,0 +1,8906 @@
+{
+  "schema_version": 1,
+  "audio_sha256": "7f741a9933eeda80abd30801f4e61900826c55620e43af1bd9ce1ebfafa95122",
+  "model": "gemini-3.5-transcribe",
+  "config": {
+    "language_codes": [
+      "en"
+    ],
+    "mode": {
+      "type": "verbatim",
+      "diarization_mode": "speaker",
+      "timestamp_granularities": [
+        "word"
+      ]
+    }
+  },
+  "config_hash": "bf11018dd6965db167dde08f44270e3fb69f0b957d275fff92bc914fca30be39",
+  "words": [
+    {
+      "text": "Hey,",
+      "speaker": "spk:0",
+      "start_ms": 3000,
+      "end_ms": 3100
+    },
+    {
+      "text": "y'all.",
+      "speaker": "spk:0",
+      "start_ms": 3100,
+      "end_ms": 3500
+    },
+    {
+      "text": "Today",
+      "speaker": "spk:0",
+      "start_ms": 4100,
+      "end_ms": 4400
+    },
+    {
+      "text": "on",
+      "speaker": "spk:0",
+      "start_ms": 4400,
+      "end_ms": 4500
+    },
+    {
+      "text": "the",
+      "speaker": "spk:0",
+      "start_ms": 4500,
+      "end_ms": 4600
+    },
+    {
+      "text": "high",
+      "speaker": "spk:0",
+      "start_ms": 4600,
+      "end_ms": 4700
+    },
+    {
+      "text": "performance",
+      "speaker": "spk:0",
+      "start_ms": 4700,
+      "end_ms": 5300
+    },
+    {
+      "text": "clip,",
+      "speaker": "spk:0",
+      "start_ms": 5300,
+      "end_ms": 5500
+    },
+    {
+      "text": "we're",
+      "speaker": "spk:0",
+      "start_ms": 5500,
+      "end_ms": 5700
+    },
+    {
+      "text": "talking",
+      "speaker": "spk:0",
+      "start_ms": 5700,
+      "end_ms": 6000
+    },
+    {
+      "text": "with",
+      "speaker": "spk:0",
+      "start_ms": 6000,
+      "end_ms": 6100
+    },
+    {
+      "text": "Jordan",
+      "speaker": "spk:0",
+      "start_ms": 6100,
+      "end_ms": 6600
+    },
+    {
+      "text": "Noon,",
+      "speaker": "spk:0",
+      "start_ms": 6600,
+      "end_ms": 6900
+    },
+    {
+      "text": "founder",
+      "speaker": "spk:0",
+      "start_ms": 7200,
+      "end_ms": 7500
+    },
+    {
+      "text": "of",
+      "speaker": "spk:0",
+      "start_ms": 7500,
+      "end_ms": 7600
+    },
+    {
+      "text": "Relativity,",
+      "speaker": "spk:0",
+      "start_ms": 7600,
+      "end_ms": 8500
+    },
+    {
+      "text": "a",
+      "speaker": "spk:0",
+      "start_ms": 8800,
+      "end_ms": 8900
+    },
+    {
+      "text": "4.2",
+      "speaker": "spk:0",
+      "start_ms": 8900,
+      "end_ms": 9800
+    },
+    {
+      "text": "billion",
+      "speaker": "spk:0",
+      "start_ms": 9800,
+      "end_ms": 10200
+    },
+    {
+      "text": "dollar",
+      "speaker": "spk:0",
+      "start_ms": 10200,
+      "end_ms": 10700
+    },
+    {
+      "text": "space",
+      "speaker": "spk:0",
+      "start_ms": 10800,
+      "end_ms": 11400
+    },
+    {
+      "text": "company",
+      "speaker": "spk:0",
+      "start_ms": 11400,
+      "end_ms": 12000
+    },
+    {
+      "text": "that",
+      "speaker": "spk:0",
+      "start_ms": 12000,
+      "end_ms": 12400
+    },
+    {
+      "text": "produces",
+      "speaker": "spk:0",
+      "start_ms": 12400,
+      "end_ms": 13200
+    },
+    {
+      "text": "3D",
+      "speaker": "spk:0",
+      "start_ms": 13200,
+      "end_ms": 13500
+    },
+    {
+      "text": "printed",
+      "speaker": "spk:0",
+      "start_ms": 13500,
+      "end_ms": 13900
+    },
+    {
+      "text": "rockets.",
+      "speaker": "spk:0",
+      "start_ms": 13900,
+      "end_ms": 14400
+    },
+    {
+      "text": "And",
+      "speaker": "spk:0",
+      "start_ms": 15000,
+      "end_ms": 15600
+    },
+    {
+      "text": "I",
+      "speaker": "spk:0",
+      "start_ms": 15600,
+      "end_ms": 15800
+    },
+    {
+      "text": "asked",
+      "speaker": "spk:0",
+      "start_ms": 15800,
+      "end_ms": 16000
+    },
+    {
+      "text": "him",
+      "speaker": "spk:0",
+      "start_ms": 16000,
+      "end_ms": 16200
+    },
+    {
+      "text": "on",
+      "speaker": "spk:0",
+      "start_ms": 16200,
+      "end_ms": 16300
+    },
+    {
+      "text": "the",
+      "speaker": "spk:0",
+      "start_ms": 16300,
+      "end_ms": 16400
+    },
+    {
+      "text": "podcast",
+      "speaker": "spk:0",
+      "start_ms": 16400,
+      "end_ms": 17400
+    },
+    {
+      "text": "what",
+      "speaker": "spk:0",
+      "start_ms": 17400,
+      "end_ms": 17800
+    },
+    {
+      "text": "was",
+      "speaker": "spk:0",
+      "start_ms": 17800,
+      "end_ms": 18000
+    },
+    {
+      "text": "his",
+      "speaker": "spk:0",
+      "start_ms": 18000,
+      "end_ms": 18200
+    },
+    {
+      "text": "greatest",
+      "speaker": "spk:0",
+      "start_ms": 18200,
+      "end_ms": 18700
+    },
+    {
+      "text": "fear.",
+      "speaker": "spk:0",
+      "start_ms": 18700,
+      "end_ms": 19000
+    },
+    {
+      "text": "He",
+      "speaker": "spk:0",
+      "start_ms": 19700,
+      "end_ms": 19800
+    },
+    {
+      "text": "has",
+      "speaker": "spk:0",
+      "start_ms": 19800,
+      "end_ms": 20000
+    },
+    {
+      "text": "an",
+      "speaker": "spk:0",
+      "start_ms": 20000,
+      "end_ms": 20100
+    },
+    {
+      "text": "interesting",
+      "speaker": "spk:0",
+      "start_ms": 20100,
+      "end_ms": 20600
+    },
+    {
+      "text": "answer,",
+      "speaker": "spk:0",
+      "start_ms": 20600,
+      "end_ms": 21000
+    },
+    {
+      "text": "an",
+      "speaker": "spk:0",
+      "start_ms": 21100,
+      "end_ms": 21300
+    },
+    {
+      "text": "answer",
+      "speaker": "spk:0",
+      "start_ms": 21300,
+      "end_ms": 21800
+    },
+    {
+      "text": "that",
+      "speaker": "spk:0",
+      "start_ms": 21800,
+      "end_ms": 22500
+    },
+    {
+      "text": "most",
+      "speaker": "spk:0",
+      "start_ms": 22800,
+      "end_ms": 23100
+    },
+    {
+      "text": "people",
+      "speaker": "spk:0",
+      "start_ms": 23100,
+      "end_ms": 23500
+    },
+    {
+      "text": "wouldn't",
+      "speaker": "spk:0",
+      "start_ms": 23500,
+      "end_ms": 23800
+    },
+    {
+      "text": "answer",
+      "speaker": "spk:0",
+      "start_ms": 23800,
+      "end_ms": 24500
+    },
+    {
+      "text": "the",
+      "speaker": "spk:0",
+      "start_ms": 24800,
+      "end_ms": 24900
+    },
+    {
+      "text": "way",
+      "speaker": "spk:0",
+      "start_ms": 24900,
+      "end_ms": 25200
+    },
+    {
+      "text": "that",
+      "speaker": "spk:0",
+      "start_ms": 25200,
+      "end_ms": 25400
+    },
+    {
+      "text": "he",
+      "speaker": "spk:0",
+      "start_ms": 25400,
+      "end_ms": 25600
+    },
+    {
+      "text": "did",
+      "speaker": "spk:0",
+      "start_ms": 25600,
+      "end_ms": 25900
+    },
+    {
+      "text": "so",
+      "speaker": "spk:0",
+      "start_ms": 25900,
+      "end_ms": 26100
+    },
+    {
+      "text": "specifically,",
+      "speaker": "spk:0",
+      "start_ms": 26100,
+      "end_ms": 27000
+    },
+    {
+      "text": "but",
+      "speaker": "spk:0",
+      "start_ms": 27100,
+      "end_ms": 27200
+    },
+    {
+      "text": "again,",
+      "speaker": "spk:0",
+      "start_ms": 27200,
+      "end_ms": 27500
+    },
+    {
+      "text": "it's",
+      "speaker": "spk:0",
+      "start_ms": 27500,
+      "end_ms": 27600
+    },
+    {
+      "text": "not",
+      "speaker": "spk:0",
+      "start_ms": 27600,
+      "end_ms": 27900
+    },
+    {
+      "text": "too",
+      "speaker": "spk:0",
+      "start_ms": 27900,
+      "end_ms": 28100
+    },
+    {
+      "text": "uncommon",
+      "speaker": "spk:0",
+      "start_ms": 28100,
+      "end_ms": 28800
+    },
+    {
+      "text": "for",
+      "speaker": "spk:0",
+      "start_ms": 28800,
+      "end_ms": 29000
+    },
+    {
+      "text": "many",
+      "speaker": "spk:0",
+      "start_ms": 29000,
+      "end_ms": 29200
+    },
+    {
+      "text": "of",
+      "speaker": "spk:0",
+      "start_ms": 29200,
+      "end_ms": 29400
+    },
+    {
+      "text": "us",
+      "speaker": "spk:0",
+      "start_ms": 29400,
+      "end_ms": 29600
+    },
+    {
+      "text": "to",
+      "speaker": "spk:0",
+      "start_ms": 29600,
+      "end_ms": 29700
+    },
+    {
+      "text": "feel",
+      "speaker": "spk:0",
+      "start_ms": 29700,
+      "end_ms": 29900
+    },
+    {
+      "text": "this",
+      "speaker": "spk:0",
+      "start_ms": 29900,
+      "end_ms": 30100
+    },
+    {
+      "text": "way.",
+      "speaker": "spk:0",
+      "start_ms": 30100,
+      "end_ms": 30300
+    },
+    {
+      "text": "Let's",
+      "speaker": "spk:0",
+      "start_ms": 31300,
+      "end_ms": 31500
+    },
+    {
+      "text": "hop",
+      "speaker": "spk:0",
+      "start_ms": 31500,
+      "end_ms": 31700
+    },
+    {
+      "text": "into",
+      "speaker": "spk:0",
+      "start_ms": 31700,
+      "end_ms": 32000
+    },
+    {
+      "text": "it",
+      "speaker": "spk:0",
+      "start_ms": 32000,
+      "end_ms": 32300
+    },
+    {
+      "text": "with",
+      "speaker": "spk:0",
+      "start_ms": 32300,
+      "end_ms": 32400
+    },
+    {
+      "text": "Jordan",
+      "speaker": "spk:0",
+      "start_ms": 32400,
+      "end_ms": 32800
+    },
+    {
+      "text": "Noon.",
+      "speaker": "spk:0",
+      "start_ms": 32800,
+      "end_ms": 33000
+    },
+    {
+      "text": "What",
+      "speaker": "spk:0",
+      "start_ms": 36200,
+      "end_ms": 36300
+    },
+    {
+      "text": "would",
+      "speaker": "spk:0",
+      "start_ms": 36300,
+      "end_ms": 36500
+    },
+    {
+      "text": "you",
+      "speaker": "spk:0",
+      "start_ms": 36500,
+      "end_ms": 36600
+    },
+    {
+      "text": "say",
+      "speaker": "spk:0",
+      "start_ms": 36600,
+      "end_ms": 36800
+    },
+    {
+      "text": "your",
+      "speaker": "spk:0",
+      "start_ms": 36800,
+      "end_ms": 36900
+    },
+    {
+      "text": "greatest",
+      "speaker": "spk:0",
+      "start_ms": 36900,
+      "end_ms": 37300
+    },
+    {
+      "text": "fear",
+      "speaker": "spk:0",
+      "start_ms": 37300,
+      "end_ms": 37600
+    },
+    {
+      "text": "is,",
+      "speaker": "spk:0",
+      "start_ms": 37600,
+      "end_ms": 37800
+    },
+    {
+      "text": "Jordan?",
+      "speaker": "spk:0",
+      "start_ms": 37800,
+      "end_ms": 38100
+    },
+    {
+      "text": "Greatest",
+      "speaker": "spk:1",
+      "start_ms": 39100,
+      "end_ms": 39600
+    },
+    {
+      "text": "fear?",
+      "speaker": "spk:1",
+      "start_ms": 39600,
+      "end_ms": 40000
+    },
+    {
+      "text": "Um,",
+      "speaker": "spk:1",
+      "start_ms": 40500,
+      "end_ms": 41000
+    },
+    {
+      "text": "I'd",
+      "speaker": "spk:1",
+      "start_ms": 42300,
+      "end_ms": 42500
+    },
+    {
+      "text": "say",
+      "speaker": "spk:1",
+      "start_ms": 42500,
+      "end_ms": 42600
+    },
+    {
+      "text": "the",
+      "speaker": "spk:1",
+      "start_ms": 42600,
+      "end_ms": 42800
+    },
+    {
+      "text": "greatest",
+      "speaker": "spk:1",
+      "start_ms": 42800,
+      "end_ms": 43200
+    },
+    {
+      "text": "fear",
+      "speaker": "spk:1",
+      "start_ms": 43200,
+      "end_ms": 43800
+    },
+    {
+      "text": "and",
+      "speaker": "spk:1",
+      "start_ms": 44100,
+      "end_ms": 44200
+    },
+    {
+      "text": "I",
+      "speaker": "spk:1",
+      "start_ms": 44200,
+      "end_ms": 44200
+    },
+    {
+      "text": "don't",
+      "speaker": "spk:1",
+      "start_ms": 44200,
+      "end_ms": 44400
+    },
+    {
+      "text": "even",
+      "speaker": "spk:1",
+      "start_ms": 44400,
+      "end_ms": 44500
+    },
+    {
+      "text": "know",
+      "speaker": "spk:1",
+      "start_ms": 44500,
+      "end_ms": 44600
+    },
+    {
+      "text": "if",
+      "speaker": "spk:1",
+      "start_ms": 44600,
+      "end_ms": 44800
+    },
+    {
+      "text": "I",
+      "speaker": "spk:1",
+      "start_ms": 44800,
+      "end_ms": 44800
+    },
+    {
+      "text": "actually",
+      "speaker": "spk:1",
+      "start_ms": 44800,
+      "end_ms": 45100
+    },
+    {
+      "text": "have",
+      "speaker": "spk:1",
+      "start_ms": 45100,
+      "end_ms": 45400
+    },
+    {
+      "text": "this",
+      "speaker": "spk:1",
+      "start_ms": 45400,
+      "end_ms": 45500
+    },
+    {
+      "text": "anymore,",
+      "speaker": "spk:1",
+      "start_ms": 45500,
+      "end_ms": 46200
+    },
+    {
+      "text": "um,",
+      "speaker": "spk:1",
+      "start_ms": 46200,
+      "end_ms": 46700
+    },
+    {
+      "text": "I",
+      "speaker": "spk:1",
+      "start_ms": 47200,
+      "end_ms": 47300
+    },
+    {
+      "text": "think",
+      "speaker": "spk:1",
+      "start_ms": 47300,
+      "end_ms": 47400
+    },
+    {
+      "text": "I've",
+      "speaker": "spk:1",
+      "start_ms": 47400,
+      "end_ms": 47600
+    },
+    {
+      "text": "found",
+      "speaker": "spk:1",
+      "start_ms": 47600,
+      "end_ms": 47900
+    },
+    {
+      "text": "kind",
+      "speaker": "spk:1",
+      "start_ms": 47900,
+      "end_ms": 48100
+    },
+    {
+      "text": "of",
+      "speaker": "spk:1",
+      "start_ms": 48100,
+      "end_ms": 48200
+    },
+    {
+      "text": "my",
+      "speaker": "spk:1",
+      "start_ms": 48200,
+      "end_ms": 48300
+    },
+    {
+      "text": "niche",
+      "speaker": "spk:1",
+      "start_ms": 48300,
+      "end_ms": 48600
+    },
+    {
+      "text": "in",
+      "speaker": "spk:1",
+      "start_ms": 48600,
+      "end_ms": 48700
+    },
+    {
+      "text": "my",
+      "speaker": "spk:1",
+      "start_ms": 48700,
+      "end_ms": 48900
+    },
+    {
+      "text": "lane",
+      "speaker": "spk:1",
+      "start_ms": 48900,
+      "end_ms": 49500
+    },
+    {
+      "text": "and",
+      "speaker": "spk:1",
+      "start_ms": 49600,
+      "end_ms": 49800
+    },
+    {
+      "text": "but",
+      "speaker": "spk:1",
+      "start_ms": 49800,
+      "end_ms": 49900
+    },
+    {
+      "text": "my",
+      "speaker": "spk:1",
+      "start_ms": 49900,
+      "end_ms": 50000
+    },
+    {
+      "text": "greatest",
+      "speaker": "spk:1",
+      "start_ms": 50000,
+      "end_ms": 50400
+    },
+    {
+      "text": "fear",
+      "speaker": "spk:1",
+      "start_ms": 50400,
+      "end_ms": 50600
+    },
+    {
+      "text": "I'd",
+      "speaker": "spk:1",
+      "start_ms": 50600,
+      "end_ms": 50800
+    },
+    {
+      "text": "say",
+      "speaker": "spk:1",
+      "start_ms": 50800,
+      "end_ms": 50900
+    },
+    {
+      "text": "would",
+      "speaker": "spk:1",
+      "start_ms": 50900,
+      "end_ms": 51000
+    },
+    {
+      "text": "be",
+      "speaker": "spk:1",
+      "start_ms": 51000,
+      "end_ms": 51200
+    },
+    {
+      "text": "my",
+      "speaker": "spk:1",
+      "start_ms": 51200,
+      "end_ms": 51300
+    },
+    {
+      "text": "skill",
+      "speaker": "spk:1",
+      "start_ms": 51300,
+      "end_ms": 51700
+    },
+    {
+      "text": "set",
+      "speaker": "spk:1",
+      "start_ms": 51700,
+      "end_ms": 51800
+    },
+    {
+      "text": "not",
+      "speaker": "spk:1",
+      "start_ms": 51800,
+      "end_ms": 52100
+    },
+    {
+      "text": "being",
+      "speaker": "spk:1",
+      "start_ms": 52100,
+      "end_ms": 52500
+    },
+    {
+      "text": "utilized",
+      "speaker": "spk:1",
+      "start_ms": 52500,
+      "end_ms": 53200
+    },
+    {
+      "text": "well.",
+      "speaker": "spk:1",
+      "start_ms": 53200,
+      "end_ms": 53500
+    },
+    {
+      "text": "I",
+      "speaker": "spk:1",
+      "start_ms": 54400,
+      "end_ms": 54500
+    },
+    {
+      "text": "think",
+      "speaker": "spk:1",
+      "start_ms": 54500,
+      "end_ms": 54700
+    },
+    {
+      "text": "I",
+      "speaker": "spk:1",
+      "start_ms": 54700,
+      "end_ms": 54900
+    },
+    {
+      "text": "I",
+      "speaker": "spk:1",
+      "start_ms": 54900,
+      "end_ms": 55000
+    },
+    {
+      "text": "enjoy",
+      "speaker": "spk:1",
+      "start_ms": 55000,
+      "end_ms": 55800
+    },
+    {
+      "text": "I",
+      "speaker": "spk:1",
+      "start_ms": 56300,
+      "end_ms": 56400
+    },
+    {
+      "text": "enjoy",
+      "speaker": "spk:1",
+      "start_ms": 56400,
+      "end_ms": 56800
+    },
+    {
+      "text": "what",
+      "speaker": "spk:1",
+      "start_ms": 56800,
+      "end_ms": 56900
+    },
+    {
+      "text": "I",
+      "speaker": "spk:1",
+      "start_ms": 56900,
+      "end_ms": 57000
+    },
+    {
+      "text": "do.",
+      "speaker": "spk:1",
+      "start_ms": 57000,
+      "end_ms": 57400
+    },
+    {
+      "text": "I",
+      "speaker": "spk:1",
+      "start_ms": 57400,
+      "end_ms": 57500
+    },
+    {
+      "text": "think",
+      "speaker": "spk:1",
+      "start_ms": 57500,
+      "end_ms": 57700
+    },
+    {
+      "text": "I",
+      "speaker": "spk:1",
+      "start_ms": 57700,
+      "end_ms": 58100
+    },
+    {
+      "text": "I've",
+      "speaker": "spk:1",
+      "start_ms": 58100,
+      "end_ms": 58400
+    },
+    {
+      "text": "came",
+      "speaker": "spk:1",
+      "start_ms": 58400,
+      "end_ms": 58700
+    },
+    {
+      "text": "to",
+      "speaker": "spk:1",
+      "start_ms": 58700,
+      "end_ms": 58800
+    },
+    {
+      "text": "realize",
+      "speaker": "spk:1",
+      "start_ms": 58800,
+      "end_ms": 59700
+    },
+    {
+      "text": "that",
+      "speaker": "spk:1",
+      "start_ms": 59700,
+      "end_ms": 60200
+    },
+    {
+      "text": "I",
+      "speaker": "spk:1",
+      "start_ms": 60200,
+      "end_ms": 60300
+    },
+    {
+      "text": "do",
+      "speaker": "spk:1",
+      "start_ms": 60300,
+      "end_ms": 60600
+    },
+    {
+      "text": "have",
+      "speaker": "spk:1",
+      "start_ms": 60600,
+      "end_ms": 61100
+    },
+    {
+      "text": "a",
+      "speaker": "spk:1",
+      "start_ms": 61100,
+      "end_ms": 61200
+    },
+    {
+      "text": "very",
+      "speaker": "spk:1",
+      "start_ms": 61200,
+      "end_ms": 61500
+    },
+    {
+      "text": "unique",
+      "speaker": "spk:1",
+      "start_ms": 61500,
+      "end_ms": 61800
+    },
+    {
+      "text": "set",
+      "speaker": "spk:1",
+      "start_ms": 61800,
+      "end_ms": 62000
+    },
+    {
+      "text": "of",
+      "speaker": "spk:1",
+      "start_ms": 62000,
+      "end_ms": 62100
+    },
+    {
+      "text": "skill",
+      "speaker": "spk:1",
+      "start_ms": 62100,
+      "end_ms": 62400
+    },
+    {
+      "text": "sets",
+      "speaker": "spk:1",
+      "start_ms": 62400,
+      "end_ms": 62800
+    },
+    {
+      "text": "and",
+      "speaker": "spk:1",
+      "start_ms": 62900,
+      "end_ms": 63000
+    },
+    {
+      "text": "combination",
+      "speaker": "spk:1",
+      "start_ms": 63000,
+      "end_ms": 63600
+    },
+    {
+      "text": "of",
+      "speaker": "spk:1",
+      "start_ms": 63600,
+      "end_ms": 63700
+    },
+    {
+      "text": "skill",
+      "speaker": "spk:1",
+      "start_ms": 63700,
+      "end_ms": 63900
+    },
+    {
+      "text": "sets",
+      "speaker": "spk:1",
+      "start_ms": 63900,
+      "end_ms": 64100
+    },
+    {
+      "text": "that",
+      "speaker": "spk:1",
+      "start_ms": 64100,
+      "end_ms": 64200
+    },
+    {
+      "text": "is",
+      "speaker": "spk:1",
+      "start_ms": 64200,
+      "end_ms": 64400
+    },
+    {
+      "text": "very",
+      "speaker": "spk:1",
+      "start_ms": 64400,
+      "end_ms": 64700
+    },
+    {
+      "text": "rare.",
+      "speaker": "spk:1",
+      "start_ms": 64700,
+      "end_ms": 65200
+    },
+    {
+      "text": "Um,",
+      "speaker": "spk:1",
+      "start_ms": 66100,
+      "end_ms": 66600
+    },
+    {
+      "text": "and",
+      "speaker": "spk:1",
+      "start_ms": 66600,
+      "end_ms": 66800
+    },
+    {
+      "text": "that",
+      "speaker": "spk:1",
+      "start_ms": 66800,
+      "end_ms": 66900
+    },
+    {
+      "text": "I",
+      "speaker": "spk:1",
+      "start_ms": 66900,
+      "end_ms": 67100
+    },
+    {
+      "text": "had",
+      "speaker": "spk:1",
+      "start_ms": 67100,
+      "end_ms": 67800
+    },
+    {
+      "text": "I'd",
+      "speaker": "spk:1",
+      "start_ms": 67800,
+      "end_ms": 68000
+    },
+    {
+      "text": "say",
+      "speaker": "spk:1",
+      "start_ms": 68000,
+      "end_ms": 68100
+    },
+    {
+      "text": "for",
+      "speaker": "spk:1",
+      "start_ms": 68100,
+      "end_ms": 68400
+    },
+    {
+      "text": "a",
+      "speaker": "spk:1",
+      "start_ms": 68400,
+      "end_ms": 68400
+    },
+    {
+      "text": "while",
+      "speaker": "spk:1",
+      "start_ms": 68400,
+      "end_ms": 68800
+    },
+    {
+      "text": "like",
+      "speaker": "spk:1",
+      "start_ms": 68800,
+      "end_ms": 68900
+    },
+    {
+      "text": "anxiety",
+      "speaker": "spk:1",
+      "start_ms": 68900,
+      "end_ms": 69500
+    },
+    {
+      "text": "on",
+      "speaker": "spk:1",
+      "start_ms": 69500,
+      "end_ms": 69600
+    },
+    {
+      "text": "those",
+      "speaker": "spk:1",
+      "start_ms": 69600,
+      "end_ms": 69900
+    },
+    {
+      "text": "not",
+      "speaker": "spk:1",
+      "start_ms": 69900,
+      "end_ms": 70300
+    },
+    {
+      "text": "being",
+      "speaker": "spk:1",
+      "start_ms": 70300,
+      "end_ms": 70800
+    },
+    {
+      "text": "applied.",
+      "speaker": "spk:1",
+      "start_ms": 70900,
+      "end_ms": 71400
+    },
+    {
+      "text": "And",
+      "speaker": "spk:1",
+      "start_ms": 72100,
+      "end_ms": 72100
+    },
+    {
+      "text": "that's",
+      "speaker": "spk:1",
+      "start_ms": 72100,
+      "end_ms": 72300
+    },
+    {
+      "text": "part",
+      "speaker": "spk:1",
+      "start_ms": 72300,
+      "end_ms": 72500
+    },
+    {
+      "text": "of",
+      "speaker": "spk:1",
+      "start_ms": 72500,
+      "end_ms": 72600
+    },
+    {
+      "text": "even",
+      "speaker": "spk:1",
+      "start_ms": 72600,
+      "end_ms": 72900
+    },
+    {
+      "text": "for",
+      "speaker": "spk:1",
+      "start_ms": 72900,
+      "end_ms": 73400
+    },
+    {
+      "text": "you",
+      "speaker": "spk:1",
+      "start_ms": 73400,
+      "end_ms": 73500
+    },
+    {
+      "text": "know,",
+      "speaker": "spk:1",
+      "start_ms": 73500,
+      "end_ms": 73600
+    },
+    {
+      "text": "my",
+      "speaker": "spk:1",
+      "start_ms": 73600,
+      "end_ms": 74000
+    },
+    {
+      "text": "my",
+      "speaker": "spk:1",
+      "start_ms": 74200,
+      "end_ms": 74300
+    },
+    {
+      "text": "transition",
+      "speaker": "spk:1",
+      "start_ms": 74300,
+      "end_ms": 74700
+    },
+    {
+      "text": "out",
+      "speaker": "spk:1",
+      "start_ms": 74700,
+      "end_ms": 74900
+    },
+    {
+      "text": "of",
+      "speaker": "spk:1",
+      "start_ms": 74900,
+      "end_ms": 75000
+    },
+    {
+      "text": "Relativity.",
+      "speaker": "spk:1",
+      "start_ms": 75000,
+      "end_ms": 75600
+    },
+    {
+      "text": "I",
+      "speaker": "spk:1",
+      "start_ms": 75600,
+      "end_ms": 75600
+    },
+    {
+      "text": "started",
+      "speaker": "spk:1",
+      "start_ms": 75600,
+      "end_ms": 75900
+    },
+    {
+      "text": "to",
+      "speaker": "spk:1",
+      "start_ms": 75900,
+      "end_ms": 76000
+    },
+    {
+      "text": "feel",
+      "speaker": "spk:1",
+      "start_ms": 76000,
+      "end_ms": 76300
+    },
+    {
+      "text": "less",
+      "speaker": "spk:1",
+      "start_ms": 76300,
+      "end_ms": 76600
+    },
+    {
+      "text": "and",
+      "speaker": "spk:1",
+      "start_ms": 76600,
+      "end_ms": 76700
+    },
+    {
+      "text": "less",
+      "speaker": "spk:1",
+      "start_ms": 76700,
+      "end_ms": 77000
+    },
+    {
+      "text": "at",
+      "speaker": "spk:1",
+      "start_ms": 77000,
+      "end_ms": 77100
+    },
+    {
+      "text": "home",
+      "speaker": "spk:1",
+      "start_ms": 77100,
+      "end_ms": 77500
+    },
+    {
+      "text": "in",
+      "speaker": "spk:1",
+      "start_ms": 77600,
+      "end_ms": 77700
+    },
+    {
+      "text": "the",
+      "speaker": "spk:1",
+      "start_ms": 77700,
+      "end_ms": 77800
+    },
+    {
+      "text": "later",
+      "speaker": "spk:1",
+      "start_ms": 77800,
+      "end_ms": 78100
+    },
+    {
+      "text": "years",
+      "speaker": "spk:1",
+      "start_ms": 78100,
+      "end_ms": 78600
+    },
+    {
+      "text": "where",
+      "speaker": "spk:1",
+      "start_ms": 78600,
+      "end_ms": 78800
+    },
+    {
+      "text": "I",
+      "speaker": "spk:1",
+      "start_ms": 78800,
+      "end_ms": 79000
+    },
+    {
+      "text": "I",
+      "speaker": "spk:1",
+      "start_ms": 79000,
+      "end_ms": 79100
+    },
+    {
+      "text": "liked",
+      "speaker": "spk:1",
+      "start_ms": 79100,
+      "end_ms": 79500
+    },
+    {
+      "text": "tinkering",
+      "speaker": "spk:1",
+      "start_ms": 79500,
+      "end_ms": 80000
+    },
+    {
+      "text": "at",
+      "speaker": "spk:1",
+      "start_ms": 80000,
+      "end_ms": 80000
+    },
+    {
+      "text": "a",
+      "speaker": "spk:1",
+      "start_ms": 80000,
+      "end_ms": 80100
+    },
+    {
+      "text": "fairly",
+      "speaker": "spk:1",
+      "start_ms": 80100,
+      "end_ms": 80900
+    },
+    {
+      "text": "like",
+      "speaker": "spk:1",
+      "start_ms": 81300,
+      "end_ms": 81500
+    },
+    {
+      "text": "low",
+      "speaker": "spk:1",
+      "start_ms": 81500,
+      "end_ms": 81800
+    },
+    {
+      "text": "level",
+      "speaker": "spk:1",
+      "start_ms": 81800,
+      "end_ms": 82300
+    },
+    {
+      "text": "plan,",
+      "speaker": "spk:1",
+      "start_ms": 82600,
+      "end_ms": 82900
+    },
+    {
+      "text": "but",
+      "speaker": "spk:1",
+      "start_ms": 82900,
+      "end_ms": 83100
+    },
+    {
+      "text": "in",
+      "speaker": "spk:1",
+      "start_ms": 83100,
+      "end_ms": 83100
+    },
+    {
+      "text": "a",
+      "speaker": "spk:1",
+      "start_ms": 83100,
+      "end_ms": 83200
+    },
+    {
+      "text": "way",
+      "speaker": "spk:1",
+      "start_ms": 83200,
+      "end_ms": 83300
+    },
+    {
+      "text": "that's",
+      "speaker": "spk:1",
+      "start_ms": 83300,
+      "end_ms": 83600
+    },
+    {
+      "text": "very,",
+      "speaker": "spk:1",
+      "start_ms": 83600,
+      "end_ms": 84200
+    },
+    {
+      "text": "you",
+      "speaker": "spk:1",
+      "start_ms": 84200,
+      "end_ms": 84300
+    },
+    {
+      "text": "know,",
+      "speaker": "spk:1",
+      "start_ms": 84300,
+      "end_ms": 84600
+    },
+    {
+      "text": "business",
+      "speaker": "spk:1",
+      "start_ms": 85000,
+      "end_ms": 85400
+    },
+    {
+      "text": "applied.",
+      "speaker": "spk:1",
+      "start_ms": 85400,
+      "end_ms": 85900
+    },
+    {
+      "text": "You",
+      "speaker": "spk:1",
+      "start_ms": 86000,
+      "end_ms": 86000
+    },
+    {
+      "text": "know,",
+      "speaker": "spk:1",
+      "start_ms": 86000,
+      "end_ms": 86100
+    },
+    {
+      "text": "it's",
+      "speaker": "spk:1",
+      "start_ms": 86100,
+      "end_ms": 86300
+    },
+    {
+      "text": "how",
+      "speaker": "spk:1",
+      "start_ms": 86300,
+      "end_ms": 86400
+    },
+    {
+      "text": "do",
+      "speaker": "spk:1",
+      "start_ms": 86400,
+      "end_ms": 86500
+    },
+    {
+      "text": "you",
+      "speaker": "spk:1",
+      "start_ms": 86500,
+      "end_ms": 86600
+    },
+    {
+      "text": "turn",
+      "speaker": "spk:1",
+      "start_ms": 86600,
+      "end_ms": 86800
+    },
+    {
+      "text": "a",
+      "speaker": "spk:1",
+      "start_ms": 86800,
+      "end_ms": 86900
+    },
+    {
+      "text": "novel",
+      "speaker": "spk:1",
+      "start_ms": 86900,
+      "end_ms": 87300
+    },
+    {
+      "text": "idea",
+      "speaker": "spk:1",
+      "start_ms": 87300,
+      "end_ms": 87600
+    },
+    {
+      "text": "into",
+      "speaker": "spk:1",
+      "start_ms": 87600,
+      "end_ms": 87800
+    },
+    {
+      "text": "a",
+      "speaker": "spk:1",
+      "start_ms": 87800,
+      "end_ms": 87900
+    },
+    {
+      "text": "business?",
+      "speaker": "spk:1",
+      "start_ms": 87900,
+      "end_ms": 88200
+    },
+    {
+      "text": "Right.",
+      "speaker": "spk:0",
+      "start_ms": 88900,
+      "end_ms": 89100
+    },
+    {
+      "text": "Then",
+      "speaker": "spk:1",
+      "start_ms": 89100,
+      "end_ms": 89500
+    },
+    {
+      "text": "and",
+      "speaker": "spk:1",
+      "start_ms": 89500,
+      "end_ms": 89800
+    },
+    {
+      "text": "kind",
+      "speaker": "spk:1",
+      "start_ms": 89800,
+      "end_ms": 89900
+    },
+    {
+      "text": "of",
+      "speaker": "spk:1",
+      "start_ms": 89900,
+      "end_ms": 90000
+    },
+    {
+      "text": "apply",
+      "speaker": "spk:1",
+      "start_ms": 90000,
+      "end_ms": 90400
+    },
+    {
+      "text": "and",
+      "speaker": "spk:1",
+      "start_ms": 90400,
+      "end_ms": 90500
+    },
+    {
+      "text": "scale",
+      "speaker": "spk:1",
+      "start_ms": 90500,
+      "end_ms": 90900
+    },
+    {
+      "text": "that.",
+      "speaker": "spk:1",
+      "start_ms": 90900,
+      "end_ms": 91000
+    },
+    {
+      "text": "It's",
+      "speaker": "spk:1",
+      "start_ms": 91000,
+      "end_ms": 91100
+    },
+    {
+      "text": "like",
+      "speaker": "spk:1",
+      "start_ms": 91100,
+      "end_ms": 91200
+    },
+    {
+      "text": "a",
+      "speaker": "spk:1",
+      "start_ms": 91200,
+      "end_ms": 91200
+    },
+    {
+      "text": "tool",
+      "speaker": "spk:1",
+      "start_ms": 91200,
+      "end_ms": 91500
+    },
+    {
+      "text": "building",
+      "speaker": "spk:1",
+      "start_ms": 91500,
+      "end_ms": 92000
+    },
+    {
+      "text": "where",
+      "speaker": "spk:1",
+      "start_ms": 92000,
+      "end_ms": 92100
+    },
+    {
+      "text": "it's",
+      "speaker": "spk:1",
+      "start_ms": 92100,
+      "end_ms": 92200
+    },
+    {
+      "text": "like",
+      "speaker": "spk:1",
+      "start_ms": 92200,
+      "end_ms": 92300
+    },
+    {
+      "text": "the",
+      "speaker": "spk:1",
+      "start_ms": 92300,
+      "end_ms": 92400
+    },
+    {
+      "text": "business",
+      "speaker": "spk:1",
+      "start_ms": 92400,
+      "end_ms": 92800
+    },
+    {
+      "text": "is",
+      "speaker": "spk:1",
+      "start_ms": 92800,
+      "end_ms": 93000
+    },
+    {
+      "text": "a",
+      "speaker": "spk:1",
+      "start_ms": 93000,
+      "end_ms": 93000
+    },
+    {
+      "text": "tool",
+      "speaker": "spk:1",
+      "start_ms": 93000,
+      "end_ms": 93400
+    },
+    {
+      "text": "for",
+      "speaker": "spk:1",
+      "start_ms": 93400,
+      "end_ms": 93600
+    },
+    {
+      "text": "kind",
+      "speaker": "spk:1",
+      "start_ms": 93600,
+      "end_ms": 93800
+    },
+    {
+      "text": "of",
+      "speaker": "spk:1",
+      "start_ms": 93800,
+      "end_ms": 93800
+    },
+    {
+      "text": "scaling",
+      "speaker": "spk:1",
+      "start_ms": 93800,
+      "end_ms": 94300
+    },
+    {
+      "text": "a",
+      "speaker": "spk:1",
+      "start_ms": 94300,
+      "end_ms": 94400
+    },
+    {
+      "text": "certain,",
+      "speaker": "spk:1",
+      "start_ms": 94400,
+      "end_ms": 94800
+    },
+    {
+      "text": "you",
+      "speaker": "spk:1",
+      "start_ms": 94900,
+      "end_ms": 95000
+    },
+    {
+      "text": "know,",
+      "speaker": "spk:1",
+      "start_ms": 95000,
+      "end_ms": 95100
+    },
+    {
+      "text": "feature",
+      "speaker": "spk:1",
+      "start_ms": 95100,
+      "end_ms": 95600
+    },
+    {
+      "text": "or",
+      "speaker": "spk:1",
+      "start_ms": 95600,
+      "end_ms": 95700
+    },
+    {
+      "text": "product",
+      "speaker": "spk:1",
+      "start_ms": 95700,
+      "end_ms": 96200
+    },
+    {
+      "text": "and",
+      "speaker": "spk:1",
+      "start_ms": 96200,
+      "end_ms": 96400
+    },
+    {
+      "text": "things",
+      "speaker": "spk:1",
+      "start_ms": 96400,
+      "end_ms": 96600
+    },
+    {
+      "text": "like",
+      "speaker": "spk:1",
+      "start_ms": 96600,
+      "end_ms": 96700
+    },
+    {
+      "text": "that.",
+      "speaker": "spk:1",
+      "start_ms": 96700,
+      "end_ms": 97000
+    },
+    {
+      "text": "So",
+      "speaker": "spk:1",
+      "start_ms": 97000,
+      "end_ms": 97200
+    },
+    {
+      "text": "I",
+      "speaker": "spk:1",
+      "start_ms": 97200,
+      "end_ms": 97300
+    },
+    {
+      "text": "I",
+      "speaker": "spk:1",
+      "start_ms": 97300,
+      "end_ms": 97400
+    },
+    {
+      "text": "the",
+      "speaker": "spk:1",
+      "start_ms": 97400,
+      "end_ms": 97600
+    },
+    {
+      "text": "tinkering",
+      "speaker": "spk:1",
+      "start_ms": 97600,
+      "end_ms": 97900
+    },
+    {
+      "text": "is",
+      "speaker": "spk:1",
+      "start_ms": 97900,
+      "end_ms": 98000
+    },
+    {
+      "text": "both",
+      "speaker": "spk:1",
+      "start_ms": 98000,
+      "end_ms": 98200
+    },
+    {
+      "text": "on",
+      "speaker": "spk:1",
+      "start_ms": 98200,
+      "end_ms": 98300
+    },
+    {
+      "text": "the",
+      "speaker": "spk:1",
+      "start_ms": 98300,
+      "end_ms": 98400
+    },
+    {
+      "text": "business",
+      "speaker": "spk:1",
+      "start_ms": 98400,
+      "end_ms": 98700
+    },
+    {
+      "text": "and",
+      "speaker": "spk:1",
+      "start_ms": 98700,
+      "end_ms": 98900
+    },
+    {
+      "text": "like",
+      "speaker": "spk:1",
+      "start_ms": 98900,
+      "end_ms": 99100
+    },
+    {
+      "text": "the",
+      "speaker": "spk:1",
+      "start_ms": 99100,
+      "end_ms": 99200
+    },
+    {
+      "text": "technical",
+      "speaker": "spk:1",
+      "start_ms": 99200,
+      "end_ms": 99600
+    },
+    {
+      "text": "side.",
+      "speaker": "spk:1",
+      "start_ms": 99600,
+      "end_ms": 99900
+    },
+    {
+      "text": "Then",
+      "speaker": "spk:1",
+      "start_ms": 100600,
+      "end_ms": 101000
+    },
+    {
+      "text": "and",
+      "speaker": "spk:1",
+      "start_ms": 101000,
+      "end_ms": 101100
+    },
+    {
+      "text": "it",
+      "speaker": "spk:1",
+      "start_ms": 101100,
+      "end_ms": 101200
+    },
+    {
+      "text": "was",
+      "speaker": "spk:1",
+      "start_ms": 101200,
+      "end_ms": 101400
+    },
+    {
+      "text": "those",
+      "speaker": "spk:1",
+      "start_ms": 101400,
+      "end_ms": 101600
+    },
+    {
+      "text": "middle",
+      "speaker": "spk:1",
+      "start_ms": 101600,
+      "end_ms": 101900
+    },
+    {
+      "text": "years",
+      "speaker": "spk:1",
+      "start_ms": 101900,
+      "end_ms": 102200
+    },
+    {
+      "text": "at",
+      "speaker": "spk:1",
+      "start_ms": 102200,
+      "end_ms": 102400
+    },
+    {
+      "text": "Relativity",
+      "speaker": "spk:1",
+      "start_ms": 102400,
+      "end_ms": 103000
+    },
+    {
+      "text": "where",
+      "speaker": "spk:1",
+      "start_ms": 103000,
+      "end_ms": 103300
+    },
+    {
+      "text": "I",
+      "speaker": "spk:1",
+      "start_ms": 103300,
+      "end_ms": 103400
+    },
+    {
+      "text": "felt",
+      "speaker": "spk:1",
+      "start_ms": 103400,
+      "end_ms": 103800
+    },
+    {
+      "text": "at",
+      "speaker": "spk:1",
+      "start_ms": 103800,
+      "end_ms": 103900
+    },
+    {
+      "text": "times",
+      "speaker": "spk:1",
+      "start_ms": 103900,
+      "end_ms": 104200
+    },
+    {
+      "text": "I",
+      "speaker": "spk:1",
+      "start_ms": 104200,
+      "end_ms": 104300
+    },
+    {
+      "text": "was",
+      "speaker": "spk:1",
+      "start_ms": 104300,
+      "end_ms": 104500
+    },
+    {
+      "text": "just",
+      "speaker": "spk:1",
+      "start_ms": 104500,
+      "end_ms": 104800
+    },
+    {
+      "text": "faded",
+      "speaker": "spk:1",
+      "start_ms": 104800,
+      "end_ms": 105200
+    },
+    {
+      "text": "to",
+      "speaker": "spk:1",
+      "start_ms": 105200,
+      "end_ms": 105300
+    },
+    {
+      "text": "be",
+      "speaker": "spk:1",
+      "start_ms": 105300,
+      "end_ms": 105400
+    },
+    {
+      "text": "a",
+      "speaker": "spk:1",
+      "start_ms": 105400,
+      "end_ms": 105500
+    },
+    {
+      "text": "middle",
+      "speaker": "spk:1",
+      "start_ms": 105500,
+      "end_ms": 105800
+    },
+    {
+      "text": "manager.",
+      "speaker": "spk:1",
+      "start_ms": 105800,
+      "end_ms": 106300
+    },
+    {
+      "text": "You",
+      "speaker": "spk:1",
+      "start_ms": 107000,
+      "end_ms": 107100
+    },
+    {
+      "text": "know,",
+      "speaker": "spk:1",
+      "start_ms": 107100,
+      "end_ms": 107300
+    },
+    {
+      "text": "cuz",
+      "speaker": "spk:1",
+      "start_ms": 107300,
+      "end_ms": 107400
+    },
+    {
+      "text": "you",
+      "speaker": "spk:1",
+      "start_ms": 107400,
+      "end_ms": 107600
+    },
+    {
+      "text": "were",
+      "speaker": "spk:1",
+      "start_ms": 107600,
+      "end_ms": 107800
+    },
+    {
+      "text": "I",
+      "speaker": "spk:1",
+      "start_ms": 107800,
+      "end_ms": 107800
+    },
+    {
+      "text": "was",
+      "speaker": "spk:1",
+      "start_ms": 107800,
+      "end_ms": 108000
+    },
+    {
+      "text": "at",
+      "speaker": "spk:1",
+      "start_ms": 108000,
+      "end_ms": 108100
+    },
+    {
+      "text": "that",
+      "speaker": "spk:1",
+      "start_ms": 108100,
+      "end_ms": 108400
+    },
+    {
+      "text": "level,",
+      "speaker": "spk:1",
+      "start_ms": 108400,
+      "end_ms": 108700
+    },
+    {
+      "text": "you",
+      "speaker": "spk:1",
+      "start_ms": 108700,
+      "end_ms": 108800
+    },
+    {
+      "text": "know,",
+      "speaker": "spk:1",
+      "start_ms": 108800,
+      "end_ms": 108900
+    },
+    {
+      "text": "you",
+      "speaker": "spk:1",
+      "start_ms": 108900,
+      "end_ms": 109100
+    },
+    {
+      "text": "everyone",
+      "speaker": "spk:1",
+      "start_ms": 109100,
+      "end_ms": 109600
+    },
+    {
+      "text": "passes",
+      "speaker": "spk:1",
+      "start_ms": 109600,
+      "end_ms": 110000
+    },
+    {
+      "text": "through",
+      "speaker": "spk:1",
+      "start_ms": 110000,
+      "end_ms": 110100
+    },
+    {
+      "text": "that.",
+      "speaker": "spk:1",
+      "start_ms": 110100,
+      "end_ms": 110200
+    },
+    {
+      "text": "You",
+      "speaker": "spk:1",
+      "start_ms": 110200,
+      "end_ms": 110300
+    },
+    {
+      "text": "know,",
+      "speaker": "spk:1",
+      "start_ms": 110300,
+      "end_ms": 110400
+    },
+    {
+      "text": "you're",
+      "speaker": "spk:1",
+      "start_ms": 110400,
+      "end_ms": 110500
+    },
+    {
+      "text": "a",
+      "speaker": "spk:1",
+      "start_ms": 110500,
+      "end_ms": 110600
+    },
+    {
+      "text": "founder",
+      "speaker": "spk:1",
+      "start_ms": 110600,
+      "end_ms": 110900
+    },
+    {
+      "text": "on",
+      "speaker": "spk:1",
+      "start_ms": 110900,
+      "end_ms": 111000
+    },
+    {
+      "text": "day",
+      "speaker": "spk:1",
+      "start_ms": 111000,
+      "end_ms": 111200
+    },
+    {
+      "text": "one,",
+      "speaker": "spk:1",
+      "start_ms": 111200,
+      "end_ms": 111500
+    },
+    {
+      "text": "you're",
+      "speaker": "spk:1",
+      "start_ms": 111500,
+      "end_ms": 111700
+    },
+    {
+      "text": "a",
+      "speaker": "spk:1",
+      "start_ms": 111700,
+      "end_ms": 111800
+    },
+    {
+      "text": "C",
+      "speaker": "spk:1",
+      "start_ms": 111800,
+      "end_ms": 111900
+    },
+    {
+      "text": "level",
+      "speaker": "spk:1",
+      "start_ms": 111900,
+      "end_ms": 112200
+    },
+    {
+      "text": "on",
+      "speaker": "spk:1",
+      "start_ms": 112200,
+      "end_ms": 112300
+    },
+    {
+      "text": "day",
+      "speaker": "spk:1",
+      "start_ms": 112300,
+      "end_ms": 112500
+    },
+    {
+      "text": "one,",
+      "speaker": "spk:1",
+      "start_ms": 112500,
+      "end_ms": 112900
+    },
+    {
+      "text": "but",
+      "speaker": "spk:1",
+      "start_ms": 112900,
+      "end_ms": 113100
+    },
+    {
+      "text": "you",
+      "speaker": "spk:1",
+      "start_ms": 113100,
+      "end_ms": 113100
+    },
+    {
+      "text": "know,",
+      "speaker": "spk:1",
+      "start_ms": 113100,
+      "end_ms": 113300
+    },
+    {
+      "text": "you're",
+      "speaker": "spk:1",
+      "start_ms": 113300,
+      "end_ms": 113400
+    },
+    {
+      "text": "the",
+      "speaker": "spk:1",
+      "start_ms": 113400,
+      "end_ms": 113600
+    },
+    {
+      "text": "only",
+      "speaker": "spk:1",
+      "start_ms": 113600,
+      "end_ms": 113800
+    },
+    {
+      "text": "engineer.",
+      "speaker": "spk:1",
+      "start_ms": 113800,
+      "end_ms": 114200
+    },
+    {
+      "text": "You're",
+      "speaker": "spk:1",
+      "start_ms": 114200,
+      "end_ms": 114300
+    },
+    {
+      "text": "not",
+      "speaker": "spk:1",
+      "start_ms": 114300,
+      "end_ms": 114400
+    },
+    {
+      "text": "really",
+      "speaker": "spk:1",
+      "start_ms": 114400,
+      "end_ms": 114800
+    },
+    {
+      "text": "acting",
+      "speaker": "spk:1",
+      "start_ms": 114900,
+      "end_ms": 115500
+    },
+    {
+      "text": "at",
+      "speaker": "spk:1",
+      "start_ms": 115500,
+      "end_ms": 115600
+    },
+    {
+      "text": "a",
+      "speaker": "spk:1",
+      "start_ms": 115600,
+      "end_ms": 115700
+    },
+    {
+      "text": "C",
+      "speaker": "spk:1",
+      "start_ms": 115700,
+      "end_ms": 115900
+    },
+    {
+      "text": "level.",
+      "speaker": "spk:1",
+      "start_ms": 115900,
+      "end_ms": 116300
+    },
+    {
+      "text": "You",
+      "speaker": "spk:1",
+      "start_ms": 116400,
+      "end_ms": 116500
+    },
+    {
+      "text": "know,",
+      "speaker": "spk:1",
+      "start_ms": 116500,
+      "end_ms": 116600
+    },
+    {
+      "text": "you're",
+      "speaker": "spk:1",
+      "start_ms": 116600,
+      "end_ms": 116800
+    },
+    {
+      "text": "acting",
+      "speaker": "spk:1",
+      "start_ms": 116800,
+      "end_ms": 117000
+    },
+    {
+      "text": "as",
+      "speaker": "spk:1",
+      "start_ms": 117000,
+      "end_ms": 117100
+    },
+    {
+      "text": "a",
+      "speaker": "spk:1",
+      "start_ms": 117100,
+      "end_ms": 117200
+    },
+    {
+      "text": "founder,",
+      "speaker": "spk:1",
+      "start_ms": 117200,
+      "end_ms": 117500
+    },
+    {
+      "text": "not",
+      "speaker": "spk:1",
+      "start_ms": 117500,
+      "end_ms": 117700
+    },
+    {
+      "text": "a",
+      "speaker": "spk:1",
+      "start_ms": 117700,
+      "end_ms": 117800
+    },
+    {
+      "text": "C",
+      "speaker": "spk:1",
+      "start_ms": 117800,
+      "end_ms": 117900
+    },
+    {
+      "text": "level",
+      "speaker": "spk:1",
+      "start_ms": 117900,
+      "end_ms": 118200
+    },
+    {
+      "text": "executive.",
+      "speaker": "spk:1",
+      "start_ms": 118200,
+      "end_ms": 118700
+    },
+    {
+      "text": "And",
+      "speaker": "spk:1",
+      "start_ms": 119300,
+      "end_ms": 119400
+    },
+    {
+      "text": "then",
+      "speaker": "spk:1",
+      "start_ms": 119400,
+      "end_ms": 119600
+    },
+    {
+      "text": "you",
+      "speaker": "spk:1",
+      "start_ms": 119600,
+      "end_ms": 119800
+    },
+    {
+      "text": "go",
+      "speaker": "spk:1",
+      "start_ms": 119800,
+      "end_ms": 120000
+    },
+    {
+      "text": "through",
+      "speaker": "spk:1",
+      "start_ms": 120000,
+      "end_ms": 120100
+    },
+    {
+      "text": "those",
+      "speaker": "spk:1",
+      "start_ms": 120100,
+      "end_ms": 120400
+    },
+    {
+      "text": "kind",
+      "speaker": "spk:1",
+      "start_ms": 120400,
+      "end_ms": 120600
+    },
+    {
+      "text": "of",
+      "speaker": "spk:1",
+      "start_ms": 120600,
+      "end_ms": 120800
+    },
+    {
+      "text": "uh,",
+      "speaker": "spk:1",
+      "start_ms": 122400,
+      "end_ms": 122400
+    },
+    {
+      "text": "those",
+      "speaker": "spk:1",
+      "start_ms": 122400,
+      "end_ms": 122600
+    },
+    {
+      "text": "scaling",
+      "speaker": "spk:1",
+      "start_ms": 122600,
+      "end_ms": 123300
+    },
+    {
+      "text": "areas",
+      "speaker": "spk:1",
+      "start_ms": 123700,
+      "end_ms": 124000
+    },
+    {
+      "text": "where",
+      "speaker": "spk:1",
+      "start_ms": 124000,
+      "end_ms": 124100
+    },
+    {
+      "text": "you",
+      "speaker": "spk:1",
+      "start_ms": 124100,
+      "end_ms": 124200
+    },
+    {
+      "text": "go",
+      "speaker": "spk:1",
+      "start_ms": 124200,
+      "end_ms": 124400
+    },
+    {
+      "text": "from",
+      "speaker": "spk:1",
+      "start_ms": 124400,
+      "end_ms": 124500
+    },
+    {
+      "text": "being",
+      "speaker": "spk:1",
+      "start_ms": 124500,
+      "end_ms": 124700
+    },
+    {
+      "text": "the",
+      "speaker": "spk:1",
+      "start_ms": 124700,
+      "end_ms": 124800
+    },
+    {
+      "text": "only",
+      "speaker": "spk:1",
+      "start_ms": 124800,
+      "end_ms": 125100
+    },
+    {
+      "text": "engineer",
+      "speaker": "spk:1",
+      "start_ms": 125100,
+      "end_ms": 125700
+    },
+    {
+      "text": "to",
+      "speaker": "spk:1",
+      "start_ms": 125800,
+      "end_ms": 125900
+    },
+    {
+      "text": "then",
+      "speaker": "spk:1",
+      "start_ms": 125900,
+      "end_ms": 126000
+    },
+    {
+      "text": "leading",
+      "speaker": "spk:1",
+      "start_ms": 126000,
+      "end_ms": 126300
+    },
+    {
+      "text": "a",
+      "speaker": "spk:1",
+      "start_ms": 126300,
+      "end_ms": 126400
+    },
+    {
+      "text": "small",
+      "speaker": "spk:1",
+      "start_ms": 126400,
+      "end_ms": 126700
+    },
+    {
+      "text": "team",
+      "speaker": "spk:1",
+      "start_ms": 126700,
+      "end_ms": 126900
+    },
+    {
+      "text": "of",
+      "speaker": "spk:1",
+      "start_ms": 126900,
+      "end_ms": 127000
+    },
+    {
+      "text": "engineers",
+      "speaker": "spk:1",
+      "start_ms": 127000,
+      "end_ms": 127700
+    },
+    {
+      "text": "to",
+      "speaker": "spk:1",
+      "start_ms": 127700,
+      "end_ms": 127800
+    },
+    {
+      "text": "then",
+      "speaker": "spk:1",
+      "start_ms": 127800,
+      "end_ms": 128400
+    },
+    {
+      "text": "managing",
+      "speaker": "spk:1",
+      "start_ms": 128700,
+      "end_ms": 129200
+    },
+    {
+      "text": "managers.",
+      "speaker": "spk:1",
+      "start_ms": 129200,
+      "end_ms": 129900
+    },
+    {
+      "text": "Then",
+      "speaker": "spk:1",
+      "start_ms": 130200,
+      "end_ms": 130400
+    },
+    {
+      "text": "and",
+      "speaker": "spk:1",
+      "start_ms": 130400,
+      "end_ms": 130500
+    },
+    {
+      "text": "then",
+      "speaker": "spk:1",
+      "start_ms": 130500,
+      "end_ms": 130600
+    },
+    {
+      "text": "eventually",
+      "speaker": "spk:1",
+      "start_ms": 130600,
+      "end_ms": 131000
+    },
+    {
+      "text": "you're",
+      "speaker": "spk:1",
+      "start_ms": 131000,
+      "end_ms": 131100
+    },
+    {
+      "text": "managing",
+      "speaker": "spk:1",
+      "start_ms": 131100,
+      "end_ms": 131500
+    },
+    {
+      "text": "directors",
+      "speaker": "spk:1",
+      "start_ms": 131500,
+      "end_ms": 132100
+    },
+    {
+      "text": "and",
+      "speaker": "spk:1",
+      "start_ms": 132100,
+      "end_ms": 132200
+    },
+    {
+      "text": "managing",
+      "speaker": "spk:1",
+      "start_ms": 132200,
+      "end_ms": 132600
+    },
+    {
+      "text": "VPs",
+      "speaker": "spk:1",
+      "start_ms": 132600,
+      "end_ms": 133300
+    },
+    {
+      "text": "and",
+      "speaker": "spk:1",
+      "start_ms": 133300,
+      "end_ms": 133500
+    },
+    {
+      "text": "managing",
+      "speaker": "spk:1",
+      "start_ms": 133500,
+      "end_ms": 133800
+    },
+    {
+      "text": "other",
+      "speaker": "spk:1",
+      "start_ms": 133800,
+      "end_ms": 134000
+    },
+    {
+      "text": "C",
+      "speaker": "spk:1",
+      "start_ms": 134000,
+      "end_ms": 134200
+    },
+    {
+      "text": "level",
+      "speaker": "spk:1",
+      "start_ms": 134200,
+      "end_ms": 134400
+    },
+    {
+      "text": "folk.",
+      "speaker": "spk:1",
+      "start_ms": 134400,
+      "end_ms": 134800
+    },
+    {
+      "text": "Then",
+      "speaker": "spk:1",
+      "start_ms": 135300,
+      "end_ms": 135700
+    },
+    {
+      "text": "um,",
+      "speaker": "spk:1",
+      "start_ms": 135900,
+      "end_ms": 136000
+    },
+    {
+      "text": "there",
+      "speaker": "spk:1",
+      "start_ms": 136000,
+      "end_ms": 136100
+    },
+    {
+      "text": "is",
+      "speaker": "spk:1",
+      "start_ms": 136100,
+      "end_ms": 136300
+    },
+    {
+      "text": "the",
+      "speaker": "spk:1",
+      "start_ms": 136300,
+      "end_ms": 136400
+    },
+    {
+      "text": "middle",
+      "speaker": "spk:1",
+      "start_ms": 136400,
+      "end_ms": 136800
+    },
+    {
+      "text": "years",
+      "speaker": "spk:1",
+      "start_ms": 136800,
+      "end_ms": 137200
+    },
+    {
+      "text": "there",
+      "speaker": "spk:1",
+      "start_ms": 137200,
+      "end_ms": 137400
+    },
+    {
+      "text": "where",
+      "speaker": "spk:1",
+      "start_ms": 137400,
+      "end_ms": 137700
+    },
+    {
+      "text": "like",
+      "speaker": "spk:1",
+      "start_ms": 137700,
+      "end_ms": 137900
+    },
+    {
+      "text": "my",
+      "speaker": "spk:1",
+      "start_ms": 137900,
+      "end_ms": 138100
+    },
+    {
+      "text": "day-to-day",
+      "speaker": "spk:1",
+      "start_ms": 138100,
+      "end_ms": 138800
+    },
+    {
+      "text": "legitimately",
+      "speaker": "spk:1",
+      "start_ms": 138800,
+      "end_ms": 139800
+    },
+    {
+      "text": "other",
+      "speaker": "spk:1",
+      "start_ms": 139800,
+      "end_ms": 140000
+    },
+    {
+      "text": "than",
+      "speaker": "spk:1",
+      "start_ms": 140000,
+      "end_ms": 140100
+    },
+    {
+      "text": "on",
+      "speaker": "spk:1",
+      "start_ms": 140100,
+      "end_ms": 140200
+    },
+    {
+      "text": "like",
+      "speaker": "spk:1",
+      "start_ms": 140200,
+      "end_ms": 140400
+    },
+    {
+      "text": "the",
+      "speaker": "spk:1",
+      "start_ms": 140400,
+      "end_ms": 140500
+    },
+    {
+      "text": "fundraising",
+      "speaker": "spk:1",
+      "start_ms": 140500,
+      "end_ms": 141000
+    },
+    {
+      "text": "side",
+      "speaker": "spk:1",
+      "start_ms": 141000,
+      "end_ms": 141300
+    },
+    {
+      "text": "was",
+      "speaker": "spk:1",
+      "start_ms": 141300,
+      "end_ms": 141700
+    },
+    {
+      "text": "actually",
+      "speaker": "spk:1",
+      "start_ms": 141700,
+      "end_ms": 142100
+    },
+    {
+      "text": "at",
+      "speaker": "spk:1",
+      "start_ms": 142100,
+      "end_ms": 142300
+    },
+    {
+      "text": "the",
+      "speaker": "spk:1",
+      "start_ms": 142300,
+      "end_ms": 142400
+    },
+    {
+      "text": "middle",
+      "speaker": "spk:1",
+      "start_ms": 142400,
+      "end_ms": 142600
+    },
+    {
+      "text": "manager",
+      "speaker": "spk:1",
+      "start_ms": 142600,
+      "end_ms": 143100
+    },
+    {
+      "text": "level.",
+      "speaker": "spk:1",
+      "start_ms": 143100,
+      "end_ms": 143500
+    },
+    {
+      "text": "Like",
+      "speaker": "spk:1",
+      "start_ms": 143600,
+      "end_ms": 143800
+    },
+    {
+      "text": "you",
+      "speaker": "spk:1",
+      "start_ms": 143800,
+      "end_ms": 143800
+    },
+    {
+      "text": "always",
+      "speaker": "spk:1",
+      "start_ms": 143800,
+      "end_ms": 144100
+    },
+    {
+      "text": "pass",
+      "speaker": "spk:1",
+      "start_ms": 144100,
+      "end_ms": 144400
+    },
+    {
+      "text": "through",
+      "speaker": "spk:1",
+      "start_ms": 144400,
+      "end_ms": 144600
+    },
+    {
+      "text": "that.",
+      "speaker": "spk:1",
+      "start_ms": 144600,
+      "end_ms": 144800
+    },
+    {
+      "text": "And",
+      "speaker": "spk:1",
+      "start_ms": 145400,
+      "end_ms": 145500
+    },
+    {
+      "text": "that",
+      "speaker": "spk:1",
+      "start_ms": 145500,
+      "end_ms": 145700
+    },
+    {
+      "text": "is",
+      "speaker": "spk:1",
+      "start_ms": 145700,
+      "end_ms": 145900
+    },
+    {
+      "text": "I",
+      "speaker": "spk:1",
+      "start_ms": 145900,
+      "end_ms": 146000
+    },
+    {
+      "text": "think",
+      "speaker": "spk:1",
+      "start_ms": 146000,
+      "end_ms": 146100
+    },
+    {
+      "text": "I've",
+      "speaker": "spk:1",
+      "start_ms": 146100,
+      "end_ms": 146300
+    },
+    {
+      "text": "came",
+      "speaker": "spk:1",
+      "start_ms": 146300,
+      "end_ms": 146500
+    },
+    {
+      "text": "to",
+      "speaker": "spk:1",
+      "start_ms": 146500,
+      "end_ms": 146600
+    },
+    {
+      "text": "realize",
+      "speaker": "spk:1",
+      "start_ms": 146600,
+      "end_ms": 147000
+    },
+    {
+      "text": "for",
+      "speaker": "spk:1",
+      "start_ms": 147000,
+      "end_ms": 147100
+    },
+    {
+      "text": "me",
+      "speaker": "spk:1",
+      "start_ms": 147100,
+      "end_ms": 147200
+    },
+    {
+      "text": "I",
+      "speaker": "spk:1",
+      "start_ms": 147200,
+      "end_ms": 147300
+    },
+    {
+      "text": "like",
+      "speaker": "spk:1",
+      "start_ms": 147300,
+      "end_ms": 147700
+    },
+    {
+      "text": "the",
+      "speaker": "spk:1",
+      "start_ms": 147700,
+      "end_ms": 147800
+    },
+    {
+      "text": "high",
+      "speaker": "spk:1",
+      "start_ms": 147800,
+      "end_ms": 148100
+    },
+    {
+      "text": "level",
+      "speaker": "spk:1",
+      "start_ms": 148100,
+      "end_ms": 148500
+    },
+    {
+      "text": "of",
+      "speaker": "spk:1",
+      "start_ms": 148900,
+      "end_ms": 149000
+    },
+    {
+      "text": "the",
+      "speaker": "spk:1",
+      "start_ms": 149000,
+      "end_ms": 149100
+    },
+    {
+      "text": "strategic",
+      "speaker": "spk:1",
+      "start_ms": 149100,
+      "end_ms": 149600
+    },
+    {
+      "text": "direction",
+      "speaker": "spk:1",
+      "start_ms": 149600,
+      "end_ms": 150100
+    },
+    {
+      "text": "and",
+      "speaker": "spk:1",
+      "start_ms": 150100,
+      "end_ms": 150200
+    },
+    {
+      "text": "the",
+      "speaker": "spk:1",
+      "start_ms": 150200,
+      "end_ms": 150200
+    },
+    {
+      "text": "novel",
+      "speaker": "spk:1",
+      "start_ms": 150200,
+      "end_ms": 150500
+    },
+    {
+      "text": "idea",
+      "speaker": "spk:1",
+      "start_ms": 150500,
+      "end_ms": 150700
+    },
+    {
+      "text": "implementation.",
+      "speaker": "spk:1",
+      "start_ms": 150700,
+      "end_ms": 151300
+    },
+    {
+      "text": "I",
+      "speaker": "spk:1",
+      "start_ms": 151300,
+      "end_ms": 151400
+    },
+    {
+      "text": "love",
+      "speaker": "spk:1",
+      "start_ms": 151400,
+      "end_ms": 151800
+    },
+    {
+      "text": "the",
+      "speaker": "spk:1",
+      "start_ms": 151800,
+      "end_ms": 151900
+    },
+    {
+      "text": "tinkering.",
+      "speaker": "spk:1",
+      "start_ms": 151900,
+      "end_ms": 152500
+    },
+    {
+      "text": "And",
+      "speaker": "spk:1",
+      "start_ms": 153300,
+      "end_ms": 153400
+    },
+    {
+      "text": "I",
+      "speaker": "spk:1",
+      "start_ms": 153400,
+      "end_ms": 153700
+    },
+    {
+      "text": "hate",
+      "speaker": "spk:1",
+      "start_ms": 153800,
+      "end_ms": 154100
+    },
+    {
+      "text": "that",
+      "speaker": "spk:1",
+      "start_ms": 154100,
+      "end_ms": 154300
+    },
+    {
+      "text": "middle",
+      "speaker": "spk:1",
+      "start_ms": 154300,
+      "end_ms": 154500
+    },
+    {
+      "text": "manager",
+      "speaker": "spk:1",
+      "start_ms": 154500,
+      "end_ms": 154900
+    },
+    {
+      "text": "phase",
+      "speaker": "spk:1",
+      "start_ms": 154900,
+      "end_ms": 155200
+    },
+    {
+      "text": "of",
+      "speaker": "spk:1",
+      "start_ms": 155200,
+      "end_ms": 155400
+    },
+    {
+      "text": "of",
+      "speaker": "spk:1",
+      "start_ms": 155500,
+      "end_ms": 155700
+    },
+    {
+      "text": "growth",
+      "speaker": "spk:1",
+      "start_ms": 155700,
+      "end_ms": 156100
+    },
+    {
+      "text": "then",
+      "speaker": "spk:1",
+      "start_ms": 156100,
+      "end_ms": 156400
+    },
+    {
+      "text": "cuz",
+      "speaker": "spk:1",
+      "start_ms": 156400,
+      "end_ms": 156600
+    },
+    {
+      "text": "for",
+      "speaker": "spk:1",
+      "start_ms": 156600,
+      "end_ms": 156800
+    },
+    {
+      "text": "me",
+      "speaker": "spk:1",
+      "start_ms": 156800,
+      "end_ms": 156900
+    },
+    {
+      "text": "I",
+      "speaker": "spk:1",
+      "start_ms": 156900,
+      "end_ms": 157000
+    },
+    {
+      "text": "felt",
+      "speaker": "spk:1",
+      "start_ms": 157000,
+      "end_ms": 157400
+    },
+    {
+      "text": "that",
+      "speaker": "spk:1",
+      "start_ms": 157400,
+      "end_ms": 157500
+    },
+    {
+      "text": "my",
+      "speaker": "spk:1",
+      "start_ms": 157500,
+      "end_ms": 157600
+    },
+    {
+      "text": "entire",
+      "speaker": "spk:1",
+      "start_ms": 157600,
+      "end_ms": 158000
+    },
+    {
+      "text": "life",
+      "speaker": "spk:1",
+      "start_ms": 158000,
+      "end_ms": 158400
+    },
+    {
+      "text": "was",
+      "speaker": "spk:1",
+      "start_ms": 158400,
+      "end_ms": 158600
+    },
+    {
+      "text": "you",
+      "speaker": "spk:1",
+      "start_ms": 158600,
+      "end_ms": 158600
+    },
+    {
+      "text": "know,",
+      "speaker": "spk:1",
+      "start_ms": 158600,
+      "end_ms": 158800
+    },
+    {
+      "text": "going",
+      "speaker": "spk:1",
+      "start_ms": 158800,
+      "end_ms": 159200
+    },
+    {
+      "text": "through",
+      "speaker": "spk:1",
+      "start_ms": 159200,
+      "end_ms": 159800
+    },
+    {
+      "text": "you",
+      "speaker": "spk:1",
+      "start_ms": 160800,
+      "end_ms": 160900
+    },
+    {
+      "text": "know,",
+      "speaker": "spk:1",
+      "start_ms": 160900,
+      "end_ms": 161100
+    },
+    {
+      "text": "Gantt",
+      "speaker": "spk:1",
+      "start_ms": 161100,
+      "end_ms": 161400
+    },
+    {
+      "text": "charts,",
+      "speaker": "spk:1",
+      "start_ms": 161400,
+      "end_ms": 162000
+    },
+    {
+      "text": "budgets,",
+      "speaker": "spk:1",
+      "start_ms": 162000,
+      "end_ms": 162800
+    },
+    {
+      "text": "program",
+      "speaker": "spk:1",
+      "start_ms": 163100,
+      "end_ms": 163400
+    },
+    {
+      "text": "like",
+      "speaker": "spk:1",
+      "start_ms": 163500,
+      "end_ms": 163700
+    },
+    {
+      "text": "kind",
+      "speaker": "spk:1",
+      "start_ms": 163700,
+      "end_ms": 163800
+    },
+    {
+      "text": "of",
+      "speaker": "spk:1",
+      "start_ms": 163800,
+      "end_ms": 163900
+    },
+    {
+      "text": "program",
+      "speaker": "spk:1",
+      "start_ms": 163900,
+      "end_ms": 164200
+    },
+    {
+      "text": "management",
+      "speaker": "spk:1",
+      "start_ms": 164200,
+      "end_ms": 164700
+    },
+    {
+      "text": "level",
+      "speaker": "spk:1",
+      "start_ms": 164700,
+      "end_ms": 164900
+    },
+    {
+      "text": "work.",
+      "speaker": "spk:1",
+      "start_ms": 164900,
+      "end_ms": 165200
+    },
+    {
+      "text": "Then",
+      "speaker": "spk:1",
+      "start_ms": 165700,
+      "end_ms": 166000
+    },
+    {
+      "text": "that",
+      "speaker": "spk:1",
+      "start_ms": 166000,
+      "end_ms": 166200
+    },
+    {
+      "text": "I",
+      "speaker": "spk:1",
+      "start_ms": 166200,
+      "end_ms": 166400
+    },
+    {
+      "text": "very",
+      "speaker": "spk:1",
+      "start_ms": 166400,
+      "end_ms": 166800
+    },
+    {
+      "text": "much",
+      "speaker": "spk:1",
+      "start_ms": 166800,
+      "end_ms": 166900
+    },
+    {
+      "text": "came",
+      "speaker": "spk:1",
+      "start_ms": 166900,
+      "end_ms": 167100
+    },
+    {
+      "text": "to",
+      "speaker": "spk:1",
+      "start_ms": 167100,
+      "end_ms": 167200
+    },
+    {
+      "text": "realize",
+      "speaker": "spk:1",
+      "start_ms": 167200,
+      "end_ms": 167500
+    },
+    {
+      "text": "is",
+      "speaker": "spk:1",
+      "start_ms": 167500,
+      "end_ms": 167700
+    },
+    {
+      "text": "is",
+      "speaker": "spk:1",
+      "start_ms": 167700,
+      "end_ms": 167900
+    },
+    {
+      "text": "not",
+      "speaker": "spk:1",
+      "start_ms": 167900,
+      "end_ms": 168100
+    },
+    {
+      "text": "for",
+      "speaker": "spk:1",
+      "start_ms": 168100,
+      "end_ms": 168300
+    },
+    {
+      "text": "me.",
+      "speaker": "spk:1",
+      "start_ms": 168300,
+      "end_ms": 168500
+    },
+    {
+      "text": "Yeah.",
+      "speaker": "spk:1",
+      "start_ms": 169000,
+      "end_ms": 169300
+    },
+    {
+      "text": "Then",
+      "speaker": "spk:1",
+      "start_ms": 169700,
+      "end_ms": 169900
+    },
+    {
+      "text": "and",
+      "speaker": "spk:1",
+      "start_ms": 169900,
+      "end_ms": 170100
+    },
+    {
+      "text": "that's",
+      "speaker": "spk:1",
+      "start_ms": 170100,
+      "end_ms": 170400
+    },
+    {
+      "text": "where",
+      "speaker": "spk:1",
+      "start_ms": 170400,
+      "end_ms": 170600
+    },
+    {
+      "text": "I",
+      "speaker": "spk:1",
+      "start_ms": 170600,
+      "end_ms": 170700
+    },
+    {
+      "text": "felt",
+      "speaker": "spk:1",
+      "start_ms": 170700,
+      "end_ms": 170900
+    },
+    {
+      "text": "that",
+      "speaker": "spk:1",
+      "start_ms": 170900,
+      "end_ms": 171200
+    },
+    {
+      "text": "fear",
+      "speaker": "spk:1",
+      "start_ms": 171200,
+      "end_ms": 171400
+    },
+    {
+      "text": "the",
+      "speaker": "spk:1",
+      "start_ms": 171400,
+      "end_ms": 171500
+    },
+    {
+      "text": "most",
+      "speaker": "spk:1",
+      "start_ms": 171500,
+      "end_ms": 172000
+    },
+    {
+      "text": "which",
+      "speaker": "spk:1",
+      "start_ms": 172000,
+      "end_ms": 172200
+    },
+    {
+      "text": "was",
+      "speaker": "spk:1",
+      "start_ms": 172200,
+      "end_ms": 172600
+    },
+    {
+      "text": "I",
+      "speaker": "spk:1",
+      "start_ms": 172600,
+      "end_ms": 172800
+    },
+    {
+      "text": "wasn't",
+      "speaker": "spk:1",
+      "start_ms": 172800,
+      "end_ms": 173300
+    },
+    {
+      "text": "you",
+      "speaker": "spk:1",
+      "start_ms": 173900,
+      "end_ms": 174000
+    },
+    {
+      "text": "know,",
+      "speaker": "spk:1",
+      "start_ms": 174000,
+      "end_ms": 174100
+    },
+    {
+      "text": "trying",
+      "speaker": "spk:1",
+      "start_ms": 174100,
+      "end_ms": 174300
+    },
+    {
+      "text": "to",
+      "speaker": "spk:1",
+      "start_ms": 174300,
+      "end_ms": 174400
+    },
+    {
+      "text": "implement",
+      "speaker": "spk:1",
+      "start_ms": 174400,
+      "end_ms": 174700
+    },
+    {
+      "text": "new",
+      "speaker": "spk:1",
+      "start_ms": 174700,
+      "end_ms": 174800
+    },
+    {
+      "text": "ideas.",
+      "speaker": "spk:1",
+      "start_ms": 174800,
+      "end_ms": 175400
+    },
+    {
+      "text": "I",
+      "speaker": "spk:1",
+      "start_ms": 175400,
+      "end_ms": 175500
+    },
+    {
+      "text": "wasn't",
+      "speaker": "spk:1",
+      "start_ms": 175500,
+      "end_ms": 175800
+    },
+    {
+      "text": "executing",
+      "speaker": "spk:1",
+      "start_ms": 175800,
+      "end_ms": 176400
+    },
+    {
+      "text": "on",
+      "speaker": "spk:1",
+      "start_ms": 176400,
+      "end_ms": 176500
+    },
+    {
+      "text": "the",
+      "speaker": "spk:1",
+      "start_ms": 176500,
+      "end_ms": 176600
+    },
+    {
+      "text": "technical",
+      "speaker": "spk:1",
+      "start_ms": 176600,
+      "end_ms": 177100
+    },
+    {
+      "text": "work",
+      "speaker": "spk:1",
+      "start_ms": 177100,
+      "end_ms": 177600
+    },
+    {
+      "text": "developed",
+      "speaker": "spk:1",
+      "start_ms": 177700,
+      "end_ms": 178200
+    },
+    {
+      "text": "like",
+      "speaker": "spk:1",
+      "start_ms": 178200,
+      "end_ms": 178500
+    },
+    {
+      "text": "directly.",
+      "speaker": "spk:1",
+      "start_ms": 178500,
+      "end_ms": 179200
+    },
+    {
+      "text": "I",
+      "speaker": "spk:1",
+      "start_ms": 179200,
+      "end_ms": 179400
+    },
+    {
+      "text": "was",
+      "speaker": "spk:1",
+      "start_ms": 179400,
+      "end_ms": 179700
+    },
+    {
+      "text": "literally,",
+      "speaker": "spk:1",
+      "start_ms": 179700,
+      "end_ms": 180100
+    },
+    {
+      "text": "you",
+      "speaker": "spk:1",
+      "start_ms": 180100,
+      "end_ms": 180200
+    },
+    {
+      "text": "know,",
+      "speaker": "spk:1",
+      "start_ms": 180200,
+      "end_ms": 180400
+    },
+    {
+      "text": "micro",
+      "speaker": "spk:1",
+      "start_ms": 180500,
+      "end_ms": 181000
+    },
+    {
+      "text": "optimizing",
+      "speaker": "spk:1",
+      "start_ms": 181000,
+      "end_ms": 181600
+    },
+    {
+      "text": "Gantt",
+      "speaker": "spk:1",
+      "start_ms": 181600,
+      "end_ms": 181900
+    },
+    {
+      "text": "charts",
+      "speaker": "spk:1",
+      "start_ms": 181900,
+      "end_ms": 182400
+    },
+    {
+      "text": "and",
+      "speaker": "spk:1",
+      "start_ms": 182400,
+      "end_ms": 182600
+    },
+    {
+      "text": "program",
+      "speaker": "spk:1",
+      "start_ms": 182600,
+      "end_ms": 183000
+    },
+    {
+      "text": "plans",
+      "speaker": "spk:1",
+      "start_ms": 183000,
+      "end_ms": 183700
+    },
+    {
+      "text": "and",
+      "speaker": "spk:1",
+      "start_ms": 183700,
+      "end_ms": 184000
+    },
+    {
+      "text": "tracking",
+      "speaker": "spk:1",
+      "start_ms": 184000,
+      "end_ms": 184400
+    },
+    {
+      "text": "to",
+      "speaker": "spk:1",
+      "start_ms": 184400,
+      "end_ms": 184400
+    },
+    {
+      "text": "make",
+      "speaker": "spk:1",
+      "start_ms": 184400,
+      "end_ms": 184700
+    },
+    {
+      "text": "sure",
+      "speaker": "spk:1",
+      "start_ms": 184700,
+      "end_ms": 184900
+    },
+    {
+      "text": "that",
+      "speaker": "spk:1",
+      "start_ms": 184900,
+      "end_ms": 185000
+    },
+    {
+      "text": "our",
+      "speaker": "spk:1",
+      "start_ms": 185000,
+      "end_ms": 185200
+    },
+    {
+      "text": "growth",
+      "speaker": "spk:1",
+      "start_ms": 185200,
+      "end_ms": 185400
+    },
+    {
+      "text": "was",
+      "speaker": "spk:1",
+      "start_ms": 185400,
+      "end_ms": 185600
+    },
+    {
+      "text": "on",
+      "speaker": "spk:1",
+      "start_ms": 185600,
+      "end_ms": 185700
+    },
+    {
+      "text": "track",
+      "speaker": "spk:1",
+      "start_ms": 185700,
+      "end_ms": 186100
+    },
+    {
+      "text": "on",
+      "speaker": "spk:1",
+      "start_ms": 186100,
+      "end_ms": 186200
+    },
+    {
+      "text": "the",
+      "speaker": "spk:1",
+      "start_ms": 186200,
+      "end_ms": 186300
+    },
+    {
+      "text": "end",
+      "speaker": "spk:1",
+      "start_ms": 186300,
+      "end_ms": 186400
+    },
+    {
+      "text": "of",
+      "speaker": "spk:1",
+      "start_ms": 186400,
+      "end_ms": 186400
+    },
+    {
+      "text": "the",
+      "speaker": "spk:1",
+      "start_ms": 186400,
+      "end_ms": 186500
+    },
+    {
+      "text": "rocket",
+      "speaker": "spk:1",
+      "start_ms": 186500,
+      "end_ms": 186800
+    },
+    {
+      "text": "development",
+      "speaker": "spk:1",
+      "start_ms": 186800,
+      "end_ms": 187400
+    },
+    {
+      "text": "at",
+      "speaker": "spk:1",
+      "start_ms": 187500,
+      "end_ms": 187600
+    },
+    {
+      "text": "the",
+      "speaker": "spk:1",
+      "start_ms": 187600,
+      "end_ms": 187700
+    },
+    {
+      "text": "time",
+      "speaker": "spk:1",
+      "start_ms": 187700,
+      "end_ms": 188000
+    },
+    {
+      "text": "for",
+      "speaker": "spk:1",
+      "start_ms": 188000,
+      "end_ms": 188200
+    },
+    {
+      "text": "Relativity.",
+      "speaker": "spk:1",
+      "start_ms": 188200,
+      "end_ms": 188700
+    },
+    {
+      "text": "Then",
+      "speaker": "spk:1",
+      "start_ms": 189400,
+      "end_ms": 189600
+    },
+    {
+      "text": "and",
+      "speaker": "spk:1",
+      "start_ms": 189600,
+      "end_ms": 189800
+    },
+    {
+      "text": "I",
+      "speaker": "spk:1",
+      "start_ms": 189800,
+      "end_ms": 190100
+    },
+    {
+      "text": "I",
+      "speaker": "spk:1",
+      "start_ms": 190200,
+      "end_ms": 190400
+    },
+    {
+      "text": "felt",
+      "speaker": "spk:1",
+      "start_ms": 190400,
+      "end_ms": 190700
+    },
+    {
+      "text": "the",
+      "speaker": "spk:1",
+      "start_ms": 190700,
+      "end_ms": 190800
+    },
+    {
+      "text": "very",
+      "speaker": "spk:1",
+      "start_ms": 190800,
+      "end_ms": 191100
+    },
+    {
+      "text": "strong",
+      "speaker": "spk:1",
+      "start_ms": 191100,
+      "end_ms": 191400
+    },
+    {
+      "text": "frustration",
+      "speaker": "spk:1",
+      "start_ms": 191400,
+      "end_ms": 192000
+    },
+    {
+      "text": "there",
+      "speaker": "spk:1",
+      "start_ms": 192000,
+      "end_ms": 192200
+    },
+    {
+      "text": "and",
+      "speaker": "spk:1",
+      "start_ms": 192200,
+      "end_ms": 192300
+    },
+    {
+      "text": "where",
+      "speaker": "spk:1",
+      "start_ms": 192300,
+      "end_ms": 192400
+    },
+    {
+      "text": "that",
+      "speaker": "spk:1",
+      "start_ms": 192400,
+      "end_ms": 192600
+    },
+    {
+      "text": "fear",
+      "speaker": "spk:1",
+      "start_ms": 192600,
+      "end_ms": 192900
+    },
+    {
+      "text": "was.",
+      "speaker": "spk:1",
+      "start_ms": 192900,
+      "end_ms": 193200
+    },
+    {
+      "text": "But",
+      "speaker": "spk:1",
+      "start_ms": 193300,
+      "end_ms": 193400
+    },
+    {
+      "text": "I",
+      "speaker": "spk:1",
+      "start_ms": 193400,
+      "end_ms": 193500
+    },
+    {
+      "text": "I",
+      "speaker": "spk:1",
+      "start_ms": 193500,
+      "end_ms": 193600
+    },
+    {
+      "text": "will",
+      "speaker": "spk:1",
+      "start_ms": 193600,
+      "end_ms": 193800
+    },
+    {
+      "text": "say",
+      "speaker": "spk:1",
+      "start_ms": 193800,
+      "end_ms": 194000
+    },
+    {
+      "text": "now",
+      "speaker": "spk:1",
+      "start_ms": 194000,
+      "end_ms": 194400
+    },
+    {
+      "text": "like",
+      "speaker": "spk:1",
+      "start_ms": 194400,
+      "end_ms": 194800
+    },
+    {
+      "text": "I've",
+      "speaker": "spk:1",
+      "start_ms": 195400,
+      "end_ms": 195500
+    },
+    {
+      "text": "executed",
+      "speaker": "spk:1",
+      "start_ms": 195500,
+      "end_ms": 196000
+    },
+    {
+      "text": "on",
+      "speaker": "spk:1",
+      "start_ms": 196000,
+      "end_ms": 196200
+    },
+    {
+      "text": "a",
+      "speaker": "spk:1",
+      "start_ms": 196200,
+      "end_ms": 196200
+    },
+    {
+      "text": "couple",
+      "speaker": "spk:1",
+      "start_ms": 196200,
+      "end_ms": 196500
+    },
+    {
+      "text": "projects",
+      "speaker": "spk:1",
+      "start_ms": 196500,
+      "end_ms": 197200
+    },
+    {
+      "text": "that",
+      "speaker": "spk:1",
+      "start_ms": 197200,
+      "end_ms": 197400
+    },
+    {
+      "text": "um,",
+      "speaker": "spk:1",
+      "start_ms": 198200,
+      "end_ms": 198400
+    },
+    {
+      "text": "I've",
+      "speaker": "spk:1",
+      "start_ms": 198400,
+      "end_ms": 198500
+    },
+    {
+      "text": "worked",
+      "speaker": "spk:1",
+      "start_ms": 198500,
+      "end_ms": 198700
+    },
+    {
+      "text": "on",
+      "speaker": "spk:1",
+      "start_ms": 198700,
+      "end_ms": 198800
+    },
+    {
+      "text": "some",
+      "speaker": "spk:1",
+      "start_ms": 198800,
+      "end_ms": 198900
+    },
+    {
+      "text": "of",
+      "speaker": "spk:1",
+      "start_ms": 198900,
+      "end_ms": 198900
+    },
+    {
+      "text": "the",
+      "speaker": "spk:1",
+      "start_ms": 198900,
+      "end_ms": 199000
+    },
+    {
+      "text": "most",
+      "speaker": "spk:1",
+      "start_ms": 199000,
+      "end_ms": 199400
+    },
+    {
+      "text": "amazing",
+      "speaker": "spk:1",
+      "start_ms": 199400,
+      "end_ms": 199800
+    },
+    {
+      "text": "hardware",
+      "speaker": "spk:1",
+      "start_ms": 199800,
+      "end_ms": 200200
+    },
+    {
+      "text": "in",
+      "speaker": "spk:1",
+      "start_ms": 200200,
+      "end_ms": 200200
+    },
+    {
+      "text": "the",
+      "speaker": "spk:1",
+      "start_ms": 200200,
+      "end_ms": 200300
+    },
+    {
+      "text": "world,",
+      "speaker": "spk:1",
+      "start_ms": 200300,
+      "end_ms": 200700
+    },
+    {
+      "text": "kind",
+      "speaker": "spk:1",
+      "start_ms": 200700,
+      "end_ms": 200800
+    },
+    {
+      "text": "of",
+      "speaker": "spk:1",
+      "start_ms": 200800,
+      "end_ms": 200900
+    },
+    {
+      "text": "the",
+      "speaker": "spk:1",
+      "start_ms": 200900,
+      "end_ms": 201000
+    },
+    {
+      "text": "most",
+      "speaker": "spk:1",
+      "start_ms": 201000,
+      "end_ms": 201200
+    },
+    {
+      "text": "amazing",
+      "speaker": "spk:1",
+      "start_ms": 201200,
+      "end_ms": 201500
+    },
+    {
+      "text": "projects",
+      "speaker": "spk:1",
+      "start_ms": 201500,
+      "end_ms": 201900
+    },
+    {
+      "text": "in",
+      "speaker": "spk:1",
+      "start_ms": 201900,
+      "end_ms": 202000
+    },
+    {
+      "text": "the",
+      "speaker": "spk:1",
+      "start_ms": 202000,
+      "end_ms": 202100
+    },
+    {
+      "text": "world.",
+      "speaker": "spk:1",
+      "start_ms": 202100,
+      "end_ms": 202600
+    },
+    {
+      "text": "I'm",
+      "speaker": "spk:1",
+      "start_ms": 202800,
+      "end_ms": 203000
+    },
+    {
+      "text": "30",
+      "speaker": "spk:1",
+      "start_ms": 203000,
+      "end_ms": 203300
+    },
+    {
+      "text": "now",
+      "speaker": "spk:1",
+      "start_ms": 203300,
+      "end_ms": 203800
+    },
+    {
+      "text": "or",
+      "speaker": "spk:1",
+      "start_ms": 203800,
+      "end_ms": 203900
+    },
+    {
+      "text": "30",
+      "speaker": "spk:1",
+      "start_ms": 203900,
+      "end_ms": 204400
+    },
+    {
+      "text": "I'm",
+      "speaker": "spk:1",
+      "start_ms": 204800,
+      "end_ms": 205000
+    },
+    {
+      "text": "30",
+      "speaker": "spk:1",
+      "start_ms": 205000,
+      "end_ms": 205200
+    },
+    {
+      "text": "now.",
+      "speaker": "spk:1",
+      "start_ms": 205200,
+      "end_ms": 205400
+    },
+    {
+      "text": "That's",
+      "speaker": "spk:1",
+      "start_ms": 205400,
+      "end_ms": 205600
+    },
+    {
+      "text": "about",
+      "speaker": "spk:1",
+      "start_ms": 205600,
+      "end_ms": 205800
+    },
+    {
+      "text": "as",
+      "speaker": "spk:1",
+      "start_ms": 205800,
+      "end_ms": 205900
+    },
+    {
+      "text": "getting",
+      "speaker": "spk:1",
+      "start_ms": 206300,
+      "end_ms": 206500
+    },
+    {
+      "text": "for",
+      "speaker": "spk:1",
+      "start_ms": 206500,
+      "end_ms": 206600
+    },
+    {
+      "text": "a",
+      "speaker": "spk:1",
+      "start_ms": 206600,
+      "end_ms": 206600
+    },
+    {
+      "text": "second.",
+      "speaker": "spk:1",
+      "start_ms": 206600,
+      "end_ms": 207000
+    },
+    {
+      "text": "Then",
+      "speaker": "spk:1",
+      "start_ms": 207300,
+      "end_ms": 207500
+    },
+    {
+      "text": "I",
+      "speaker": "spk:1",
+      "start_ms": 207500,
+      "end_ms": 207600
+    },
+    {
+      "text": "turned",
+      "speaker": "spk:1",
+      "start_ms": 207600,
+      "end_ms": 207900
+    },
+    {
+      "text": "30",
+      "speaker": "spk:1",
+      "start_ms": 207900,
+      "end_ms": 208200
+    },
+    {
+      "text": "in",
+      "speaker": "spk:1",
+      "start_ms": 208200,
+      "end_ms": 208300
+    },
+    {
+      "text": "in",
+      "speaker": "spk:1",
+      "start_ms": 208900,
+      "end_ms": 209000
+    },
+    {
+      "text": "November.",
+      "speaker": "spk:1",
+      "start_ms": 209000,
+      "end_ms": 209600
+    },
+    {
+      "text": "Then",
+      "speaker": "spk:1",
+      "start_ms": 209800,
+      "end_ms": 210200
+    },
+    {
+      "text": "then",
+      "speaker": "spk:1",
+      "start_ms": 210300,
+      "end_ms": 210500
+    },
+    {
+      "text": "at",
+      "speaker": "spk:1",
+      "start_ms": 210500,
+      "end_ms": 210600
+    },
+    {
+      "text": "least",
+      "speaker": "spk:1",
+      "start_ms": 210600,
+      "end_ms": 210800
+    },
+    {
+      "text": "for",
+      "speaker": "spk:1",
+      "start_ms": 210800,
+      "end_ms": 211000
+    },
+    {
+      "text": "me",
+      "speaker": "spk:1",
+      "start_ms": 211000,
+      "end_ms": 211200
+    },
+    {
+      "text": "like",
+      "speaker": "spk:1",
+      "start_ms": 211200,
+      "end_ms": 211400
+    },
+    {
+      "text": "I've",
+      "speaker": "spk:1",
+      "start_ms": 211400,
+      "end_ms": 211500
+    },
+    {
+      "text": "worked",
+      "speaker": "spk:1",
+      "start_ms": 211500,
+      "end_ms": 211800
+    },
+    {
+      "text": "on",
+      "speaker": "spk:1",
+      "start_ms": 211800,
+      "end_ms": 211900
+    },
+    {
+      "text": "those",
+      "speaker": "spk:1",
+      "start_ms": 211900,
+      "end_ms": 212100
+    },
+    {
+      "text": "projects",
+      "speaker": "spk:1",
+      "start_ms": 212100,
+      "end_ms": 212600
+    },
+    {
+      "text": "and",
+      "speaker": "spk:1",
+      "start_ms": 212600,
+      "end_ms": 212800
+    },
+    {
+      "text": "found",
+      "speaker": "spk:1",
+      "start_ms": 212800,
+      "end_ms": 213000
+    },
+    {
+      "text": "kind",
+      "speaker": "spk:1",
+      "start_ms": 213000,
+      "end_ms": 213100
+    },
+    {
+      "text": "of",
+      "speaker": "spk:1",
+      "start_ms": 213100,
+      "end_ms": 213200
+    },
+    {
+      "text": "a",
+      "speaker": "spk:1",
+      "start_ms": 213200,
+      "end_ms": 213300
+    },
+    {
+      "text": "lane",
+      "speaker": "spk:1",
+      "start_ms": 213300,
+      "end_ms": 213900
+    },
+    {
+      "text": "especially",
+      "speaker": "spk:1",
+      "start_ms": 214100,
+      "end_ms": 214500
+    },
+    {
+      "text": "on",
+      "speaker": "spk:1",
+      "start_ms": 214500,
+      "end_ms": 214600
+    },
+    {
+      "text": "the",
+      "speaker": "spk:1",
+      "start_ms": 214600,
+      "end_ms": 214700
+    },
+    {
+      "text": "investment",
+      "speaker": "spk:1",
+      "start_ms": 214700,
+      "end_ms": 215100
+    },
+    {
+      "text": "side",
+      "speaker": "spk:1",
+      "start_ms": 215100,
+      "end_ms": 215400
+    },
+    {
+      "text": "for",
+      "speaker": "spk:1",
+      "start_ms": 215400,
+      "end_ms": 215500
+    },
+    {
+      "text": "me",
+      "speaker": "spk:1",
+      "start_ms": 215500,
+      "end_ms": 215800
+    },
+    {
+      "text": "kind",
+      "speaker": "spk:1",
+      "start_ms": 215800,
+      "end_ms": 215900
+    },
+    {
+      "text": "of",
+      "speaker": "spk:1",
+      "start_ms": 215900,
+      "end_ms": 216000
+    },
+    {
+      "text": "post",
+      "speaker": "spk:1",
+      "start_ms": 216000,
+      "end_ms": 216300
+    },
+    {
+      "text": "Relativity",
+      "speaker": "spk:1",
+      "start_ms": 216300,
+      "end_ms": 216800
+    },
+    {
+      "text": "where",
+      "speaker": "spk:1",
+      "start_ms": 216800,
+      "end_ms": 217200
+    },
+    {
+      "text": "I",
+      "speaker": "spk:1",
+      "start_ms": 217200,
+      "end_ms": 217200
+    },
+    {
+      "text": "get",
+      "speaker": "spk:1",
+      "start_ms": 217200,
+      "end_ms": 217400
+    },
+    {
+      "text": "to",
+      "speaker": "spk:1",
+      "start_ms": 217400,
+      "end_ms": 217500
+    },
+    {
+      "text": "work",
+      "speaker": "spk:1",
+      "start_ms": 217500,
+      "end_ms": 217900
+    },
+    {
+      "text": "with",
+      "speaker": "spk:1",
+      "start_ms": 217900,
+      "end_ms": 218000
+    },
+    {
+      "text": "founders",
+      "speaker": "spk:1",
+      "start_ms": 218000,
+      "end_ms": 218500
+    },
+    {
+      "text": "on",
+      "speaker": "spk:1",
+      "start_ms": 218500,
+      "end_ms": 218700
+    },
+    {
+      "text": "day",
+      "speaker": "spk:1",
+      "start_ms": 218700,
+      "end_ms": 218900
+    },
+    {
+      "text": "one",
+      "speaker": "spk:1",
+      "start_ms": 218900,
+      "end_ms": 219200
+    },
+    {
+      "text": "then",
+      "speaker": "spk:1",
+      "start_ms": 220000,
+      "end_ms": 220300
+    },
+    {
+      "text": "help",
+      "speaker": "spk:1",
+      "start_ms": 220300,
+      "end_ms": 220500
+    },
+    {
+      "text": "support",
+      "speaker": "spk:1",
+      "start_ms": 220500,
+      "end_ms": 221000
+    },
+    {
+      "text": "support",
+      "speaker": "spk:1",
+      "start_ms": 222300,
+      "end_ms": 222700
+    },
+    {
+      "text": "them,",
+      "speaker": "spk:1",
+      "start_ms": 222700,
+      "end_ms": 223000
+    },
+    {
+      "text": "support",
+      "speaker": "spk:1",
+      "start_ms": 223000,
+      "end_ms": 223400
+    },
+    {
+      "text": "their",
+      "speaker": "spk:1",
+      "start_ms": 223400,
+      "end_ms": 223500
+    },
+    {
+      "text": "growth",
+      "speaker": "spk:1",
+      "start_ms": 223500,
+      "end_ms": 224100
+    },
+    {
+      "text": "then",
+      "speaker": "spk:1",
+      "start_ms": 224300,
+      "end_ms": 224800
+    },
+    {
+      "text": "in",
+      "speaker": "spk:1",
+      "start_ms": 225900,
+      "end_ms": 226000
+    },
+    {
+      "text": "a",
+      "speaker": "spk:1",
+      "start_ms": 226000,
+      "end_ms": 226000
+    },
+    {
+      "text": "way",
+      "speaker": "spk:1",
+      "start_ms": 226000,
+      "end_ms": 226200
+    },
+    {
+      "text": "that",
+      "speaker": "spk:1",
+      "start_ms": 226200,
+      "end_ms": 226400
+    },
+    {
+      "text": "that's",
+      "speaker": "spk:1",
+      "start_ms": 226400,
+      "end_ms": 226700
+    },
+    {
+      "text": "the",
+      "speaker": "spk:1",
+      "start_ms": 226700,
+      "end_ms": 226800
+    },
+    {
+      "text": "phase",
+      "speaker": "spk:1",
+      "start_ms": 226800,
+      "end_ms": 227100
+    },
+    {
+      "text": "of",
+      "speaker": "spk:1",
+      "start_ms": 227100,
+      "end_ms": 227200
+    },
+    {
+      "text": "company",
+      "speaker": "spk:1",
+      "start_ms": 227200,
+      "end_ms": 227700
+    },
+    {
+      "text": "and",
+      "speaker": "spk:1",
+      "start_ms": 227700,
+      "end_ms": 227800
+    },
+    {
+      "text": "idea",
+      "speaker": "spk:1",
+      "start_ms": 227800,
+      "end_ms": 228200
+    },
+    {
+      "text": "that",
+      "speaker": "spk:1",
+      "start_ms": 228200,
+      "end_ms": 228300
+    },
+    {
+      "text": "I",
+      "speaker": "spk:1",
+      "start_ms": 228300,
+      "end_ms": 228400
+    },
+    {
+      "text": "really",
+      "speaker": "spk:1",
+      "start_ms": 228400,
+      "end_ms": 228700
+    },
+    {
+      "text": "love",
+      "speaker": "spk:1",
+      "start_ms": 228700,
+      "end_ms": 228900
+    },
+    {
+      "text": "working",
+      "speaker": "spk:1",
+      "start_ms": 228900,
+      "end_ms": 229300
+    },
+    {
+      "text": "on.",
+      "speaker": "spk:1",
+      "start_ms": 229300,
+      "end_ms": 229500
+    },
+    {
+      "text": "How",
+      "speaker": "spk:1",
+      "start_ms": 229500,
+      "end_ms": 229600
+    },
+    {
+      "text": "do",
+      "speaker": "spk:1",
+      "start_ms": 229600,
+      "end_ms": 229700
+    },
+    {
+      "text": "you",
+      "speaker": "spk:1",
+      "start_ms": 229700,
+      "end_ms": 229800
+    },
+    {
+      "text": "turn",
+      "speaker": "spk:1",
+      "start_ms": 229800,
+      "end_ms": 230000
+    },
+    {
+      "text": "a",
+      "speaker": "spk:1",
+      "start_ms": 230000,
+      "end_ms": 230000
+    },
+    {
+      "text": "cool",
+      "speaker": "spk:1",
+      "start_ms": 230000,
+      "end_ms": 230300
+    },
+    {
+      "text": "idea",
+      "speaker": "spk:1",
+      "start_ms": 230300,
+      "end_ms": 230900
+    },
+    {
+      "text": "into",
+      "speaker": "spk:1",
+      "start_ms": 231400,
+      "end_ms": 231800
+    },
+    {
+      "text": "a",
+      "speaker": "spk:1",
+      "start_ms": 231800,
+      "end_ms": 231800
+    },
+    {
+      "text": "company",
+      "speaker": "spk:1",
+      "start_ms": 231800,
+      "end_ms": 232300
+    },
+    {
+      "text": "then",
+      "speaker": "spk:1",
+      "start_ms": 232700,
+      "end_ms": 232900
+    },
+    {
+      "text": "and",
+      "speaker": "spk:1",
+      "start_ms": 232900,
+      "end_ms": 233000
+    },
+    {
+      "text": "develop",
+      "speaker": "spk:1",
+      "start_ms": 233000,
+      "end_ms": 233500
+    },
+    {
+      "text": "both",
+      "speaker": "spk:1",
+      "start_ms": 233500,
+      "end_ms": 233800
+    },
+    {
+      "text": "simultaneously.",
+      "speaker": "spk:1",
+      "start_ms": 233800,
+      "end_ms": 235000
+    },
+    {
+      "text": "And",
+      "speaker": "spk:1",
+      "start_ms": 235100,
+      "end_ms": 235300
+    },
+    {
+      "text": "at",
+      "speaker": "spk:1",
+      "start_ms": 235300,
+      "end_ms": 235300
+    },
+    {
+      "text": "this",
+      "speaker": "spk:1",
+      "start_ms": 235300,
+      "end_ms": 235500
+    },
+    {
+      "text": "point",
+      "speaker": "spk:1",
+      "start_ms": 235500,
+      "end_ms": 235800
+    },
+    {
+      "text": "I'd",
+      "speaker": "spk:1",
+      "start_ms": 235800,
+      "end_ms": 235800
+    },
+    {
+      "text": "say",
+      "speaker": "spk:1",
+      "start_ms": 235800,
+      "end_ms": 236000
+    },
+    {
+      "text": "I'm",
+      "speaker": "spk:1",
+      "start_ms": 236000,
+      "end_ms": 236300
+    },
+    {
+      "text": "I'm",
+      "speaker": "spk:1",
+      "start_ms": 236300,
+      "end_ms": 236500
+    },
+    {
+      "text": "fairly",
+      "speaker": "spk:1",
+      "start_ms": 236500,
+      "end_ms": 237200
+    },
+    {
+      "text": "not",
+      "speaker": "spk:1",
+      "start_ms": 237400,
+      "end_ms": 237600
+    },
+    {
+      "text": "in",
+      "speaker": "spk:1",
+      "start_ms": 237600,
+      "end_ms": 237600
+    },
+    {
+      "text": "a",
+      "speaker": "spk:1",
+      "start_ms": 237600,
+      "end_ms": 237700
+    },
+    {
+      "text": "way",
+      "speaker": "spk:1",
+      "start_ms": 237700,
+      "end_ms": 237800
+    },
+    {
+      "text": "where",
+      "speaker": "spk:1",
+      "start_ms": 237800,
+      "end_ms": 237900
+    },
+    {
+      "text": "I'm",
+      "speaker": "spk:1",
+      "start_ms": 237900,
+      "end_ms": 238100
+    },
+    {
+      "text": "I'm",
+      "speaker": "spk:1",
+      "start_ms": 238200,
+      "end_ms": 238500
+    },
+    {
+      "text": "lazy,",
+      "speaker": "spk:1",
+      "start_ms": 238500,
+      "end_ms": 238900
+    },
+    {
+      "text": "but",
+      "speaker": "spk:1",
+      "start_ms": 238900,
+      "end_ms": 239100
+    },
+    {
+      "text": "I",
+      "speaker": "spk:1",
+      "start_ms": 239100,
+      "end_ms": 239100
+    },
+    {
+      "text": "'m",
+      "speaker": "spk:1",
+      "start_ms": 239100,
+      "end_ms": 239200
+    },
+    {
+      "text": "satisfied.",
+      "speaker": "spk:1",
+      "start_ms": 239200,
+      "end_ms": 239800
+    },
+    {
+      "text": "Like",
+      "speaker": "spk:1",
+      "start_ms": 240400,
+      "end_ms": 240600
+    },
+    {
+      "text": "that",
+      "speaker": "spk:1",
+      "start_ms": 240600,
+      "end_ms": 240900
+    },
+    {
+      "text": "fear",
+      "speaker": "spk:1",
+      "start_ms": 240900,
+      "end_ms": 241300
+    },
+    {
+      "text": "of",
+      "speaker": "spk:1",
+      "start_ms": 241300,
+      "end_ms": 241400
+    },
+    {
+      "text": "finding",
+      "speaker": "spk:1",
+      "start_ms": 241400,
+      "end_ms": 241900
+    },
+    {
+      "text": "kind",
+      "speaker": "spk:1",
+      "start_ms": 241900,
+      "end_ms": 242100
+    },
+    {
+      "text": "of",
+      "speaker": "spk:1",
+      "start_ms": 242100,
+      "end_ms": 242200
+    },
+    {
+      "text": "my",
+      "speaker": "spk:1",
+      "start_ms": 242200,
+      "end_ms": 242400
+    },
+    {
+      "text": "place",
+      "speaker": "spk:1",
+      "start_ms": 242400,
+      "end_ms": 242800
+    },
+    {
+      "text": "and",
+      "speaker": "spk:1",
+      "start_ms": 242800,
+      "end_ms": 242900
+    },
+    {
+      "text": "way",
+      "speaker": "spk:1",
+      "start_ms": 242900,
+      "end_ms": 243100
+    },
+    {
+      "text": "to",
+      "speaker": "spk:1",
+      "start_ms": 243100,
+      "end_ms": 243300
+    },
+    {
+      "text": "apply",
+      "speaker": "spk:1",
+      "start_ms": 243300,
+      "end_ms": 243600
+    },
+    {
+      "text": "my",
+      "speaker": "spk:1",
+      "start_ms": 243600,
+      "end_ms": 243900
+    },
+    {
+      "text": "skills",
+      "speaker": "spk:1",
+      "start_ms": 243900,
+      "end_ms": 244400
+    },
+    {
+      "text": "has",
+      "speaker": "spk:1",
+      "start_ms": 244400,
+      "end_ms": 244800
+    },
+    {
+      "text": "been",
+      "speaker": "spk:1",
+      "start_ms": 244800,
+      "end_ms": 245200
+    },
+    {
+      "text": "um,",
+      "speaker": "spk:1",
+      "start_ms": 246300,
+      "end_ms": 246300
+    },
+    {
+      "text": "satisfied.",
+      "speaker": "spk:1",
+      "start_ms": 246500,
+      "end_ms": 247000
+    },
+    {
+      "text": "There",
+      "speaker": "spk:0",
+      "start_ms": 250800,
+      "end_ms": 251000
+    },
+    {
+      "text": "you",
+      "speaker": "spk:0",
+      "start_ms": 251000,
+      "end_ms": 251100
+    },
+    {
+      "text": "go,",
+      "speaker": "spk:0",
+      "start_ms": 251100,
+      "end_ms": 251300
+    },
+    {
+      "text": "you",
+      "speaker": "spk:0",
+      "start_ms": 251300,
+      "end_ms": 251400
+    },
+    {
+      "text": "guys.",
+      "speaker": "spk:0",
+      "start_ms": 251400,
+      "end_ms": 251800
+    },
+    {
+      "text": "What",
+      "speaker": "spk:0",
+      "start_ms": 251800,
+      "end_ms": 252000
+    },
+    {
+      "text": "does",
+      "speaker": "spk:0",
+      "start_ms": 252000,
+      "end_ms": 252200
+    },
+    {
+      "text": "a",
+      "speaker": "spk:0",
+      "start_ms": 252200,
+      "end_ms": 252200
+    },
+    {
+      "text": "billion",
+      "speaker": "spk:0",
+      "start_ms": 252200,
+      "end_ms": 252800
+    },
+    {
+      "text": "dollar",
+      "speaker": "spk:0",
+      "start_ms": 252800,
+      "end_ms": 253200
+    },
+    {
+      "text": "space",
+      "speaker": "spk:0",
+      "start_ms": 253200,
+      "end_ms": 253600
+    },
+    {
+      "text": "tycoon",
+      "speaker": "spk:0",
+      "start_ms": 253700,
+      "end_ms": 254300
+    },
+    {
+      "text": "fear?",
+      "speaker": "spk:0",
+      "start_ms": 254500,
+      "end_ms": 255100
+    },
+    {
+      "text": "And",
+      "speaker": "spk:0",
+      "start_ms": 255800,
+      "end_ms": 256200
+    },
+    {
+      "text": "Jordan",
+      "speaker": "spk:0",
+      "start_ms": 256200,
+      "end_ms": 256600
+    },
+    {
+      "text": "had",
+      "speaker": "spk:0",
+      "start_ms": 256600,
+      "end_ms": 257200
+    },
+    {
+      "text": "a",
+      "speaker": "spk:0",
+      "start_ms": 257200,
+      "end_ms": 257300
+    },
+    {
+      "text": "very",
+      "speaker": "spk:0",
+      "start_ms": 257300,
+      "end_ms": 257600
+    },
+    {
+      "text": "unique,",
+      "speaker": "spk:0",
+      "start_ms": 257600,
+      "end_ms": 258200
+    },
+    {
+      "text": "but",
+      "speaker": "spk:0",
+      "start_ms": 258200,
+      "end_ms": 258400
+    },
+    {
+      "text": "not",
+      "speaker": "spk:0",
+      "start_ms": 258400,
+      "end_ms": 258500
+    },
+    {
+      "text": "too",
+      "speaker": "spk:0",
+      "start_ms": 258500,
+      "end_ms": 258700
+    },
+    {
+      "text": "uncommon",
+      "speaker": "spk:0",
+      "start_ms": 258700,
+      "end_ms": 259300
+    },
+    {
+      "text": "answer",
+      "speaker": "spk:0",
+      "start_ms": 259300,
+      "end_ms": 259600
+    },
+    {
+      "text": "I",
+      "speaker": "spk:0",
+      "start_ms": 259600,
+      "end_ms": 259700
+    },
+    {
+      "text": "don't",
+      "speaker": "spk:0",
+      "start_ms": 259700,
+      "end_ms": 259900
+    },
+    {
+      "text": "think.",
+      "speaker": "spk:0",
+      "start_ms": 259900,
+      "end_ms": 260300
+    },
+    {
+      "text": "It",
+      "speaker": "spk:0",
+      "start_ms": 261100,
+      "end_ms": 261200
+    },
+    {
+      "text": "was",
+      "speaker": "spk:0",
+      "start_ms": 261200,
+      "end_ms": 261800
+    },
+    {
+      "text": "his",
+      "speaker": "spk:0",
+      "start_ms": 261800,
+      "end_ms": 262300
+    },
+    {
+      "text": "skill",
+      "speaker": "spk:0",
+      "start_ms": 262400,
+      "end_ms": 262800
+    },
+    {
+      "text": "set",
+      "speaker": "spk:0",
+      "start_ms": 262800,
+      "end_ms": 263300
+    },
+    {
+      "text": "not",
+      "speaker": "spk:0",
+      "start_ms": 263300,
+      "end_ms": 263700
+    },
+    {
+      "text": "being",
+      "speaker": "spk:0",
+      "start_ms": 263700,
+      "end_ms": 264000
+    },
+    {
+      "text": "utilized.",
+      "speaker": "spk:0",
+      "start_ms": 264000,
+      "end_ms": 265000
+    },
+    {
+      "text": "And",
+      "speaker": "spk:0",
+      "start_ms": 265300,
+      "end_ms": 265400
+    },
+    {
+      "text": "I",
+      "speaker": "spk:0",
+      "start_ms": 265400,
+      "end_ms": 265400
+    },
+    {
+      "text": "think",
+      "speaker": "spk:0",
+      "start_ms": 265400,
+      "end_ms": 265700
+    },
+    {
+      "text": "this",
+      "speaker": "spk:0",
+      "start_ms": 265700,
+      "end_ms": 266000
+    },
+    {
+      "text": "the",
+      "speaker": "spk:0",
+      "start_ms": 266400,
+      "end_ms": 266600
+    },
+    {
+      "text": "root",
+      "speaker": "spk:0",
+      "start_ms": 266600,
+      "end_ms": 266900
+    },
+    {
+      "text": "of",
+      "speaker": "spk:0",
+      "start_ms": 266900,
+      "end_ms": 267000
+    },
+    {
+      "text": "that",
+      "speaker": "spk:0",
+      "start_ms": 267000,
+      "end_ms": 267300
+    },
+    {
+      "text": "is",
+      "speaker": "spk:0",
+      "start_ms": 267300,
+      "end_ms": 267500
+    },
+    {
+      "text": "really",
+      "speaker": "spk:0",
+      "start_ms": 267500,
+      "end_ms": 268100
+    },
+    {
+      "text": "the",
+      "speaker": "spk:0",
+      "start_ms": 268400,
+      "end_ms": 268600
+    },
+    {
+      "text": "fulfillment",
+      "speaker": "spk:0",
+      "start_ms": 268600,
+      "end_ms": 269500
+    },
+    {
+      "text": "that",
+      "speaker": "spk:0",
+      "start_ms": 269800,
+      "end_ms": 269900
+    },
+    {
+      "text": "you",
+      "speaker": "spk:0",
+      "start_ms": 269900,
+      "end_ms": 270000
+    },
+    {
+      "text": "find",
+      "speaker": "spk:0",
+      "start_ms": 270000,
+      "end_ms": 270700
+    },
+    {
+      "text": "in",
+      "speaker": "spk:0",
+      "start_ms": 270700,
+      "end_ms": 270900
+    },
+    {
+      "text": "your",
+      "speaker": "spk:0",
+      "start_ms": 270900,
+      "end_ms": 271000
+    },
+    {
+      "text": "natural",
+      "speaker": "spk:0",
+      "start_ms": 271000,
+      "end_ms": 271600
+    },
+    {
+      "text": "abilities",
+      "speaker": "spk:0",
+      "start_ms": 271600,
+      "end_ms": 272200
+    },
+    {
+      "text": "and",
+      "speaker": "spk:0",
+      "start_ms": 272200,
+      "end_ms": 272300
+    },
+    {
+      "text": "talents",
+      "speaker": "spk:0",
+      "start_ms": 272300,
+      "end_ms": 273000
+    },
+    {
+      "text": "to",
+      "speaker": "spk:0",
+      "start_ms": 273300,
+      "end_ms": 273400
+    },
+    {
+      "text": "give",
+      "speaker": "spk:0",
+      "start_ms": 273400,
+      "end_ms": 274000
+    },
+    {
+      "text": "to",
+      "speaker": "spk:0",
+      "start_ms": 274000,
+      "end_ms": 274100
+    },
+    {
+      "text": "the",
+      "speaker": "spk:0",
+      "start_ms": 274100,
+      "end_ms": 274200
+    },
+    {
+      "text": "world",
+      "speaker": "spk:0",
+      "start_ms": 274200,
+      "end_ms": 274500
+    },
+    {
+      "text": "if",
+      "speaker": "spk:0",
+      "start_ms": 275400,
+      "end_ms": 275500
+    },
+    {
+      "text": "we",
+      "speaker": "spk:0",
+      "start_ms": 275500,
+      "end_ms": 275700
+    },
+    {
+      "text": "could",
+      "speaker": "spk:0",
+      "start_ms": 275700,
+      "end_ms": 275900
+    },
+    {
+      "text": "articulate",
+      "speaker": "spk:0",
+      "start_ms": 275900,
+      "end_ms": 276500
+    },
+    {
+      "text": "that",
+      "speaker": "spk:0",
+      "start_ms": 276500,
+      "end_ms": 276900
+    },
+    {
+      "text": "a",
+      "speaker": "spk:0",
+      "start_ms": 276900,
+      "end_ms": 277000
+    },
+    {
+      "text": "little",
+      "speaker": "spk:0",
+      "start_ms": 277000,
+      "end_ms": 277200
+    },
+    {
+      "text": "bit",
+      "speaker": "spk:0",
+      "start_ms": 277200,
+      "end_ms": 277400
+    },
+    {
+      "text": "differently.",
+      "speaker": "spk:0",
+      "start_ms": 277400,
+      "end_ms": 277900
+    },
+    {
+      "text": "And",
+      "speaker": "spk:0",
+      "start_ms": 278700,
+      "end_ms": 279400
+    },
+    {
+      "text": "I",
+      "speaker": "spk:0",
+      "start_ms": 279400,
+      "end_ms": 279500
+    },
+    {
+      "text": "look",
+      "speaker": "spk:0",
+      "start_ms": 279500,
+      "end_ms": 279700
+    },
+    {
+      "text": "at",
+      "speaker": "spk:0",
+      "start_ms": 279700,
+      "end_ms": 279800
+    },
+    {
+      "text": "my",
+      "speaker": "spk:0",
+      "start_ms": 279800,
+      "end_ms": 280000
+    },
+    {
+      "text": "greatest",
+      "speaker": "spk:0",
+      "start_ms": 280000,
+      "end_ms": 280300
+    },
+    {
+      "text": "fear",
+      "speaker": "spk:0",
+      "start_ms": 280300,
+      "end_ms": 280800
+    },
+    {
+      "text": "and",
+      "speaker": "spk:0",
+      "start_ms": 280800,
+      "end_ms": 281000
+    },
+    {
+      "text": "I",
+      "speaker": "spk:0",
+      "start_ms": 281000,
+      "end_ms": 281000
+    },
+    {
+      "text": "compare",
+      "speaker": "spk:0",
+      "start_ms": 281000,
+      "end_ms": 281600
+    },
+    {
+      "text": "it",
+      "speaker": "spk:0",
+      "start_ms": 281600,
+      "end_ms": 282000
+    },
+    {
+      "text": "to",
+      "speaker": "spk:0",
+      "start_ms": 282000,
+      "end_ms": 282400
+    },
+    {
+      "text": "Jordan's",
+      "speaker": "spk:0",
+      "start_ms": 282400,
+      "end_ms": 282800
+    },
+    {
+      "text": "here.",
+      "speaker": "spk:0",
+      "start_ms": 282800,
+      "end_ms": 283100
+    },
+    {
+      "text": "My",
+      "speaker": "spk:0",
+      "start_ms": 283400,
+      "end_ms": 283500
+    },
+    {
+      "text": "greatest",
+      "speaker": "spk:0",
+      "start_ms": 283500,
+      "end_ms": 283800
+    },
+    {
+      "text": "fear",
+      "speaker": "spk:0",
+      "start_ms": 283800,
+      "end_ms": 284200
+    },
+    {
+      "text": "is",
+      "speaker": "spk:0",
+      "start_ms": 284200,
+      "end_ms": 284700
+    },
+    {
+      "text": "the",
+      "speaker": "spk:0",
+      "start_ms": 284700,
+      "end_ms": 284800
+    },
+    {
+      "text": "fear",
+      "speaker": "spk:0",
+      "start_ms": 284800,
+      "end_ms": 285100
+    },
+    {
+      "text": "of",
+      "speaker": "spk:0",
+      "start_ms": 285100,
+      "end_ms": 285200
+    },
+    {
+      "text": "a",
+      "speaker": "spk:0",
+      "start_ms": 285200,
+      "end_ms": 285200
+    },
+    {
+      "text": "half",
+      "speaker": "spk:0",
+      "start_ms": 285200,
+      "end_ms": 285500
+    },
+    {
+      "text": "lived",
+      "speaker": "spk:0",
+      "start_ms": 285500,
+      "end_ms": 285800
+    },
+    {
+      "text": "life",
+      "speaker": "spk:0",
+      "start_ms": 285800,
+      "end_ms": 286100
+    },
+    {
+      "text": "which",
+      "speaker": "spk:0",
+      "start_ms": 286700,
+      "end_ms": 287000
+    },
+    {
+      "text": "means",
+      "speaker": "spk:0",
+      "start_ms": 287000,
+      "end_ms": 287400
+    },
+    {
+      "text": "a",
+      "speaker": "spk:0",
+      "start_ms": 287400,
+      "end_ms": 287500
+    },
+    {
+      "text": "life",
+      "speaker": "spk:0",
+      "start_ms": 287500,
+      "end_ms": 287900
+    },
+    {
+      "text": "that",
+      "speaker": "spk:0",
+      "start_ms": 287900,
+      "end_ms": 288000
+    },
+    {
+      "text": "isn't",
+      "speaker": "spk:0",
+      "start_ms": 288000,
+      "end_ms": 288300
+    },
+    {
+      "text": "fulfilled.",
+      "speaker": "spk:0",
+      "start_ms": 288300,
+      "end_ms": 288900
+    },
+    {
+      "text": "It",
+      "speaker": "spk:0",
+      "start_ms": 289300,
+      "end_ms": 289400
+    },
+    {
+      "text": "means",
+      "speaker": "spk:0",
+      "start_ms": 289400,
+      "end_ms": 289800
+    },
+    {
+      "text": "a",
+      "speaker": "spk:0",
+      "start_ms": 289800,
+      "end_ms": 289800
+    },
+    {
+      "text": "life",
+      "speaker": "spk:0",
+      "start_ms": 289800,
+      "end_ms": 290400
+    },
+    {
+      "text": "where",
+      "speaker": "spk:0",
+      "start_ms": 290400,
+      "end_ms": 290800
+    },
+    {
+      "text": "I",
+      "speaker": "spk:0",
+      "start_ms": 290800,
+      "end_ms": 291200
+    },
+    {
+      "text": "let",
+      "speaker": "spk:0",
+      "start_ms": 291200,
+      "end_ms": 291600
+    },
+    {
+      "text": "fear",
+      "speaker": "spk:0",
+      "start_ms": 292200,
+      "end_ms": 292600
+    },
+    {
+      "text": "mediocrity",
+      "speaker": "spk:0",
+      "start_ms": 293000,
+      "end_ms": 293900
+    },
+    {
+      "text": "get",
+      "speaker": "spk:0",
+      "start_ms": 294100,
+      "end_ms": 294300
+    },
+    {
+      "text": "in",
+      "speaker": "spk:0",
+      "start_ms": 294300,
+      "end_ms": 294400
+    },
+    {
+      "text": "the",
+      "speaker": "spk:0",
+      "start_ms": 294400,
+      "end_ms": 294400
+    },
+    {
+      "text": "way",
+      "speaker": "spk:0",
+      "start_ms": 294400,
+      "end_ms": 294800
+    },
+    {
+      "text": "of",
+      "speaker": "spk:0",
+      "start_ms": 294800,
+      "end_ms": 294900
+    },
+    {
+      "text": "what",
+      "speaker": "spk:0",
+      "start_ms": 294900,
+      "end_ms": 295000
+    },
+    {
+      "text": "I",
+      "speaker": "spk:0",
+      "start_ms": 295000,
+      "end_ms": 295100
+    },
+    {
+      "text": "really",
+      "speaker": "spk:0",
+      "start_ms": 295100,
+      "end_ms": 295400
+    },
+    {
+      "text": "wanted",
+      "speaker": "spk:0",
+      "start_ms": 295400,
+      "end_ms": 295700
+    },
+    {
+      "text": "to",
+      "speaker": "spk:0",
+      "start_ms": 295700,
+      "end_ms": 295800
+    },
+    {
+      "text": "do",
+      "speaker": "spk:0",
+      "start_ms": 295800,
+      "end_ms": 296300
+    },
+    {
+      "text": "in",
+      "speaker": "spk:0",
+      "start_ms": 296300,
+      "end_ms": 296400
+    },
+    {
+      "text": "life.",
+      "speaker": "spk:0",
+      "start_ms": 296400,
+      "end_ms": 296800
+    },
+    {
+      "text": "And",
+      "speaker": "spk:0",
+      "start_ms": 297400,
+      "end_ms": 297500
+    },
+    {
+      "text": "this",
+      "speaker": "spk:0",
+      "start_ms": 297500,
+      "end_ms": 297600
+    },
+    {
+      "text": "is",
+      "speaker": "spk:0",
+      "start_ms": 297600,
+      "end_ms": 297700
+    },
+    {
+      "text": "very",
+      "speaker": "spk:0",
+      "start_ms": 297700,
+      "end_ms": 298000
+    },
+    {
+      "text": "much",
+      "speaker": "spk:0",
+      "start_ms": 298000,
+      "end_ms": 298300
+    },
+    {
+      "text": "where",
+      "speaker": "spk:0",
+      "start_ms": 298300,
+      "end_ms": 298600
+    },
+    {
+      "text": "Jordan",
+      "speaker": "spk:0",
+      "start_ms": 298600,
+      "end_ms": 299100
+    },
+    {
+      "text": "reverts",
+      "speaker": "spk:0",
+      "start_ms": 299200,
+      "end_ms": 299600
+    },
+    {
+      "text": "to",
+      "speaker": "spk:0",
+      "start_ms": 299600,
+      "end_ms": 300100
+    },
+    {
+      "text": "when",
+      "speaker": "spk:0",
+      "start_ms": 300200,
+      "end_ms": 300400
+    },
+    {
+      "text": "asked",
+      "speaker": "spk:0",
+      "start_ms": 300400,
+      "end_ms": 300600
+    },
+    {
+      "text": "this",
+      "speaker": "spk:0",
+      "start_ms": 300600,
+      "end_ms": 300800
+    },
+    {
+      "text": "question",
+      "speaker": "spk:0",
+      "start_ms": 300800,
+      "end_ms": 301200
+    },
+    {
+      "text": "because",
+      "speaker": "spk:0",
+      "start_ms": 301200,
+      "end_ms": 301700
+    },
+    {
+      "text": "he",
+      "speaker": "spk:0",
+      "start_ms": 302500,
+      "end_ms": 302700
+    },
+    {
+      "text": "said",
+      "speaker": "spk:0",
+      "start_ms": 302700,
+      "end_ms": 303200
+    },
+    {
+      "text": "the",
+      "speaker": "spk:0",
+      "start_ms": 303300,
+      "end_ms": 303400
+    },
+    {
+      "text": "time",
+      "speaker": "spk:0",
+      "start_ms": 303400,
+      "end_ms": 304000
+    },
+    {
+      "text": "when",
+      "speaker": "spk:0",
+      "start_ms": 304000,
+      "end_ms": 304100
+    },
+    {
+      "text": "his",
+      "speaker": "spk:0",
+      "start_ms": 304100,
+      "end_ms": 304300
+    },
+    {
+      "text": "fear",
+      "speaker": "spk:0",
+      "start_ms": 304300,
+      "end_ms": 304800
+    },
+    {
+      "text": "was",
+      "speaker": "spk:0",
+      "start_ms": 304800,
+      "end_ms": 305000
+    },
+    {
+      "text": "the",
+      "speaker": "spk:0",
+      "start_ms": 305000,
+      "end_ms": 305100
+    },
+    {
+      "text": "greatest",
+      "speaker": "spk:0",
+      "start_ms": 305100,
+      "end_ms": 305800
+    },
+    {
+      "text": "was",
+      "speaker": "spk:0",
+      "start_ms": 306200,
+      "end_ms": 306400
+    },
+    {
+      "text": "when",
+      "speaker": "spk:0",
+      "start_ms": 306400,
+      "end_ms": 306800
+    },
+    {
+      "text": "he",
+      "speaker": "spk:0",
+      "start_ms": 307100,
+      "end_ms": 307300
+    },
+    {
+      "text": "was",
+      "speaker": "spk:0",
+      "start_ms": 307300,
+      "end_ms": 307400
+    },
+    {
+      "text": "in",
+      "speaker": "spk:0",
+      "start_ms": 307400,
+      "end_ms": 307600
+    },
+    {
+      "text": "a",
+      "speaker": "spk:0",
+      "start_ms": 307600,
+      "end_ms": 307600
+    },
+    {
+      "text": "position",
+      "speaker": "spk:0",
+      "start_ms": 307600,
+      "end_ms": 308400
+    },
+    {
+      "text": "and",
+      "speaker": "spk:0",
+      "start_ms": 308400,
+      "end_ms": 308500
+    },
+    {
+      "text": "he",
+      "speaker": "spk:0",
+      "start_ms": 308500,
+      "end_ms": 308800
+    },
+    {
+      "text": "felt",
+      "speaker": "spk:0",
+      "start_ms": 308800,
+      "end_ms": 309100
+    },
+    {
+      "text": "mediocrity",
+      "speaker": "spk:0",
+      "start_ms": 309100,
+      "end_ms": 309900
+    },
+    {
+      "text": "the",
+      "speaker": "spk:0",
+      "start_ms": 309900,
+      "end_ms": 310100
+    },
+    {
+      "text": "most,",
+      "speaker": "spk:0",
+      "start_ms": 310100,
+      "end_ms": 310800
+    },
+    {
+      "text": "the",
+      "speaker": "spk:0",
+      "start_ms": 311100,
+      "end_ms": 311200
+    },
+    {
+      "text": "middle",
+      "speaker": "spk:0",
+      "start_ms": 311200,
+      "end_ms": 311500
+    },
+    {
+      "text": "years,",
+      "speaker": "spk:0",
+      "start_ms": 311500,
+      "end_ms": 312000
+    },
+    {
+      "text": "being",
+      "speaker": "spk:0",
+      "start_ms": 312000,
+      "end_ms": 312200
+    },
+    {
+      "text": "a",
+      "speaker": "spk:0",
+      "start_ms": 312200,
+      "end_ms": 312300
+    },
+    {
+      "text": "middle",
+      "speaker": "spk:0",
+      "start_ms": 312300,
+      "end_ms": 312600
+    },
+    {
+      "text": "manager",
+      "speaker": "spk:0",
+      "start_ms": 312600,
+      "end_ms": 313100
+    },
+    {
+      "text": "doing",
+      "speaker": "spk:0",
+      "start_ms": 314000,
+      "end_ms": 314200
+    },
+    {
+      "text": "mundane",
+      "speaker": "spk:0",
+      "start_ms": 314200,
+      "end_ms": 314900
+    },
+    {
+      "text": "things.",
+      "speaker": "spk:0",
+      "start_ms": 314900,
+      "end_ms": 315500
+    },
+    {
+      "text": "That",
+      "speaker": "spk:0",
+      "start_ms": 316300,
+      "end_ms": 316500
+    },
+    {
+      "text": "is",
+      "speaker": "spk:0",
+      "start_ms": 316500,
+      "end_ms": 316600
+    },
+    {
+      "text": "when",
+      "speaker": "spk:0",
+      "start_ms": 316600,
+      "end_ms": 317000
+    },
+    {
+      "text": "the",
+      "speaker": "spk:0",
+      "start_ms": 317000,
+      "end_ms": 317200
+    },
+    {
+      "text": "presence",
+      "speaker": "spk:0",
+      "start_ms": 317200,
+      "end_ms": 317600
+    },
+    {
+      "text": "of",
+      "speaker": "spk:0",
+      "start_ms": 317600,
+      "end_ms": 317700
+    },
+    {
+      "text": "that",
+      "speaker": "spk:0",
+      "start_ms": 317700,
+      "end_ms": 318000
+    },
+    {
+      "text": "fear",
+      "speaker": "spk:0",
+      "start_ms": 318000,
+      "end_ms": 318400
+    },
+    {
+      "text": "became",
+      "speaker": "spk:0",
+      "start_ms": 318800,
+      "end_ms": 319400
+    },
+    {
+      "text": "stronger",
+      "speaker": "spk:0",
+      "start_ms": 319700,
+      "end_ms": 320200
+    },
+    {
+      "text": "and",
+      "speaker": "spk:0",
+      "start_ms": 320200,
+      "end_ms": 320300
+    },
+    {
+      "text": "stronger.",
+      "speaker": "spk:0",
+      "start_ms": 320300,
+      "end_ms": 320800
+    },
+    {
+      "text": "And",
+      "speaker": "spk:0",
+      "start_ms": 321600,
+      "end_ms": 321700
+    },
+    {
+      "text": "it's",
+      "speaker": "spk:0",
+      "start_ms": 321700,
+      "end_ms": 321800
+    },
+    {
+      "text": "unfortunate,",
+      "speaker": "spk:0",
+      "start_ms": 321800,
+      "end_ms": 322400
+    },
+    {
+      "text": "but",
+      "speaker": "spk:0",
+      "start_ms": 322400,
+      "end_ms": 322600
+    },
+    {
+      "text": "I",
+      "speaker": "spk:0",
+      "start_ms": 322600,
+      "end_ms": 322600
+    },
+    {
+      "text": "think",
+      "speaker": "spk:0",
+      "start_ms": 322600,
+      "end_ms": 322800
+    },
+    {
+      "text": "a",
+      "speaker": "spk:0",
+      "start_ms": 322800,
+      "end_ms": 322900
+    },
+    {
+      "text": "lot",
+      "speaker": "spk:0",
+      "start_ms": 322900,
+      "end_ms": 323300
+    },
+    {
+      "text": "of",
+      "speaker": "spk:0",
+      "start_ms": 323300,
+      "end_ms": 323400
+    },
+    {
+      "text": "people",
+      "speaker": "spk:0",
+      "start_ms": 323400,
+      "end_ms": 323900
+    },
+    {
+      "text": "in",
+      "speaker": "spk:0",
+      "start_ms": 324400,
+      "end_ms": 324600
+    },
+    {
+      "text": "life,",
+      "speaker": "spk:0",
+      "start_ms": 324600,
+      "end_ms": 325100
+    },
+    {
+      "text": "they",
+      "speaker": "spk:0",
+      "start_ms": 325200,
+      "end_ms": 325400
+    },
+    {
+      "text": "settle",
+      "speaker": "spk:0",
+      "start_ms": 325400,
+      "end_ms": 326100
+    },
+    {
+      "text": "for",
+      "speaker": "spk:0",
+      "start_ms": 326100,
+      "end_ms": 326400
+    },
+    {
+      "text": "this",
+      "speaker": "spk:0",
+      "start_ms": 326400,
+      "end_ms": 326600
+    },
+    {
+      "text": "mediocrity",
+      "speaker": "spk:0",
+      "start_ms": 326600,
+      "end_ms": 327400
+    },
+    {
+      "text": "because",
+      "speaker": "spk:0",
+      "start_ms": 327900,
+      "end_ms": 328300
+    },
+    {
+      "text": "of",
+      "speaker": "spk:0",
+      "start_ms": 328300,
+      "end_ms": 328500
+    },
+    {
+      "text": "living",
+      "speaker": "spk:0",
+      "start_ms": 328500,
+      "end_ms": 328700
+    },
+    {
+      "text": "a",
+      "speaker": "spk:0",
+      "start_ms": 328700,
+      "end_ms": 328800
+    },
+    {
+      "text": "life",
+      "speaker": "spk:0",
+      "start_ms": 328800,
+      "end_ms": 329200
+    },
+    {
+      "text": "that",
+      "speaker": "spk:0",
+      "start_ms": 329200,
+      "end_ms": 329800
+    },
+    {
+      "text": "for",
+      "speaker": "spk:0",
+      "start_ms": 330000,
+      "end_ms": 330100
+    },
+    {
+      "text": "whatever",
+      "speaker": "spk:0",
+      "start_ms": 330100,
+      "end_ms": 330500
+    },
+    {
+      "text": "reason",
+      "speaker": "spk:0",
+      "start_ms": 330500,
+      "end_ms": 330900
+    },
+    {
+      "text": "their",
+      "speaker": "spk:0",
+      "start_ms": 330900,
+      "end_ms": 331100
+    },
+    {
+      "text": "experience",
+      "speaker": "spk:0",
+      "start_ms": 331100,
+      "end_ms": 331800
+    },
+    {
+      "text": "in",
+      "speaker": "spk:0",
+      "start_ms": 331800,
+      "end_ms": 331900
+    },
+    {
+      "text": "society",
+      "speaker": "spk:0",
+      "start_ms": 331900,
+      "end_ms": 332400
+    },
+    {
+      "text": "has",
+      "speaker": "spk:0",
+      "start_ms": 332400,
+      "end_ms": 332600
+    },
+    {
+      "text": "taught",
+      "speaker": "spk:0",
+      "start_ms": 332600,
+      "end_ms": 333000
+    },
+    {
+      "text": "them",
+      "speaker": "spk:0",
+      "start_ms": 333000,
+      "end_ms": 333200
+    },
+    {
+      "text": "that",
+      "speaker": "spk:0",
+      "start_ms": 333200,
+      "end_ms": 333300
+    },
+    {
+      "text": "they",
+      "speaker": "spk:0",
+      "start_ms": 333300,
+      "end_ms": 333500
+    },
+    {
+      "text": "should",
+      "speaker": "spk:0",
+      "start_ms": 333500,
+      "end_ms": 333900
+    },
+    {
+      "text": "live",
+      "speaker": "spk:0",
+      "start_ms": 333900,
+      "end_ms": 334200
+    },
+    {
+      "text": "and",
+      "speaker": "spk:0",
+      "start_ms": 335000,
+      "end_ms": 335100
+    },
+    {
+      "text": "not",
+      "speaker": "spk:0",
+      "start_ms": 335100,
+      "end_ms": 335300
+    },
+    {
+      "text": "truly",
+      "speaker": "spk:0",
+      "start_ms": 335300,
+      "end_ms": 335800
+    },
+    {
+      "text": "going",
+      "speaker": "spk:0",
+      "start_ms": 335800,
+      "end_ms": 336100
+    },
+    {
+      "text": "after",
+      "speaker": "spk:0",
+      "start_ms": 336100,
+      "end_ms": 336600
+    },
+    {
+      "text": "their",
+      "speaker": "spk:0",
+      "start_ms": 336600,
+      "end_ms": 336700
+    },
+    {
+      "text": "dreams.",
+      "speaker": "spk:0",
+      "start_ms": 336700,
+      "end_ms": 337200
+    },
+    {
+      "text": "So",
+      "speaker": "spk:0",
+      "start_ms": 337200,
+      "end_ms": 337300
+    },
+    {
+      "text": "you",
+      "speaker": "spk:0",
+      "start_ms": 337300,
+      "end_ms": 337400
+    },
+    {
+      "text": "look",
+      "speaker": "spk:0",
+      "start_ms": 337400,
+      "end_ms": 337600
+    },
+    {
+      "text": "at",
+      "speaker": "spk:0",
+      "start_ms": 337600,
+      "end_ms": 337700
+    },
+    {
+      "text": "Jordan's",
+      "speaker": "spk:0",
+      "start_ms": 337700,
+      "end_ms": 338000
+    },
+    {
+      "text": "story",
+      "speaker": "spk:0",
+      "start_ms": 338000,
+      "end_ms": 338500
+    },
+    {
+      "text": "and",
+      "speaker": "spk:0",
+      "start_ms": 339200,
+      "end_ms": 339600
+    },
+    {
+      "text": "Jordan",
+      "speaker": "spk:0",
+      "start_ms": 339700,
+      "end_ms": 340400
+    },
+    {
+      "text": "was",
+      "speaker": "spk:0",
+      "start_ms": 340600,
+      "end_ms": 341300
+    },
+    {
+      "text": "the",
+      "speaker": "spk:0",
+      "start_ms": 341600,
+      "end_ms": 341800
+    },
+    {
+      "text": "youngest",
+      "speaker": "spk:0",
+      "start_ms": 341800,
+      "end_ms": 342100
+    },
+    {
+      "text": "person",
+      "speaker": "spk:0",
+      "start_ms": 342100,
+      "end_ms": 342500
+    },
+    {
+      "text": "ever",
+      "speaker": "spk:0",
+      "start_ms": 342500,
+      "end_ms": 342900
+    },
+    {
+      "text": "to",
+      "speaker": "spk:0",
+      "start_ms": 342900,
+      "end_ms": 343100
+    },
+    {
+      "text": "launch",
+      "speaker": "spk:0",
+      "start_ms": 343100,
+      "end_ms": 343800
+    },
+    {
+      "text": "an",
+      "speaker": "spk:0",
+      "start_ms": 343800,
+      "end_ms": 343900
+    },
+    {
+      "text": "actual",
+      "speaker": "spk:0",
+      "start_ms": 343900,
+      "end_ms": 344300
+    },
+    {
+      "text": "rocket",
+      "speaker": "spk:0",
+      "start_ms": 344300,
+      "end_ms": 344800
+    },
+    {
+      "text": "into",
+      "speaker": "spk:0",
+      "start_ms": 344800,
+      "end_ms": 345100
+    },
+    {
+      "text": "space",
+      "speaker": "spk:0",
+      "start_ms": 345100,
+      "end_ms": 345600
+    },
+    {
+      "text": "to",
+      "speaker": "spk:0",
+      "start_ms": 345600,
+      "end_ms": 345700
+    },
+    {
+      "text": "lead",
+      "speaker": "spk:0",
+      "start_ms": 345700,
+      "end_ms": 346000
+    },
+    {
+      "text": "a",
+      "speaker": "spk:0",
+      "start_ms": 346000,
+      "end_ms": 346000
+    },
+    {
+      "text": "group",
+      "speaker": "spk:0",
+      "start_ms": 346000,
+      "end_ms": 346400
+    },
+    {
+      "text": "to",
+      "speaker": "spk:0",
+      "start_ms": 346400,
+      "end_ms": 346600
+    },
+    {
+      "text": "launch",
+      "speaker": "spk:0",
+      "start_ms": 346600,
+      "end_ms": 346800
+    },
+    {
+      "text": "a",
+      "speaker": "spk:0",
+      "start_ms": 346800,
+      "end_ms": 346900
+    },
+    {
+      "text": "rocket",
+      "speaker": "spk:0",
+      "start_ms": 346900,
+      "end_ms": 347200
+    },
+    {
+      "text": "into",
+      "speaker": "spk:0",
+      "start_ms": 347200,
+      "end_ms": 347500
+    },
+    {
+      "text": "space.",
+      "speaker": "spk:0",
+      "start_ms": 347500,
+      "end_ms": 347800
+    },
+    {
+      "text": "He",
+      "speaker": "spk:0",
+      "start_ms": 347800,
+      "end_ms": 347900
+    },
+    {
+      "text": "did",
+      "speaker": "spk:0",
+      "start_ms": 347900,
+      "end_ms": 348000
+    },
+    {
+      "text": "it",
+      "speaker": "spk:0",
+      "start_ms": 348000,
+      "end_ms": 348100
+    },
+    {
+      "text": "when",
+      "speaker": "spk:0",
+      "start_ms": 348100,
+      "end_ms": 348200
+    },
+    {
+      "text": "he",
+      "speaker": "spk:0",
+      "start_ms": 348200,
+      "end_ms": 348300
+    },
+    {
+      "text": "was",
+      "speaker": "spk:0",
+      "start_ms": 348300,
+      "end_ms": 348500
+    },
+    {
+      "text": "20",
+      "speaker": "spk:0",
+      "start_ms": 348500,
+      "end_ms": 348800
+    },
+    {
+      "text": "years",
+      "speaker": "spk:0",
+      "start_ms": 348800,
+      "end_ms": 349100
+    },
+    {
+      "text": "old",
+      "speaker": "spk:0",
+      "start_ms": 349100,
+      "end_ms": 349300
+    },
+    {
+      "text": "at",
+      "speaker": "spk:0",
+      "start_ms": 349300,
+      "end_ms": 349400
+    },
+    {
+      "text": "his",
+      "speaker": "spk:0",
+      "start_ms": 349400,
+      "end_ms": 349600
+    },
+    {
+      "text": "university.",
+      "speaker": "spk:0",
+      "start_ms": 349600,
+      "end_ms": 350200
+    },
+    {
+      "text": "And",
+      "speaker": "spk:0",
+      "start_ms": 351200,
+      "end_ms": 351900
+    },
+    {
+      "text": "so",
+      "speaker": "spk:0",
+      "start_ms": 351900,
+      "end_ms": 352500
+    },
+    {
+      "text": "he",
+      "speaker": "spk:0",
+      "start_ms": 352500,
+      "end_ms": 352800
+    },
+    {
+      "text": "started",
+      "speaker": "spk:0",
+      "start_ms": 352800,
+      "end_ms": 353300
+    },
+    {
+      "text": "out",
+      "speaker": "spk:0",
+      "start_ms": 353300,
+      "end_ms": 353500
+    },
+    {
+      "text": "in",
+      "speaker": "spk:0",
+      "start_ms": 353500,
+      "end_ms": 353600
+    },
+    {
+      "text": "life",
+      "speaker": "spk:0",
+      "start_ms": 353600,
+      "end_ms": 354000
+    },
+    {
+      "text": "not",
+      "speaker": "spk:0",
+      "start_ms": 354700,
+      "end_ms": 355000
+    },
+    {
+      "text": "thinking",
+      "speaker": "spk:0",
+      "start_ms": 355000,
+      "end_ms": 355400
+    },
+    {
+      "text": "small.",
+      "speaker": "spk:0",
+      "start_ms": 355400,
+      "end_ms": 355900
+    },
+    {
+      "text": "He",
+      "speaker": "spk:0",
+      "start_ms": 356200,
+      "end_ms": 356300
+    },
+    {
+      "text": "started",
+      "speaker": "spk:0",
+      "start_ms": 356300,
+      "end_ms": 356800
+    },
+    {
+      "text": "out",
+      "speaker": "spk:0",
+      "start_ms": 357300,
+      "end_ms": 357500
+    },
+    {
+      "text": "in",
+      "speaker": "spk:0",
+      "start_ms": 357500,
+      "end_ms": 357600
+    },
+    {
+      "text": "life",
+      "speaker": "spk:0",
+      "start_ms": 357600,
+      "end_ms": 357900
+    },
+    {
+      "text": "thinking",
+      "speaker": "spk:0",
+      "start_ms": 357900,
+      "end_ms": 358200
+    },
+    {
+      "text": "very",
+      "speaker": "spk:0",
+      "start_ms": 358200,
+      "end_ms": 358400
+    },
+    {
+      "text": "big",
+      "speaker": "spk:0",
+      "start_ms": 358400,
+      "end_ms": 358900
+    },
+    {
+      "text": "and",
+      "speaker": "spk:0",
+      "start_ms": 359400,
+      "end_ms": 359500
+    },
+    {
+      "text": "going",
+      "speaker": "spk:0",
+      "start_ms": 359500,
+      "end_ms": 359800
+    },
+    {
+      "text": "off",
+      "speaker": "spk:0",
+      "start_ms": 359800,
+      "end_ms": 360000
+    },
+    {
+      "text": "after",
+      "speaker": "spk:0",
+      "start_ms": 360100,
+      "end_ms": 360500
+    },
+    {
+      "text": "those",
+      "speaker": "spk:0",
+      "start_ms": 360500,
+      "end_ms": 360700
+    },
+    {
+      "text": "big",
+      "speaker": "spk:0",
+      "start_ms": 360700,
+      "end_ms": 360900
+    },
+    {
+      "text": "dreams",
+      "speaker": "spk:0",
+      "start_ms": 360900,
+      "end_ms": 361300
+    },
+    {
+      "text": "and",
+      "speaker": "spk:0",
+      "start_ms": 361300,
+      "end_ms": 361500
+    },
+    {
+      "text": "goals.",
+      "speaker": "spk:0",
+      "start_ms": 361500,
+      "end_ms": 361900
+    },
+    {
+      "text": "And",
+      "speaker": "spk:0",
+      "start_ms": 362400,
+      "end_ms": 362800
+    },
+    {
+      "text": "in",
+      "speaker": "spk:0",
+      "start_ms": 362800,
+      "end_ms": 363100
+    },
+    {
+      "text": "the",
+      "speaker": "spk:0",
+      "start_ms": 363100,
+      "end_ms": 363400
+    },
+    {
+      "text": "episode",
+      "speaker": "spk:0",
+      "start_ms": 363400,
+      "end_ms": 363900
+    },
+    {
+      "text": "here",
+      "speaker": "spk:0",
+      "start_ms": 363900,
+      "end_ms": 364100
+    },
+    {
+      "text": "you",
+      "speaker": "spk:0",
+      "start_ms": 364100,
+      "end_ms": 364300
+    },
+    {
+      "text": "heard",
+      "speaker": "spk:0",
+      "start_ms": 364300,
+      "end_ms": 364600
+    },
+    {
+      "text": "that",
+      "speaker": "spk:0",
+      "start_ms": 364600,
+      "end_ms": 364900
+    },
+    {
+      "text": "he's",
+      "speaker": "spk:0",
+      "start_ms": 364900,
+      "end_ms": 365400
+    },
+    {
+      "text": "just",
+      "speaker": "spk:0",
+      "start_ms": 365400,
+      "end_ms": 365700
+    },
+    {
+      "text": "now",
+      "speaker": "spk:0",
+      "start_ms": 365700,
+      "end_ms": 366000
+    },
+    {
+      "text": "30",
+      "speaker": "spk:0",
+      "start_ms": 366000,
+      "end_ms": 366300
+    },
+    {
+      "text": "years",
+      "speaker": "spk:0",
+      "start_ms": 366300,
+      "end_ms": 366500
+    },
+    {
+      "text": "old,",
+      "speaker": "spk:0",
+      "start_ms": 366500,
+      "end_ms": 366800
+    },
+    {
+      "text": "which",
+      "speaker": "spk:0",
+      "start_ms": 366900,
+      "end_ms": 367100
+    },
+    {
+      "text": "isn't",
+      "speaker": "spk:0",
+      "start_ms": 367100,
+      "end_ms": 367500
+    },
+    {
+      "text": "even",
+      "speaker": "spk:0",
+      "start_ms": 367600,
+      "end_ms": 367800
+    },
+    {
+      "text": "that",
+      "speaker": "spk:0",
+      "start_ms": 367800,
+      "end_ms": 368100
+    },
+    {
+      "text": "old.",
+      "speaker": "spk:0",
+      "start_ms": 368100,
+      "end_ms": 368400
+    },
+    {
+      "text": "And",
+      "speaker": "spk:0",
+      "start_ms": 369200,
+      "end_ms": 369800
+    },
+    {
+      "text": "he's",
+      "speaker": "spk:0",
+      "start_ms": 369800,
+      "end_ms": 370100
+    },
+    {
+      "text": "already",
+      "speaker": "spk:0",
+      "start_ms": 370100,
+      "end_ms": 370800
+    },
+    {
+      "text": "built",
+      "speaker": "spk:0",
+      "start_ms": 370800,
+      "end_ms": 371000
+    },
+    {
+      "text": "a",
+      "speaker": "spk:0",
+      "start_ms": 371000,
+      "end_ms": 371100
+    },
+    {
+      "text": "4.2",
+      "speaker": "spk:0",
+      "start_ms": 371100,
+      "end_ms": 371700
+    },
+    {
+      "text": "billion",
+      "speaker": "spk:0",
+      "start_ms": 371700,
+      "end_ms": 372000
+    },
+    {
+      "text": "dollar",
+      "speaker": "spk:0",
+      "start_ms": 372000,
+      "end_ms": 372200
+    },
+    {
+      "text": "company",
+      "speaker": "spk:0",
+      "start_ms": 372200,
+      "end_ms": 372700
+    },
+    {
+      "text": "that",
+      "speaker": "spk:0",
+      "start_ms": 373300,
+      "end_ms": 373600
+    },
+    {
+      "text": "is",
+      "speaker": "spk:0",
+      "start_ms": 373600,
+      "end_ms": 373900
+    },
+    {
+      "text": "on",
+      "speaker": "spk:0",
+      "start_ms": 374200,
+      "end_ms": 374400
+    },
+    {
+      "text": "the",
+      "speaker": "spk:0",
+      "start_ms": 374400,
+      "end_ms": 374600
+    },
+    {
+      "text": "cusp",
+      "speaker": "spk:0",
+      "start_ms": 374600,
+      "end_ms": 375100
+    },
+    {
+      "text": "of",
+      "speaker": "spk:0",
+      "start_ms": 375200,
+      "end_ms": 375300
+    },
+    {
+      "text": "tech",
+      "speaker": "spk:0",
+      "start_ms": 375300,
+      "end_ms": 375800
+    },
+    {
+      "text": "and",
+      "speaker": "spk:0",
+      "start_ms": 375800,
+      "end_ms": 376000
+    },
+    {
+      "text": "innovation.",
+      "speaker": "spk:0",
+      "start_ms": 376000,
+      "end_ms": 376700
+    },
+    {
+      "text": "And",
+      "speaker": "spk:0",
+      "start_ms": 377300,
+      "end_ms": 377600
+    },
+    {
+      "text": "of",
+      "speaker": "spk:0",
+      "start_ms": 377600,
+      "end_ms": 377800
+    },
+    {
+      "text": "course",
+      "speaker": "spk:0",
+      "start_ms": 377800,
+      "end_ms": 378200
+    },
+    {
+      "text": "an",
+      "speaker": "spk:0",
+      "start_ms": 378200,
+      "end_ms": 378300
+    },
+    {
+      "text": "individual",
+      "speaker": "spk:0",
+      "start_ms": 378300,
+      "end_ms": 378800
+    },
+    {
+      "text": "like",
+      "speaker": "spk:0",
+      "start_ms": 378800,
+      "end_ms": 379000
+    },
+    {
+      "text": "this",
+      "speaker": "spk:0",
+      "start_ms": 379000,
+      "end_ms": 379500
+    },
+    {
+      "text": "when",
+      "speaker": "spk:0",
+      "start_ms": 379700,
+      "end_ms": 379900
+    },
+    {
+      "text": "they're",
+      "speaker": "spk:0",
+      "start_ms": 379900,
+      "end_ms": 380000
+    },
+    {
+      "text": "doing",
+      "speaker": "spk:0",
+      "start_ms": 380000,
+      "end_ms": 380400
+    },
+    {
+      "text": "mediocre",
+      "speaker": "spk:0",
+      "start_ms": 380500,
+      "end_ms": 381400
+    },
+    {
+      "text": "and",
+      "speaker": "spk:0",
+      "start_ms": 381400,
+      "end_ms": 381800
+    },
+    {
+      "text": "mundane",
+      "speaker": "spk:0",
+      "start_ms": 382100,
+      "end_ms": 382600
+    },
+    {
+      "text": "things,",
+      "speaker": "spk:0",
+      "start_ms": 382600,
+      "end_ms": 383100
+    },
+    {
+      "text": "they're",
+      "speaker": "spk:0",
+      "start_ms": 383100,
+      "end_ms": 383200
+    },
+    {
+      "text": "going",
+      "speaker": "spk:0",
+      "start_ms": 383200,
+      "end_ms": 383300
+    },
+    {
+      "text": "to",
+      "speaker": "spk:0",
+      "start_ms": 383300,
+      "end_ms": 383400
+    },
+    {
+      "text": "feel",
+      "speaker": "spk:0",
+      "start_ms": 383400,
+      "end_ms": 383700
+    },
+    {
+      "text": "a",
+      "speaker": "spk:0",
+      "start_ms": 383700,
+      "end_ms": 383800
+    },
+    {
+      "text": "stronger",
+      "speaker": "spk:0",
+      "start_ms": 383800,
+      "end_ms": 384200
+    },
+    {
+      "text": "fear",
+      "speaker": "spk:0",
+      "start_ms": 384200,
+      "end_ms": 384800
+    },
+    {
+      "text": "of",
+      "speaker": "spk:0",
+      "start_ms": 385300,
+      "end_ms": 385900
+    },
+    {
+      "text": "not",
+      "speaker": "spk:0",
+      "start_ms": 386100,
+      "end_ms": 386400
+    },
+    {
+      "text": "using",
+      "speaker": "spk:0",
+      "start_ms": 386400,
+      "end_ms": 386900
+    },
+    {
+      "text": "his",
+      "speaker": "spk:0",
+      "start_ms": 387200,
+      "end_ms": 387400
+    },
+    {
+      "text": "full",
+      "speaker": "spk:0",
+      "start_ms": 387400,
+      "end_ms": 387900
+    },
+    {
+      "text": "skill",
+      "speaker": "spk:0",
+      "start_ms": 388100,
+      "end_ms": 388500
+    },
+    {
+      "text": "set",
+      "speaker": "spk:0",
+      "start_ms": 388500,
+      "end_ms": 388700
+    },
+    {
+      "text": "on",
+      "speaker": "spk:0",
+      "start_ms": 389300,
+      "end_ms": 389400
+    },
+    {
+      "text": "a",
+      "speaker": "spk:0",
+      "start_ms": 389400,
+      "end_ms": 389400
+    },
+    {
+      "text": "regular",
+      "speaker": "spk:0",
+      "start_ms": 389400,
+      "end_ms": 389700
+    },
+    {
+      "text": "basis.",
+      "speaker": "spk:0",
+      "start_ms": 389700,
+      "end_ms": 390200
+    },
+    {
+      "text": "And",
+      "speaker": "spk:0",
+      "start_ms": 390900,
+      "end_ms": 391000
+    },
+    {
+      "text": "I",
+      "speaker": "spk:0",
+      "start_ms": 391000,
+      "end_ms": 391100
+    },
+    {
+      "text": "urge",
+      "speaker": "spk:0",
+      "start_ms": 391100,
+      "end_ms": 391400
+    },
+    {
+      "text": "anybody",
+      "speaker": "spk:0",
+      "start_ms": 391400,
+      "end_ms": 392000
+    },
+    {
+      "text": "that",
+      "speaker": "spk:0",
+      "start_ms": 392600,
+      "end_ms": 393600
+    },
+    {
+      "text": "is",
+      "speaker": "spk:0",
+      "start_ms": 394300,
+      "end_ms": 395000
+    },
+    {
+      "text": "living",
+      "speaker": "spk:0",
+      "start_ms": 395100,
+      "end_ms": 395400
+    },
+    {
+      "text": "a",
+      "speaker": "spk:0",
+      "start_ms": 395400,
+      "end_ms": 395400
+    },
+    {
+      "text": "life",
+      "speaker": "spk:0",
+      "start_ms": 395400,
+      "end_ms": 395900
+    },
+    {
+      "text": "where",
+      "speaker": "spk:0",
+      "start_ms": 396200,
+      "end_ms": 396700
+    },
+    {
+      "text": "it",
+      "speaker": "spk:0",
+      "start_ms": 396700,
+      "end_ms": 396900
+    },
+    {
+      "text": "is",
+      "speaker": "spk:0",
+      "start_ms": 396900,
+      "end_ms": 397000
+    },
+    {
+      "text": "half",
+      "speaker": "spk:0",
+      "start_ms": 397000,
+      "end_ms": 397400
+    },
+    {
+      "text": "lived",
+      "speaker": "spk:0",
+      "start_ms": 397400,
+      "end_ms": 397800
+    },
+    {
+      "text": "or",
+      "speaker": "spk:0",
+      "start_ms": 398200,
+      "end_ms": 398400
+    },
+    {
+      "text": "you're",
+      "speaker": "spk:0",
+      "start_ms": 398400,
+      "end_ms": 398600
+    },
+    {
+      "text": "not",
+      "speaker": "spk:0",
+      "start_ms": 398600,
+      "end_ms": 398800
+    },
+    {
+      "text": "using",
+      "speaker": "spk:0",
+      "start_ms": 398800,
+      "end_ms": 399200
+    },
+    {
+      "text": "your",
+      "speaker": "spk:0",
+      "start_ms": 399200,
+      "end_ms": 399300
+    },
+    {
+      "text": "skill",
+      "speaker": "spk:0",
+      "start_ms": 399300,
+      "end_ms": 399600
+    },
+    {
+      "text": "sets",
+      "speaker": "spk:0",
+      "start_ms": 399600,
+      "end_ms": 400200
+    },
+    {
+      "text": "that",
+      "speaker": "spk:0",
+      "start_ms": 400300,
+      "end_ms": 400800
+    },
+    {
+      "text": "you",
+      "speaker": "spk:0",
+      "start_ms": 401500,
+      "end_ms": 401600
+    },
+    {
+      "text": "were",
+      "speaker": "spk:0",
+      "start_ms": 401600,
+      "end_ms": 401700
+    },
+    {
+      "text": "born",
+      "speaker": "spk:0",
+      "start_ms": 401700,
+      "end_ms": 402100
+    },
+    {
+      "text": "with",
+      "speaker": "spk:0",
+      "start_ms": 402100,
+      "end_ms": 402500
+    },
+    {
+      "text": "to",
+      "speaker": "spk:0",
+      "start_ms": 402500,
+      "end_ms": 402700
+    },
+    {
+      "text": "its",
+      "speaker": "spk:0",
+      "start_ms": 402700,
+      "end_ms": 402900
+    },
+    {
+      "text": "fullest",
+      "speaker": "spk:0",
+      "start_ms": 402900,
+      "end_ms": 403500
+    },
+    {
+      "text": "potential",
+      "speaker": "spk:0",
+      "start_ms": 403500,
+      "end_ms": 404000
+    },
+    {
+      "text": "than",
+      "speaker": "spk:0",
+      "start_ms": 404600,
+      "end_ms": 404900
+    },
+    {
+      "text": "to",
+      "speaker": "spk:0",
+      "start_ms": 404900,
+      "end_ms": 405000
+    },
+    {
+      "text": "tap",
+      "speaker": "spk:0",
+      "start_ms": 405000,
+      "end_ms": 405300
+    },
+    {
+      "text": "into",
+      "speaker": "spk:0",
+      "start_ms": 405300,
+      "end_ms": 405500
+    },
+    {
+      "text": "that",
+      "speaker": "spk:0",
+      "start_ms": 405500,
+      "end_ms": 405800
+    },
+    {
+      "text": "and",
+      "speaker": "spk:0",
+      "start_ms": 405800,
+      "end_ms": 405900
+    },
+    {
+      "text": "start",
+      "speaker": "spk:0",
+      "start_ms": 405900,
+      "end_ms": 406200
+    },
+    {
+      "text": "doing",
+      "speaker": "spk:0",
+      "start_ms": 406200,
+      "end_ms": 406500
+    },
+    {
+      "text": "that",
+      "speaker": "spk:0",
+      "start_ms": 406500,
+      "end_ms": 406800
+    },
+    {
+      "text": "more",
+      "speaker": "spk:0",
+      "start_ms": 407200,
+      "end_ms": 407400
+    },
+    {
+      "text": "often",
+      "speaker": "spk:0",
+      "start_ms": 407400,
+      "end_ms": 407900
+    },
+    {
+      "text": "as",
+      "speaker": "spk:0",
+      "start_ms": 408100,
+      "end_ms": 408200
+    },
+    {
+      "text": "soon",
+      "speaker": "spk:0",
+      "start_ms": 408200,
+      "end_ms": 408400
+    },
+    {
+      "text": "as",
+      "speaker": "spk:0",
+      "start_ms": 408400,
+      "end_ms": 408500
+    },
+    {
+      "text": "possible.",
+      "speaker": "spk:0",
+      "start_ms": 408500,
+      "end_ms": 409000
+    },
+    {
+      "text": "And",
+      "speaker": "spk:0",
+      "start_ms": 409800,
+      "end_ms": 410300
+    },
+    {
+      "text": "even",
+      "speaker": "spk:0",
+      "start_ms": 410400,
+      "end_ms": 410600
+    },
+    {
+      "text": "if",
+      "speaker": "spk:0",
+      "start_ms": 410600,
+      "end_ms": 410700
+    },
+    {
+      "text": "you",
+      "speaker": "spk:0",
+      "start_ms": 410700,
+      "end_ms": 410800
+    },
+    {
+      "text": "have",
+      "speaker": "spk:0",
+      "start_ms": 410800,
+      "end_ms": 410900
+    },
+    {
+      "text": "to",
+      "speaker": "spk:0",
+      "start_ms": 410900,
+      "end_ms": 411000
+    },
+    {
+      "text": "start",
+      "speaker": "spk:0",
+      "start_ms": 411000,
+      "end_ms": 411300
+    },
+    {
+      "text": "on",
+      "speaker": "spk:0",
+      "start_ms": 411300,
+      "end_ms": 411400
+    },
+    {
+      "text": "a",
+      "speaker": "spk:0",
+      "start_ms": 411400,
+      "end_ms": 411500
+    },
+    {
+      "text": "weekly",
+      "speaker": "spk:0",
+      "start_ms": 411500,
+      "end_ms": 411800
+    },
+    {
+      "text": "basis,",
+      "speaker": "spk:0",
+      "start_ms": 411800,
+      "end_ms": 412600
+    },
+    {
+      "text": "say",
+      "speaker": "spk:0",
+      "start_ms": 412700,
+      "end_ms": 413200
+    },
+    {
+      "text": "your",
+      "speaker": "spk:0",
+      "start_ms": 413600,
+      "end_ms": 414200
+    },
+    {
+      "text": "superpower",
+      "speaker": "spk:0",
+      "start_ms": 414500,
+      "end_ms": 415100
+    },
+    {
+      "text": "and",
+      "speaker": "spk:0",
+      "start_ms": 415100,
+      "end_ms": 415200
+    },
+    {
+      "text": "your",
+      "speaker": "spk:0",
+      "start_ms": 415200,
+      "end_ms": 415300
+    },
+    {
+      "text": "skill",
+      "speaker": "spk:0",
+      "start_ms": 415300,
+      "end_ms": 415600
+    },
+    {
+      "text": "set",
+      "speaker": "spk:0",
+      "start_ms": 415600,
+      "end_ms": 415900
+    },
+    {
+      "text": "is",
+      "speaker": "spk:0",
+      "start_ms": 415900,
+      "end_ms": 416400
+    },
+    {
+      "text": "sewing",
+      "speaker": "spk:0",
+      "start_ms": 417000,
+      "end_ms": 417500
+    },
+    {
+      "text": "or",
+      "speaker": "spk:0",
+      "start_ms": 417600,
+      "end_ms": 417800
+    },
+    {
+      "text": "knitting,",
+      "speaker": "spk:0",
+      "start_ms": 417800,
+      "end_ms": 418200
+    },
+    {
+      "text": "you",
+      "speaker": "spk:0",
+      "start_ms": 418700,
+      "end_ms": 418900
+    },
+    {
+      "text": "can",
+      "speaker": "spk:0",
+      "start_ms": 418900,
+      "end_ms": 419000
+    },
+    {
+      "text": "do",
+      "speaker": "spk:0",
+      "start_ms": 419000,
+      "end_ms": 419200
+    },
+    {
+      "text": "that",
+      "speaker": "spk:0",
+      "start_ms": 419200,
+      "end_ms": 419600
+    },
+    {
+      "text": "on",
+      "speaker": "spk:0",
+      "start_ms": 419600,
+      "end_ms": 419700
+    },
+    {
+      "text": "a",
+      "speaker": "spk:0",
+      "start_ms": 419700,
+      "end_ms": 419800
+    },
+    {
+      "text": "weekly",
+      "speaker": "spk:0",
+      "start_ms": 419800,
+      "end_ms": 420100
+    },
+    {
+      "text": "basis",
+      "speaker": "spk:0",
+      "start_ms": 420100,
+      "end_ms": 420600
+    },
+    {
+      "text": "to",
+      "speaker": "spk:0",
+      "start_ms": 420600,
+      "end_ms": 420800
+    },
+    {
+      "text": "to",
+      "speaker": "spk:0",
+      "start_ms": 421100,
+      "end_ms": 421300
+    },
+    {
+      "text": "find",
+      "speaker": "spk:0",
+      "start_ms": 421300,
+      "end_ms": 421600
+    },
+    {
+      "text": "some",
+      "speaker": "spk:0",
+      "start_ms": 421600,
+      "end_ms": 421800
+    },
+    {
+      "text": "time",
+      "speaker": "spk:0",
+      "start_ms": 421800,
+      "end_ms": 422200
+    },
+    {
+      "text": "even",
+      "speaker": "spk:0",
+      "start_ms": 422200,
+      "end_ms": 422400
+    },
+    {
+      "text": "if",
+      "speaker": "spk:0",
+      "start_ms": 422400,
+      "end_ms": 422600
+    },
+    {
+      "text": "you're",
+      "speaker": "spk:0",
+      "start_ms": 422600,
+      "end_ms": 422700
+    },
+    {
+      "text": "the",
+      "speaker": "spk:0",
+      "start_ms": 422700,
+      "end_ms": 422800
+    },
+    {
+      "text": "busiest",
+      "speaker": "spk:0",
+      "start_ms": 422800,
+      "end_ms": 423300
+    },
+    {
+      "text": "individual",
+      "speaker": "spk:0",
+      "start_ms": 423300,
+      "end_ms": 424000
+    },
+    {
+      "text": "and",
+      "speaker": "spk:0",
+      "start_ms": 424400,
+      "end_ms": 424800
+    },
+    {
+      "text": "single",
+      "speaker": "spk:0",
+      "start_ms": 424800,
+      "end_ms": 425100
+    },
+    {
+      "text": "mother",
+      "speaker": "spk:0",
+      "start_ms": 425100,
+      "end_ms": 425400
+    },
+    {
+      "text": "in",
+      "speaker": "spk:0",
+      "start_ms": 425400,
+      "end_ms": 425500
+    },
+    {
+      "text": "the",
+      "speaker": "spk:0",
+      "start_ms": 425500,
+      "end_ms": 425600
+    },
+    {
+      "text": "world,",
+      "speaker": "spk:0",
+      "start_ms": 425600,
+      "end_ms": 426000
+    },
+    {
+      "text": "you",
+      "speaker": "spk:0",
+      "start_ms": 426400,
+      "end_ms": 426500
+    },
+    {
+      "text": "can",
+      "speaker": "spk:0",
+      "start_ms": 426500,
+      "end_ms": 426600
+    },
+    {
+      "text": "find",
+      "speaker": "spk:0",
+      "start_ms": 426600,
+      "end_ms": 426900
+    },
+    {
+      "text": "some",
+      "speaker": "spk:0",
+      "start_ms": 426900,
+      "end_ms": 427100
+    },
+    {
+      "text": "time",
+      "speaker": "spk:0",
+      "start_ms": 427100,
+      "end_ms": 427500
+    },
+    {
+      "text": "and",
+      "speaker": "spk:0",
+      "start_ms": 427600,
+      "end_ms": 427700
+    },
+    {
+      "text": "then",
+      "speaker": "spk:0",
+      "start_ms": 427700,
+      "end_ms": 427900
+    },
+    {
+      "text": "do",
+      "speaker": "spk:0",
+      "start_ms": 427900,
+      "end_ms": 428100
+    },
+    {
+      "text": "those",
+      "speaker": "spk:0",
+      "start_ms": 428100,
+      "end_ms": 428300
+    },
+    {
+      "text": "skill",
+      "speaker": "spk:0",
+      "start_ms": 428300,
+      "end_ms": 428600
+    },
+    {
+      "text": "sets",
+      "speaker": "spk:0",
+      "start_ms": 428600,
+      "end_ms": 428900
+    },
+    {
+      "text": "with",
+      "speaker": "spk:0",
+      "start_ms": 428900,
+      "end_ms": 429100
+    },
+    {
+      "text": "your",
+      "speaker": "spk:0",
+      "start_ms": 429100,
+      "end_ms": 429200
+    },
+    {
+      "text": "family.",
+      "speaker": "spk:0",
+      "start_ms": 429200,
+      "end_ms": 429600
+    },
+    {
+      "text": "Bring",
+      "speaker": "spk:0",
+      "start_ms": 430200,
+      "end_ms": 430500
+    },
+    {
+      "text": "the",
+      "speaker": "spk:0",
+      "start_ms": 430500,
+      "end_ms": 430600
+    },
+    {
+      "text": "people",
+      "speaker": "spk:0",
+      "start_ms": 430600,
+      "end_ms": 430900
+    },
+    {
+      "text": "you",
+      "speaker": "spk:0",
+      "start_ms": 430900,
+      "end_ms": 431000
+    },
+    {
+      "text": "love",
+      "speaker": "spk:0",
+      "start_ms": 431000,
+      "end_ms": 431400
+    },
+    {
+      "text": "into",
+      "speaker": "spk:0",
+      "start_ms": 431400,
+      "end_ms": 431700
+    },
+    {
+      "text": "those",
+      "speaker": "spk:0",
+      "start_ms": 431700,
+      "end_ms": 431900
+    },
+    {
+      "text": "skill",
+      "speaker": "spk:0",
+      "start_ms": 431900,
+      "end_ms": 432200
+    },
+    {
+      "text": "sets",
+      "speaker": "spk:0",
+      "start_ms": 432200,
+      "end_ms": 432500
+    },
+    {
+      "text": "and",
+      "speaker": "spk:0",
+      "start_ms": 432600,
+      "end_ms": 432800
+    },
+    {
+      "text": "do",
+      "speaker": "spk:0",
+      "start_ms": 432800,
+      "end_ms": 432900
+    },
+    {
+      "text": "it",
+      "speaker": "spk:0",
+      "start_ms": 432900,
+      "end_ms": 433000
+    },
+    {
+      "text": "more",
+      "speaker": "spk:0",
+      "start_ms": 433000,
+      "end_ms": 433400
+    },
+    {
+      "text": "and",
+      "speaker": "spk:0",
+      "start_ms": 433400,
+      "end_ms": 433600
+    },
+    {
+      "text": "more",
+      "speaker": "spk:0",
+      "start_ms": 433600,
+      "end_ms": 433900
+    },
+    {
+      "text": "and",
+      "speaker": "spk:0",
+      "start_ms": 433900,
+      "end_ms": 434000
+    },
+    {
+      "text": "more.",
+      "speaker": "spk:0",
+      "start_ms": 434000,
+      "end_ms": 434300
+    },
+    {
+      "text": "The",
+      "speaker": "spk:0",
+      "start_ms": 435100,
+      "end_ms": 435200
+    },
+    {
+      "text": "path",
+      "speaker": "spk:0",
+      "start_ms": 435200,
+      "end_ms": 435500
+    },
+    {
+      "text": "to",
+      "speaker": "spk:0",
+      "start_ms": 435500,
+      "end_ms": 435700
+    },
+    {
+      "text": "a",
+      "speaker": "spk:0",
+      "start_ms": 435700,
+      "end_ms": 435800
+    },
+    {
+      "text": "truly",
+      "speaker": "spk:0",
+      "start_ms": 435800,
+      "end_ms": 436100
+    },
+    {
+      "text": "fulfilling",
+      "speaker": "spk:0",
+      "start_ms": 436100,
+      "end_ms": 436600
+    },
+    {
+      "text": "life",
+      "speaker": "spk:0",
+      "start_ms": 436600,
+      "end_ms": 436900
+    },
+    {
+      "text": "you",
+      "speaker": "spk:0",
+      "start_ms": 436900,
+      "end_ms": 437000
+    },
+    {
+      "text": "guys",
+      "speaker": "spk:0",
+      "start_ms": 437000,
+      "end_ms": 437400
+    },
+    {
+      "text": "is",
+      "speaker": "spk:0",
+      "start_ms": 437400,
+      "end_ms": 437600
+    },
+    {
+      "text": "to",
+      "speaker": "spk:0",
+      "start_ms": 437600,
+      "end_ms": 437800
+    },
+    {
+      "text": "use",
+      "speaker": "spk:0",
+      "start_ms": 437800,
+      "end_ms": 438100
+    },
+    {
+      "text": "those",
+      "speaker": "spk:0",
+      "start_ms": 438100,
+      "end_ms": 438300
+    },
+    {
+      "text": "skill",
+      "speaker": "spk:0",
+      "start_ms": 438300,
+      "end_ms": 438600
+    },
+    {
+      "text": "sets",
+      "speaker": "spk:0",
+      "start_ms": 438600,
+      "end_ms": 438900
+    },
+    {
+      "text": "that",
+      "speaker": "spk:0",
+      "start_ms": 438900,
+      "end_ms": 439100
+    },
+    {
+      "text": "we",
+      "speaker": "spk:0",
+      "start_ms": 439100,
+      "end_ms": 439300
+    },
+    {
+      "text": "were",
+      "speaker": "spk:0",
+      "start_ms": 439300,
+      "end_ms": 439700
+    },
+    {
+      "text": "given.",
+      "speaker": "spk:0",
+      "start_ms": 439700,
+      "end_ms": 440100
+    },
+    {
+      "text": "Maybe",
+      "speaker": "spk:0",
+      "start_ms": 440300,
+      "end_ms": 440500
+    },
+    {
+      "text": "it's",
+      "speaker": "spk:0",
+      "start_ms": 440500,
+      "end_ms": 440700
+    },
+    {
+      "text": "singing,",
+      "speaker": "spk:0",
+      "start_ms": 440700,
+      "end_ms": 441300
+    },
+    {
+      "text": "maybe",
+      "speaker": "spk:0",
+      "start_ms": 441400,
+      "end_ms": 441700
+    },
+    {
+      "text": "it's",
+      "speaker": "spk:0",
+      "start_ms": 441700,
+      "end_ms": 442100
+    },
+    {
+      "text": "playing",
+      "speaker": "spk:0",
+      "start_ms": 442200,
+      "end_ms": 442400
+    },
+    {
+      "text": "an",
+      "speaker": "spk:0",
+      "start_ms": 442400,
+      "end_ms": 442600
+    },
+    {
+      "text": "instrument,",
+      "speaker": "spk:0",
+      "start_ms": 442600,
+      "end_ms": 443200
+    },
+    {
+      "text": "maybe",
+      "speaker": "spk:0",
+      "start_ms": 443300,
+      "end_ms": 443800
+    },
+    {
+      "text": "it's",
+      "speaker": "spk:0",
+      "start_ms": 443800,
+      "end_ms": 444100
+    },
+    {
+      "text": "starting",
+      "speaker": "spk:0",
+      "start_ms": 444100,
+      "end_ms": 444500
+    },
+    {
+      "text": "a",
+      "speaker": "spk:0",
+      "start_ms": 444500,
+      "end_ms": 444500
+    },
+    {
+      "text": "business,",
+      "speaker": "spk:0",
+      "start_ms": 444500,
+      "end_ms": 445200
+    },
+    {
+      "text": "maybe",
+      "speaker": "spk:0",
+      "start_ms": 445300,
+      "end_ms": 445900
+    },
+    {
+      "text": "it's",
+      "speaker": "spk:0",
+      "start_ms": 445900,
+      "end_ms": 446100
+    },
+    {
+      "text": "traveling",
+      "speaker": "spk:0",
+      "start_ms": 446100,
+      "end_ms": 446600
+    },
+    {
+      "text": "the",
+      "speaker": "spk:0",
+      "start_ms": 446600,
+      "end_ms": 446700
+    },
+    {
+      "text": "world,",
+      "speaker": "spk:0",
+      "start_ms": 446700,
+      "end_ms": 447100
+    },
+    {
+      "text": "maybe",
+      "speaker": "spk:0",
+      "start_ms": 447500,
+      "end_ms": 448000
+    },
+    {
+      "text": "it's",
+      "speaker": "spk:0",
+      "start_ms": 448000,
+      "end_ms": 448300
+    },
+    {
+      "text": "just",
+      "speaker": "spk:0",
+      "start_ms": 448300,
+      "end_ms": 448600
+    },
+    {
+      "text": "helping",
+      "speaker": "spk:0",
+      "start_ms": 448600,
+      "end_ms": 448900
+    },
+    {
+      "text": "others",
+      "speaker": "spk:0",
+      "start_ms": 448900,
+      "end_ms": 449300
+    },
+    {
+      "text": "because",
+      "speaker": "spk:0",
+      "start_ms": 449300,
+      "end_ms": 449700
+    },
+    {
+      "text": "of",
+      "speaker": "spk:0",
+      "start_ms": 449700,
+      "end_ms": 449800
+    },
+    {
+      "text": "a",
+      "speaker": "spk:0",
+      "start_ms": 449800,
+      "end_ms": 449900
+    },
+    {
+      "text": "uh,",
+      "speaker": "spk:0",
+      "start_ms": 450500,
+      "end_ms": 450600
+    },
+    {
+      "text": "horrible",
+      "speaker": "spk:0",
+      "start_ms": 450900,
+      "end_ms": 451300
+    },
+    {
+      "text": "experience",
+      "speaker": "spk:0",
+      "start_ms": 451300,
+      "end_ms": 451800
+    },
+    {
+      "text": "you",
+      "speaker": "spk:0",
+      "start_ms": 451800,
+      "end_ms": 452000
+    },
+    {
+      "text": "had",
+      "speaker": "spk:0",
+      "start_ms": 452000,
+      "end_ms": 452200
+    },
+    {
+      "text": "as",
+      "speaker": "spk:0",
+      "start_ms": 452200,
+      "end_ms": 452300
+    },
+    {
+      "text": "a",
+      "speaker": "spk:0",
+      "start_ms": 452300,
+      "end_ms": 452400
+    },
+    {
+      "text": "child.",
+      "speaker": "spk:0",
+      "start_ms": 452400,
+      "end_ms": 452800
+    },
+    {
+      "text": "And",
+      "speaker": "spk:0",
+      "start_ms": 453700,
+      "end_ms": 454600
+    },
+    {
+      "text": "the",
+      "speaker": "spk:0",
+      "start_ms": 454600,
+      "end_ms": 454700
+    },
+    {
+      "text": "more",
+      "speaker": "spk:0",
+      "start_ms": 454700,
+      "end_ms": 454900
+    },
+    {
+      "text": "we",
+      "speaker": "spk:0",
+      "start_ms": 454900,
+      "end_ms": 455100
+    },
+    {
+      "text": "use",
+      "speaker": "spk:0",
+      "start_ms": 455100,
+      "end_ms": 455300
+    },
+    {
+      "text": "that,",
+      "speaker": "spk:0",
+      "start_ms": 455300,
+      "end_ms": 455500
+    },
+    {
+      "text": "the",
+      "speaker": "spk:0",
+      "start_ms": 455500,
+      "end_ms": 455600
+    },
+    {
+      "text": "more",
+      "speaker": "spk:0",
+      "start_ms": 455600,
+      "end_ms": 455800
+    },
+    {
+      "text": "we",
+      "speaker": "spk:0",
+      "start_ms": 455800,
+      "end_ms": 456000
+    },
+    {
+      "text": "get",
+      "speaker": "spk:0",
+      "start_ms": 456000,
+      "end_ms": 456100
+    },
+    {
+      "text": "to",
+      "speaker": "spk:0",
+      "start_ms": 456100,
+      "end_ms": 456300
+    },
+    {
+      "text": "actually",
+      "speaker": "spk:0",
+      "start_ms": 456300,
+      "end_ms": 456600
+    },
+    {
+      "text": "give",
+      "speaker": "spk:0",
+      "start_ms": 456600,
+      "end_ms": 456800
+    },
+    {
+      "text": "to",
+      "speaker": "spk:0",
+      "start_ms": 456800,
+      "end_ms": 457000
+    },
+    {
+      "text": "the",
+      "speaker": "spk:0",
+      "start_ms": 457000,
+      "end_ms": 457100
+    },
+    {
+      "text": "world",
+      "speaker": "spk:0",
+      "start_ms": 457100,
+      "end_ms": 457300
+    },
+    {
+      "text": "and",
+      "speaker": "spk:0",
+      "start_ms": 457300,
+      "end_ms": 457400
+    },
+    {
+      "text": "live",
+      "speaker": "spk:0",
+      "start_ms": 457400,
+      "end_ms": 457700
+    },
+    {
+      "text": "fulfilling",
+      "speaker": "spk:0",
+      "start_ms": 457700,
+      "end_ms": 458200
+    },
+    {
+      "text": "lives.",
+      "speaker": "spk:0",
+      "start_ms": 458200,
+      "end_ms": 458700
+    },
+    {
+      "text": "And",
+      "speaker": "spk:0",
+      "start_ms": 459300,
+      "end_ms": 459900
+    },
+    {
+      "text": "I",
+      "speaker": "spk:0",
+      "start_ms": 460000,
+      "end_ms": 460100
+    },
+    {
+      "text": "think",
+      "speaker": "spk:0",
+      "start_ms": 460100,
+      "end_ms": 460500
+    },
+    {
+      "text": "Jordan",
+      "speaker": "spk:0",
+      "start_ms": 460500,
+      "end_ms": 461000
+    },
+    {
+      "text": "nailed",
+      "speaker": "spk:0",
+      "start_ms": 461200,
+      "end_ms": 461400
+    },
+    {
+      "text": "it",
+      "speaker": "spk:0",
+      "start_ms": 461400,
+      "end_ms": 461500
+    },
+    {
+      "text": "on",
+      "speaker": "spk:0",
+      "start_ms": 461500,
+      "end_ms": 461600
+    },
+    {
+      "text": "the",
+      "speaker": "spk:0",
+      "start_ms": 461600,
+      "end_ms": 461700
+    },
+    {
+      "text": "head",
+      "speaker": "spk:0",
+      "start_ms": 461700,
+      "end_ms": 462000
+    },
+    {
+      "text": "when",
+      "speaker": "spk:0",
+      "start_ms": 462600,
+      "end_ms": 463100
+    },
+    {
+      "text": "he",
+      "speaker": "spk:0",
+      "start_ms": 463100,
+      "end_ms": 463700
+    },
+    {
+      "text": "talked",
+      "speaker": "spk:0",
+      "start_ms": 463800,
+      "end_ms": 464100
+    },
+    {
+      "text": "about",
+      "speaker": "spk:0",
+      "start_ms": 464100,
+      "end_ms": 464300
+    },
+    {
+      "text": "his",
+      "speaker": "spk:0",
+      "start_ms": 464300,
+      "end_ms": 464500
+    },
+    {
+      "text": "greatest",
+      "speaker": "spk:0",
+      "start_ms": 464500,
+      "end_ms": 464900
+    },
+    {
+      "text": "fear",
+      "speaker": "spk:0",
+      "start_ms": 464900,
+      "end_ms": 465100
+    },
+    {
+      "text": "which",
+      "speaker": "spk:0",
+      "start_ms": 465700,
+      "end_ms": 465900
+    },
+    {
+      "text": "is",
+      "speaker": "spk:0",
+      "start_ms": 465900,
+      "end_ms": 466200
+    },
+    {
+      "text": "really",
+      "speaker": "spk:0",
+      "start_ms": 466200,
+      "end_ms": 466600
+    },
+    {
+      "text": "inherently",
+      "speaker": "spk:0",
+      "start_ms": 467200,
+      "end_ms": 467900
+    },
+    {
+      "text": "the",
+      "speaker": "spk:0",
+      "start_ms": 468000,
+      "end_ms": 468100
+    },
+    {
+      "text": "greatest",
+      "speaker": "spk:0",
+      "start_ms": 468100,
+      "end_ms": 468500
+    },
+    {
+      "text": "fear",
+      "speaker": "spk:0",
+      "start_ms": 468500,
+      "end_ms": 468900
+    },
+    {
+      "text": "of",
+      "speaker": "spk:0",
+      "start_ms": 469000,
+      "end_ms": 469200
+    },
+    {
+      "text": "all",
+      "speaker": "spk:0",
+      "start_ms": 469200,
+      "end_ms": 469300
+    },
+    {
+      "text": "of",
+      "speaker": "spk:0",
+      "start_ms": 469300,
+      "end_ms": 469400
+    },
+    {
+      "text": "us.",
+      "speaker": "spk:0",
+      "start_ms": 469400,
+      "end_ms": 469700
+    },
+    {
+      "text": "You",
+      "speaker": "spk:0",
+      "start_ms": 471300,
+      "end_ms": 471400
+    },
+    {
+      "text": "guys,",
+      "speaker": "spk:0",
+      "start_ms": 471400,
+      "end_ms": 471600
+    },
+    {
+      "text": "if",
+      "speaker": "spk:0",
+      "start_ms": 471600,
+      "end_ms": 471800
+    },
+    {
+      "text": "you",
+      "speaker": "spk:0",
+      "start_ms": 471800,
+      "end_ms": 471800
+    },
+    {
+      "text": "haven't",
+      "speaker": "spk:0",
+      "start_ms": 471800,
+      "end_ms": 472000
+    },
+    {
+      "text": "listened",
+      "speaker": "spk:0",
+      "start_ms": 472000,
+      "end_ms": 472300
+    },
+    {
+      "text": "to",
+      "speaker": "spk:0",
+      "start_ms": 472300,
+      "end_ms": 472400
+    },
+    {
+      "text": "the",
+      "speaker": "spk:0",
+      "start_ms": 472400,
+      "end_ms": 472500
+    },
+    {
+      "text": "full",
+      "speaker": "spk:0",
+      "start_ms": 472500,
+      "end_ms": 472800
+    },
+    {
+      "text": "episode",
+      "speaker": "spk:0",
+      "start_ms": 472800,
+      "end_ms": 473100
+    },
+    {
+      "text": "with",
+      "speaker": "spk:0",
+      "start_ms": 473100,
+      "end_ms": 473300
+    },
+    {
+      "text": "Jordan,",
+      "speaker": "spk:0",
+      "start_ms": 473300,
+      "end_ms": 473700
+    },
+    {
+      "text": "I",
+      "speaker": "spk:0",
+      "start_ms": 473800,
+      "end_ms": 473900
+    },
+    {
+      "text": "highly",
+      "speaker": "spk:0",
+      "start_ms": 473900,
+      "end_ms": 474100
+    },
+    {
+      "text": "recommend",
+      "speaker": "spk:0",
+      "start_ms": 474100,
+      "end_ms": 474600
+    },
+    {
+      "text": "it.",
+      "speaker": "spk:0",
+      "start_ms": 474600,
+      "end_ms": 474800
+    },
+    {
+      "text": "It's",
+      "speaker": "spk:0",
+      "start_ms": 475000,
+      "end_ms": 475100
+    },
+    {
+      "text": "episode",
+      "speaker": "spk:0",
+      "start_ms": 475100,
+      "end_ms": 475600
+    },
+    {
+      "text": "number",
+      "speaker": "spk:0",
+      "start_ms": 475600,
+      "end_ms": 475800
+    },
+    {
+      "text": "558,",
+      "speaker": "spk:0",
+      "start_ms": 475800,
+      "end_ms": 477300
+    },
+    {
+      "text": "a",
+      "speaker": "spk:0",
+      "start_ms": 477600,
+      "end_ms": 477600
+    },
+    {
+      "text": "4.2",
+      "speaker": "spk:0",
+      "start_ms": 477600,
+      "end_ms": 478300
+    },
+    {
+      "text": "billion",
+      "speaker": "spk:0",
+      "start_ms": 478300,
+      "end_ms": 478700
+    },
+    {
+      "text": "dollar",
+      "speaker": "spk:0",
+      "start_ms": 478700,
+      "end_ms": 478900
+    },
+    {
+      "text": "company",
+      "speaker": "spk:0",
+      "start_ms": 478900,
+      "end_ms": 479300
+    },
+    {
+      "text": "that",
+      "speaker": "spk:0",
+      "start_ms": 479300,
+      "end_ms": 479500
+    },
+    {
+      "text": "3D",
+      "speaker": "spk:0",
+      "start_ms": 479500,
+      "end_ms": 479900
+    },
+    {
+      "text": "prints",
+      "speaker": "spk:0",
+      "start_ms": 479900,
+      "end_ms": 480300
+    },
+    {
+      "text": "rockets.",
+      "speaker": "spk:0",
+      "start_ms": 480300,
+      "end_ms": 481000
+    },
+    {
+      "text": "And",
+      "speaker": "spk:0",
+      "start_ms": 481700,
+      "end_ms": 481800
+    },
+    {
+      "text": "if",
+      "speaker": "spk:0",
+      "start_ms": 481800,
+      "end_ms": 481900
+    },
+    {
+      "text": "you",
+      "speaker": "spk:0",
+      "start_ms": 481900,
+      "end_ms": 482000
+    },
+    {
+      "text": "like",
+      "speaker": "spk:0",
+      "start_ms": 482000,
+      "end_ms": 482200
+    },
+    {
+      "text": "what",
+      "speaker": "spk:0",
+      "start_ms": 482200,
+      "end_ms": 482400
+    },
+    {
+      "text": "you're",
+      "speaker": "spk:0",
+      "start_ms": 482400,
+      "end_ms": 482500
+    },
+    {
+      "text": "hearing",
+      "speaker": "spk:0",
+      "start_ms": 482500,
+      "end_ms": 483100
+    },
+    {
+      "text": "or",
+      "speaker": "spk:0",
+      "start_ms": 483200,
+      "end_ms": 483300
+    },
+    {
+      "text": "love",
+      "speaker": "spk:0",
+      "start_ms": 483300,
+      "end_ms": 483600
+    },
+    {
+      "text": "what",
+      "speaker": "spk:0",
+      "start_ms": 483600,
+      "end_ms": 483700
+    },
+    {
+      "text": "you're",
+      "speaker": "spk:0",
+      "start_ms": 483700,
+      "end_ms": 483900
+    },
+    {
+      "text": "hearing,",
+      "speaker": "spk:0",
+      "start_ms": 483900,
+      "end_ms": 484300
+    },
+    {
+      "text": "please",
+      "speaker": "spk:0",
+      "start_ms": 484500,
+      "end_ms": 484800
+    },
+    {
+      "text": "subscribe,",
+      "speaker": "spk:0",
+      "start_ms": 484800,
+      "end_ms": 485500
+    },
+    {
+      "text": "leave",
+      "speaker": "spk:0",
+      "start_ms": 485500,
+      "end_ms": 485700
+    },
+    {
+      "text": "us",
+      "speaker": "spk:0",
+      "start_ms": 485700,
+      "end_ms": 485800
+    },
+    {
+      "text": "a",
+      "speaker": "spk:0",
+      "start_ms": 485800,
+      "end_ms": 485900
+    },
+    {
+      "text": "review",
+      "speaker": "spk:0",
+      "start_ms": 485900,
+      "end_ms": 486300
+    },
+    {
+      "text": "and",
+      "speaker": "spk:0",
+      "start_ms": 486300,
+      "end_ms": 486400
+    },
+    {
+      "text": "share",
+      "speaker": "spk:0",
+      "start_ms": 486400,
+      "end_ms": 486600
+    },
+    {
+      "text": "with",
+      "speaker": "spk:0",
+      "start_ms": 486600,
+      "end_ms": 486700
+    },
+    {
+      "text": "your",
+      "speaker": "spk:0",
+      "start_ms": 486700,
+      "end_ms": 486800
+    },
+    {
+      "text": "friends.",
+      "speaker": "spk:0",
+      "start_ms": 486800,
+      "end_ms": 487300
+    },
+    {
+      "text": "We",
+      "speaker": "spk:0",
+      "start_ms": 487600,
+      "end_ms": 487700
+    },
+    {
+      "text": "do",
+      "speaker": "spk:0",
+      "start_ms": 487700,
+      "end_ms": 487900
+    },
+    {
+      "text": "these",
+      "speaker": "spk:0",
+      "start_ms": 487900,
+      "end_ms": 488100
+    },
+    {
+      "text": "high",
+      "speaker": "spk:0",
+      "start_ms": 488100,
+      "end_ms": 488200
+    },
+    {
+      "text": "performance",
+      "speaker": "spk:0",
+      "start_ms": 488200,
+      "end_ms": 488700
+    },
+    {
+      "text": "clips",
+      "speaker": "spk:0",
+      "start_ms": 488700,
+      "end_ms": 489100
+    },
+    {
+      "text": "multiple",
+      "speaker": "spk:0",
+      "start_ms": 489400,
+      "end_ms": 489800
+    },
+    {
+      "text": "times",
+      "speaker": "spk:0",
+      "start_ms": 489800,
+      "end_ms": 490400
+    },
+    {
+      "text": "in",
+      "speaker": "spk:0",
+      "start_ms": 490400,
+      "end_ms": 490600
+    },
+    {
+      "text": "between",
+      "speaker": "spk:0",
+      "start_ms": 490600,
+      "end_ms": 491000
+    },
+    {
+      "text": "interviews.",
+      "speaker": "spk:0",
+      "start_ms": 491000,
+      "end_ms": 491700
+    },
+    {
+      "text": "And",
+      "speaker": "spk:0",
+      "start_ms": 492100,
+      "end_ms": 492300
+    },
+    {
+      "text": "now",
+      "speaker": "spk:0",
+      "start_ms": 492300,
+      "end_ms": 492500
+    },
+    {
+      "text": "we",
+      "speaker": "spk:0",
+      "start_ms": 492500,
+      "end_ms": 492700
+    },
+    {
+      "text": "are",
+      "speaker": "spk:0",
+      "start_ms": 492700,
+      "end_ms": 492900
+    },
+    {
+      "text": "interviewing",
+      "speaker": "spk:0",
+      "start_ms": 492900,
+      "end_ms": 493500
+    },
+    {
+      "text": "billion",
+      "speaker": "spk:0",
+      "start_ms": 493500,
+      "end_ms": 493800
+    },
+    {
+      "text": "dollar",
+      "speaker": "spk:0",
+      "start_ms": 493800,
+      "end_ms": 494100
+    },
+    {
+      "text": "founders",
+      "speaker": "spk:0",
+      "start_ms": 494100,
+      "end_ms": 494400
+    },
+    {
+      "text": "on",
+      "speaker": "spk:0",
+      "start_ms": 494400,
+      "end_ms": 494500
+    },
+    {
+      "text": "a",
+      "speaker": "spk:0",
+      "start_ms": 494500,
+      "end_ms": 494600
+    },
+    {
+      "text": "regular",
+      "speaker": "spk:0",
+      "start_ms": 494600,
+      "end_ms": 494900
+    },
+    {
+      "text": "basis.",
+      "speaker": "spk:0",
+      "start_ms": 494900,
+      "end_ms": 495400
+    },
+    {
+      "text": "So",
+      "speaker": "spk:0",
+      "start_ms": 495800,
+      "end_ms": 496300
+    },
+    {
+      "text": "please",
+      "speaker": "spk:0",
+      "start_ms": 496700,
+      "end_ms": 496900
+    },
+    {
+      "text": "subscribe",
+      "speaker": "spk:0",
+      "start_ms": 496900,
+      "end_ms": 497600
+    },
+    {
+      "text": "and",
+      "speaker": "spk:0",
+      "start_ms": 497600,
+      "end_ms": 497700
+    },
+    {
+      "text": "let",
+      "speaker": "spk:0",
+      "start_ms": 497700,
+      "end_ms": 497800
+    },
+    {
+      "text": "us",
+      "speaker": "spk:0",
+      "start_ms": 497800,
+      "end_ms": 498000
+    },
+    {
+      "text": "know",
+      "speaker": "spk:0",
+      "start_ms": 498000,
+      "end_ms": 498200
+    },
+    {
+      "text": "how",
+      "speaker": "spk:0",
+      "start_ms": 498200,
+      "end_ms": 498400
+    },
+    {
+      "text": "you",
+      "speaker": "spk:0",
+      "start_ms": 498400,
+      "end_ms": 498500
+    },
+    {
+      "text": "like",
+      "speaker": "spk:0",
+      "start_ms": 498500,
+      "end_ms": 498700
+    },
+    {
+      "text": "the",
+      "speaker": "spk:0",
+      "start_ms": 498700,
+      "end_ms": 498800
+    },
+    {
+      "text": "show.",
+      "speaker": "spk:0",
+      "start_ms": 498800,
+      "end_ms": 499100
+    }
+  ]
+}

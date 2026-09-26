@@ -1,0 +1,2 @@
+"""Hosted transcription adapters."""
+

@@ -1,0 +1,14 @@
+alembic==1.14.1
+fastapi==0.115.6
+google-genai==2.20.0
+httpx==0.28.1
+pgvector==0.3.6
+psycopg[binary,pool]==3.2.3
+pydantic-settings==2.7.1
+PyYAML==6.0.2
+sentence-transformers==3.3.1
+SQLAlchemy==2.0.36
+streamlit==1.41.1
+torch==2.5.1
+uvicorn[standard]==0.34.0
+pytest==8.3.4

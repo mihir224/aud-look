@@ -1,0 +1,6 @@
+# Only add mappings after a human verifies a Gemini speaker-label fragmentation.
+# Example:
+# janice-bryant-howroyd:
+#   spk_3: spk_1
+{}
+

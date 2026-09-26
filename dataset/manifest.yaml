@@ -1,0 +1,55 @@
+episodes:
+  - slug: janice-bryant-howroyd
+    filename: "janice-bryant-howroyd.mp3"
+    title: "Filtering Through the Mind of a Billion-Dollar Woman"
+    guest: "Janice Bryant Howroyd"
+    source_url: "https://podcasts.apple.com/us/podcast/hp-191-filtering-through-the-mind-of-a-billion-dollar-woman/id1069958541?i=1000665239817"
+    duration_ms: 558600
+    sha256: "0a1d36e835ca598f512acec8d11b93d68dc9361c3586089adc92860901ab9ccb"
+    tags: [discipline, ideas, focus, filtering, initiative]
+    expected_speakers: 2
+  - slug: jason-fried
+    filename: "jason-fried.mp3"
+    title: "Mind of a Mogul: Slow & Massive Business Growth"
+    guest: "Jason Fried"
+    source_url: "https://thebusinessmethod.podbean.com/e/how-he-built-a-multibillion-dollar-software-company/"
+    duration_ms: 508160
+    sha256: "fbb5bee2bad28f7ee07f0b1c16ca082d5a0db5d731b4ba48a6905c7224ef8e98"
+    tags: [Basecamp, VC, profitability, investors, market-share, slow-growth]
+    expected_speakers: 2
+  - slug: manfredi-lefebvre-dovidio
+    filename: "manfredi-lefebvre-dovidio.mp3"
+    title: "Money is an Instrument of Freedom"
+    guest: "Manfredi Lefebvre d'Ovidio"
+    source_url: "https://thebusinessmethod.podbean.com/e/hp188-money-is-an-instrument-of-freedom-manfredi-lefebvre-dovidio/"
+    duration_ms: 509256
+    sha256: "c7a6a820c9e053f7a704d6d7887034de59c7ac5e9cc8179c1228156f9d6d0c3e"
+    tags: [money, freedom, cruise, shipping, time]
+    expected_speakers: 2
+  - slug: jordan-noone
+    filename: "jordan-noone.mp3"
+    title: "The Biggest Fear of a $4 Billion Space Tycoon"
+    guest: "Jordan Noone"
+    source_url: "https://www.mypodcastdata.com/podcast/show/the-business-method-interviewing-billio-chris-reynolds-qLmreIcX/episodes"
+    duration_ms: 502680
+    sha256: "7f741a9933eeda80abd30801f4e61900826c55620e43af1bd9ce1ebfafa95122"
+    tags: [rockets, space, Relativity-Space, fear, 3D-printing]
+    expected_speakers: 2
+  - slug: geoffrey-kent
+    filename: "geoffrey-kent.mp3"
+    title: "The Importance of Acting on Your Instinct"
+    guest: "Geoffrey Kent"
+    source_url: "https://thebusinessmethod.podbean.com/"
+    duration_ms: 514248
+    sha256: "11be68a06632515fb8312dd3285b531bf61c43d7f59ff4762d04cc9f6155d025"
+    tags: [instinct, intuition, entrepreneur, travel]
+    expected_speakers: 2
+  - slug: shaahin-cheyne
+    filename: "shaahin-cheyne.mp3"
+    title: "The Value of Dedicating 10 Years to 1 Business"
+    guest: "Shaahin Cheyne"
+    source_url: "https://thebusinessmethod.podbean.com/"
+    duration_ms: 555840
+    sha256: "4dd1195d30cb70df64124c0f698458b4f1e4b2413f3ceb64dddfb958fc83289c"
+    tags: [Amazon, ten-years, apprenticeship, ecommerce, persistence]
+    expected_speakers: 2
