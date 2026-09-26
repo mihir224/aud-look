@@ -15,6 +15,8 @@ from reportlab.lib.units import mm
 from reportlab.platypus import (
     BaseDocTemplate,
     Frame,
+    Image as ReportLabImage,
+    KeepTogether,
     LongTable,
     PageBreak,
     PageTemplate,
@@ -167,6 +169,19 @@ def make_styles():
             fontSize=8,
             leading=11,
             textColor=MID_GRAY,
+        )
+    )
+    styles.add(
+        ParagraphStyle(
+            name="Caption",
+            parent=styles["Normal"],
+            fontName="Helvetica-Oblique",
+            fontSize=7.8,
+            leading=10.5,
+            textColor=MID_GRAY,
+            alignment=TA_CENTER,
+            spaceBefore=1.5 * mm,
+            spaceAfter=4 * mm,
         )
     )
     return styles
@@ -322,6 +337,21 @@ def markdown_list(items: list[str], available: float, numbered: bool = False):
     return table
 
 
+def markdown_image(alt_text: str, source: str, available: float):
+    image_path = (SOURCE.parent / source).resolve()
+    if not image_path.is_file():
+        raise FileNotFoundError(f"Markdown image not found: {image_path}")
+    flowable = ReportLabImage(str(image_path))
+    max_width = available
+    max_height = 82 * mm
+    scale = min(max_width / flowable.imageWidth, max_height / flowable.imageHeight)
+    flowable.drawWidth = flowable.imageWidth * scale
+    flowable.drawHeight = flowable.imageHeight * scale
+    flowable.hAlign = "CENTER"
+    caption = Paragraph(inline_markup(alt_text), STYLES["Caption"])
+    return KeepTogether([flowable, caption])
+
+
 def parse_markdown(text: str, available: float):
     lines = text.splitlines()
     story = []
@@ -349,10 +379,16 @@ def parse_markdown(text: str, available: float):
             story.append(Preformatted("\n".join(code), STYLES["CodeCustom"]))
             index += 1
             continue
+        image_match = re.fullmatch(r"!\[([^]]+)]\(([^)]+)\)", line)
+        if image_match:
+            flush_paragraph()
+            story.append(markdown_image(image_match.group(1), image_match.group(2), available))
+            index += 1
+            continue
         if line.startswith("### "):
             flush_paragraph()
             heading = line[4:]
-            if heading == "Retrieval and ranking":
+            if heading in {"Retrieval and ranking", "Product demonstration"}:
                 story.append(PageBreak())
             story.append(Paragraph(inline_markup(heading), STYLES["Subsection"]))
             index += 1

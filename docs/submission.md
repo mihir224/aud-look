@@ -26,19 +26,7 @@ Audio files and metadata are recorded in `dataset/manifest.yaml`. SHA-256 checks
 
 ## Engineering design
 
-```text
-MP3 files
-  -> Gemini 3.5 Transcribe
-     verbatim text + speaker labels + word timestamps
-  -> canonical cached word transcript
-  -> speaker-attributed utterances
-     -> PostgreSQL FTS and exact literal candidates
-  -> overlapping conversational chunks
-     -> local BGE embeddings and pgvector candidates
-  -> union and deduplicate utterance candidates
-  -> local cross-encoder reranking
-  -> episode + file + verified display name + raw speaker label + timestamp + text + context
-```
+![High-level aud-look workflow from podcast audio to ranked transcript evidence](assets/high-level-workflow.png)
 
 ### Transcription and normalization
 
@@ -91,6 +79,14 @@ Quoted phrases and single-token searches receive strict literal priority. Natura
 ### API and demonstration UI
 
 FastAPI exposes health, episode-listing, and search endpoints. Search responses include result rank, episode ID and title, filename, user-verified speaker name and role, original diarization label, start and end milliseconds, matching text, neighboring context, retrieval provenance, and literal-match status. Streamlit provides query, strategy, and result-count controls plus readable result cards.
+
+### Product demonstration
+
+The Streamlit interface exposes every retrieval strategy, configurable result count, user-verified speaker attribution, timestamps, retrieval provenance, and expandable conversational context. The elapsed times visible in these interactive screenshots are individual UI requests and are separate from the controlled warm-latency benchmark reported below.
+
+![Retrieval strategy selector and timestamped Jordan Noone search result](assets/ui-search-jordan.png)
+
+![Natural-language Janice Bryant Howroyd search with expandable conversation context](assets/ui-search-janice.png)
 
 ## Definition of success
 
