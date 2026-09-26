@@ -2,6 +2,37 @@
 
 ## Retrieval path
 
+```mermaid
+flowchart LR
+    subgraph Ingestion["Ingestion and indexing"]
+        A["Podcast MP3 files"] --> B["Gemini transcription<br/>words + speakers + timestamps"]
+        B --> C["Cached canonical transcripts"]
+        C --> D["Utterance and chunk builder"]
+        D --> E["Speaker-attributed utterances"]
+        D --> F["Overlapping conversation chunks"]
+        E --> G[("PostgreSQL FTS<br/>and literal index")]
+        F --> H["Local BGE embeddings"]
+        H --> I[("pgvector<br/>exact cosine search")]
+    end
+
+    subgraph Retrieval["Query and retrieval"]
+        Q["User query"] --> L["Lexical query<br/>with reviewed entity aliases"]
+        Q --> S["Local query embedding"]
+        L --> G
+        S --> I
+        G --> U["Union and deduplicate<br/>utterance candidates"]
+        I --> X["Expand matched chunks<br/>to utterances"]
+        X --> U
+        U --> R["Local target-only<br/>cross-encoder reranking"]
+    end
+
+    M["Verified speaker-name<br/>and role metadata"] --> O
+    R --> O["Ranked evidence<br/>episode + speaker + timestamp + text"]
+    O --> P["FastAPI and Streamlit UI"]
+```
+
+Text-only equivalent:
+
 ```text
 MP3 → Gemini verbatim transcript (speaker + word timestamps)
     → speaker-attributed utterances → PostgreSQL FTS + exact literal candidates
