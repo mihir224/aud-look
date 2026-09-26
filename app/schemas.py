@@ -45,6 +45,8 @@ class SearchResult(BaseModel):
     title: str
     filename: str
     speaker: str
+    speaker_name: str
+    speaker_role: str
     start_ms: int
     end_ms: int
     text: str
@@ -60,4 +62,3 @@ class SearchResponse(BaseModel):
     strategy: str
     results: list[SearchResult]
     elapsed_ms: float = Field(ge=0)
-

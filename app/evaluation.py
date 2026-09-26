@@ -28,6 +28,9 @@ def evaluate(query_path: Path, split: str = "holdout", strategies: list[str] | N
         raise ValueError(f"Unknown evaluation strategies: {sorted(unknown)}")
     report = {"split": split, "query_count": len(queries), "strategies": {}}
     for strategy in strategies:
+        # The submission reports warm latency. Load models, establish database
+        # connections, and exercise the strategy once outside the timed sample.
+        search(queries[0]["query"], k=5, strategy=strategy)
         recall = {1: [], 3: [], 5: []}
         hit_rate = {1: [], 3: [], 5: []}
         reciprocal_ranks = []

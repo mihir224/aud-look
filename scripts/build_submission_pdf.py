@@ -216,7 +216,7 @@ def cover_story():
         ("6", "episodes"),
         ("52:29", "audio corpus"),
         ("0.833", "holdout Recall@5"),
-        ("565 ms", "warm p95"),
+        ("607 ms", "warm p95"),
     ]
     card_table = Table(
         [[Paragraph(f'<b><font size="18" color="#0B7285">{value}</font></b><br/><font size="8" color="#66788A">{label}</font>', STYLES["Small"]) for value, label in cards]],
@@ -351,12 +351,18 @@ def parse_markdown(text: str, available: float):
             continue
         if line.startswith("### "):
             flush_paragraph()
-            story.append(Paragraph(inline_markup(line[4:]), STYLES["Subsection"]))
+            heading = line[4:]
+            if heading == "Retrieval and ranking":
+                story.append(PageBreak())
+            story.append(Paragraph(inline_markup(heading), STYLES["Subsection"]))
             index += 1
             continue
         if line.startswith("## "):
             flush_paragraph()
-            story.append(Paragraph(inline_markup(line[3:]), STYLES["Section"]))
+            heading = line[3:]
+            if heading in {"Engineering design", "Retrieval and ranking"}:
+                story.append(PageBreak())
+            story.append(Paragraph(inline_markup(heading), STYLES["Section"]))
             index += 1
             continue
         if line.startswith("| ") and index + 1 < len(lines) and re.match(r"^\|[-:| ]+\|$", lines[index + 1]):

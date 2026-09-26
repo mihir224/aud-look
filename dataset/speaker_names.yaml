@@ -1,0 +1,20 @@
+# Presentation-only identities reviewed against the episode metadata and transcript.
+# Canonical diarization labels remain unchanged in cached transcripts and the database.
+janice-bryant-howroyd:
+  "spk:0": {name: "Chris Reynolds", role: "host"}
+  "spk:1": {name: "Janice Bryant Howroyd", role: "guest"}
+jason-fried:
+  "spk:0": {name: "Chris Reynolds", role: "host"}
+  "spk:1": {name: "Jason Fried", role: "guest"}
+manfredi-lefebvre-dovidio:
+  "spk:0": {name: "Chris Reynolds", role: "host"}
+  "spk:1": {name: "Manfredi Lefebvre d'Ovidio", role: "guest"}
+jordan-noone:
+  "spk:0": {name: "Chris Reynolds", role: "host"}
+  "spk:1": {name: "Jordan Noone", role: "guest"}
+geoffrey-kent:
+  "spk:0": {name: "Chris Reynolds", role: "host"}
+  "spk:1": {name: "Geoffrey Kent", role: "guest"}
+shaahin-cheyne:
+  "spk:0": {name: "Chris Reynolds", role: "host"}
+  "spk:1": {name: "Shaahin Cheyene", role: "guest"}

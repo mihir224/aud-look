@@ -5,6 +5,7 @@ from time import perf_counter
 from psycopg.rows import dict_row
 
 from app.db import get_connection
+from app.metadata import speaker_identity
 from app.models.reranker import get_reranker
 from app.retrieval.common import Candidate, canonical_query, deduplicate, literal_pattern, rrf_score
 from app.retrieval.lexical import lexical_search
@@ -86,6 +87,7 @@ def _result(candidate: Candidate, detail: dict, rank: int, debug: bool, extra_sc
             "semantic_score": candidate.semantic_score,
             "final_score": extra_score,
         }
+    identity = speaker_identity(detail["audio_slug"], detail["speaker"])
     return SearchResult(
         rank=rank,
         audio_id=str(detail["audio_id"]),
@@ -93,6 +95,8 @@ def _result(candidate: Candidate, detail: dict, rank: int, debug: bool, extra_sc
         title=detail["title"],
         filename=detail["filename"],
         speaker=detail["speaker"],
+        speaker_name=identity["name"],
+        speaker_role=identity["role"],
         start_ms=detail["start_ms"],
         end_ms=detail["end_ms"],
         text=detail["text"],

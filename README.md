@@ -16,6 +16,8 @@ Open `http://localhost:8501` for the Streamlit demo. The API is documented at `h
 The first ingestion downloads the BGE embedding model. Re-running transcription reuses `dataset/transcripts/<episode>.json` when the source audio hash and transcription configuration match.
 The Make targets rebuild the API image when dependencies or source change, so the pinned Gemini SDK stays in sync with the transcription adapter.
 
+Search results retain the raw per-episode diarization label and also show a user-verified name and role from `dataset/speaker_names.yaml`. Reviewed spelling variants in `dataset/entity_aliases.yaml` expand lexical queries at search time; cached transcripts and displayed evidence are never rewritten.
+
 ## Search API
 
 ```bash
@@ -44,8 +46,8 @@ Run `make evaluate` to write an ablation report under `eval/reports/`. It report
 ## Important limitations
 
 - Timestamped diarization is limited by the transcription quality. The pipeline refuses any episode that does not end with two validated speaker labels.
-- Gemini custom vocabulary cannot be combined with diarization and word timestamps, so difficult proper nouns require audit rather than silent biasing.
+- Gemini custom vocabulary cannot be combined with diarization and word timestamps. Reviewed query aliases mitigate known proper-name variants, but previously unseen transcription errors can still affect retrieval.
 - Exact vector scans are intentional for this small corpus. The HNSW index is present for the production-scale architecture but is disabled by default for deterministic evaluation.
-- The bundled audio must only be redistributed if you have the appropriate rights.
+- The bundled clips are suitable for the current hackathon workspace, but their per-file redistribution rights are not documented. Record permission or replace them with an explicitly licensed corpus before publishing the repository or audio files.
 
 See [submission.md](docs/submission.md) for the complete hackathon write-up, [ai-usage.md](docs/ai-usage.md) for the ChatGPT and coding-agent disclosure, and [architecture.md](docs/architecture.md) and [runbook.md](docs/runbook.md) for technical details.
